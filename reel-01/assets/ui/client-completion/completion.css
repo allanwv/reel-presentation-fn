@@ -14,3 +14,30 @@
 .captured-atlas { position:absolute; left:0; top:0; width:1200px; height:2080px; max-width:none; opacity:0; }
 #client-celebration { z-index:2; opacity:0; }
 #client-loading-motion { z-index:1; opacity:0; }
+.workout-loading-overlay {
+  position:absolute;
+  inset:0;
+  width:240px;
+  height:520px;
+  background:rgba(0,0,0,0.40);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9;
+  opacity:0;
+  pointer-events:none;
+}
+.fitnode-spinner-container {
+  width:28px;
+  height:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.fitnode-spinner {
+  width:28px;
+  height:28px;
+  display:block;
+  transform-origin:50% 50%;
+}
+
