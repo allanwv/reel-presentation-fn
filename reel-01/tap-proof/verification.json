@@ -1,0 +1,26 @@
+{
+  "approvedCompositionUnchanged": true,
+  "initialDayPixelsExact": true,
+  "backgroundPixelIdenticalAcrossSamples": [
+    3.88,
+    3.96,
+    4,
+    4.035,
+    4.1,
+    4.2,
+    4.28,
+    4.355,
+    4.42,
+    4.6,
+    4.675,
+    4.8,
+    4.91
+  ],
+  "finalSelected": [
+    "l",
+    "x",
+    "v"
+  ],
+  "singleVisibleDaySurface": true,
+  "duration": 12.8
+}

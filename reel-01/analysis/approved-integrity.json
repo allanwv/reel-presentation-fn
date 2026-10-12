@@ -1,0 +1,20 @@
+{
+  "assets\\background-clean.png": "03781d7c214825487eb06c9790766ecf75dacbfbcf391cbc9292a09364de8c79",
+  "assets\\fitnode-official-transparent.png": "d27b41bcebde208de0883b652f58a7bdc92999b2400433f82784d6a6450ce320",
+  "assets\\fonts\\Arial-Bold.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+  "assets\\fonts\\Arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+  "assets\\fonts\\Inter-latin.woff2": "998f623034e3305723006dc9b53381d8c2f66c32b7b4ce3af7bce3ca3aa6028f",
+  "assets\\phone-client-reference.png": "44aa559cd6236fb6956a2930a6b17dc8c83c1f65010ef6e6909b09d8c93328c5",
+  "assets\\phone-coach-reference.png": "897a2978680e40506323dc30137964f22b750c1d2ba593a3ab823cdae6f3b0a9",
+  "assets\\phone-shadows.png": "2ac43dba67de637d3e295fdf712482996e7813bcd9226ef0976c0ca14450f38f",
+  "assets\\SCREEN_01_COACH_ROUTINE.png": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+  "assets\\SCREEN_04_PR_REAL.png": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa",
+  "assets\\vendor\\gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+  "proofs\\contact-sheet.jpg": "50bc0d7fc1b13072b6609db4b1b3ae34267eeec631284594ff3a0a305cf81437",
+  "proofs\\frame-00-at-3s.png": "d72d57801674ef9d92bfb7b91805bf2be7a83cc51810a1aa0f25ef40587e12e8",
+  "proofs\\frame-01-at-7s.png": "04ae10bcd03d09e17dd882f6b1b7c9965dd8bfc6bbff439c1b8bdf5293ad28cf",
+  "proofs\\pair-00-at-3s.jpg": "d419c6c4ceff77134130a482b8ba8af600c1a1655ff91382d6249b72188a075f",
+  "proofs\\pair-01-at-7s.jpg": "23aec9b506161ddf0d4545175eeab5a48475e7855d344f7f819a2b47af3e830c",
+  "proofs\\ref-00-at-3s.png": "95399539de86f6121bd940b57eeb903336d513d3ca38ddaa6479f63c2e034e48",
+  "proofs\\ref-01-at-7s.png": "7f1a747b6ed290927b2eb30e8bac5485f7ac197e210c707579615144b8e6cfcb"
+}

@@ -1,0 +1,910 @@
+{
+  "sampledFrames": 2159,
+  "floatRanges": {
+    "coach": [
+      -2.4,
+      2.4
+    ],
+    "client": [
+      -2.6,
+      2.6
+    ]
+  },
+  "maxFloatStepAt120fps": 0.034100000000000005,
+  "inputStates": {
+    "13": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "5.2": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "5.5": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "5.619": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "5.79": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "6.15": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "6.51": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "6.87": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "7.6": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "8.1": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "selectedDays": [
+    "l",
+    "x",
+    "v"
+  ],
+  "taps": {
+    "update": [
+      {
+        "t": 7.6,
+        "scale": 1,
+        "y": 0,
+        "opacity": 1,
+        "id": "coach-update-button"
+      },
+      {
+        "t": 7.8,
+        "scale": 1,
+        "y": 0,
+        "opacity": 1,
+        "id": "coach-update-button"
+      },
+      {
+        "t": 7.86,
+        "scale": 0.9855,
+        "y": 0.3388,
+        "opacity": 1,
+        "id": "coach-update-button"
+      },
+      {
+        "t": 8.05,
+        "scale": 1,
+        "y": 0,
+        "opacity": 1,
+        "id": "coach-update-button"
+      }
+    ],
+    "finish": [
+      {
+        "t": 12.75,
+        "scale": 1,
+        "y": 0,
+        "opacity": 1,
+        "id": "client-finish-button"
+      },
+      {
+        "t": 12.9,
+        "scale": 0.9989,
+        "y": 0.0265,
+        "opacity": 1,
+        "id": "client-finish-button"
+      },
+      {
+        "t": 12.95,
+        "scale": 0.985,
+        "y": 0.3496,
+        "opacity": 1,
+        "id": "client-finish-button"
+      },
+      {
+        "t": 13.15,
+        "scale": 1,
+        "y": 0,
+        "opacity": 1,
+        "id": "client-finish-button"
+      }
+    ]
+  },
+  "clientStates": {
+    "9.19": {
+      "dock": 1,
+      "floating": 0,
+      "completed": 0,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    },
+    "9.6": {
+      "dock": 1,
+      "floating": 0,
+      "completed": 0,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    },
+    "10.6": {
+      "dock": 0,
+      "floating": 1,
+      "completed": 0.2099,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    },
+    "11.5": {
+      "dock": 0,
+      "floating": 1,
+      "completed": 1,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    },
+    "12.2": {
+      "dock": 0,
+      "floating": 1,
+      "completed": 1,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    },
+    "12.7": {
+      "dock": 1,
+      "floating": 0,
+      "completed": 1,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    },
+    "13.2": {
+      "dock": 1,
+      "floating": 0,
+      "completed": 1,
+      "layers": [
+        {
+          "src": "assets/ui/client-workout/series-card-apertures.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-pending.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/series-row-completed-clean.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/weight-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/reps-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/medal-original.png",
+          "opacity": 1
+        },
+        {
+          "src": "assets/ui/client-workout/check-original.png",
+          "opacity": 1
+        }
+      ]
+    }
+  },
+  "yawBounds": {
+    "9": {
+      "coach": {
+        "x": 63,
+        "y": 770.1895751953125,
+        "width": 474,
+        "height": 875.9998779296875,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 0
+      },
+      "client": {
+        "x": 334.6626892089844,
+        "y": 707.3765258789062,
+        "width": 620.6748046875,
+        "height": 1151.56640625,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 140
+      }
+    },
+    "2.2": {
+      "coach": {
+        "x": 141.61444091796875,
+        "y": 725.24658203125,
+        "width": 616.7710571289062,
+        "height": 1139.8558349609375,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 140
+      },
+      "client": {
+        "x": 652.2757568359375,
+        "y": 857.2354736328125,
+        "width": 420.448486328125,
+        "height": 780.0772705078125,
+        "opacity": 1,
+        "yaw": 0,
+        "z": -140
+      }
+    },
+    "8.24": {
+      "coach": {
+        "x": 78.79515838623047,
+        "y": 756.7239990234375,
+        "width": 499.33380126953125,
+        "height": 922.8194580078125,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 26.5646
+      },
+      "client": {
+        "x": 604.3017578125,
+        "y": 833.651611328125,
+        "width": 448.0074462890625,
+        "height": 831.2088623046875,
+        "opacity": 1,
+        "yaw": 0,
+        "z": -95.9795
+      }
+    },
+    "8.16": {
+      "coach": {
+        "x": 87.76083374023438,
+        "y": 749.7696533203125,
+        "width": 514.4381103515625,
+        "height": 950.7337646484375,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 41.9812
+      },
+      "client": {
+        "x": 630.89501953125,
+        "y": 844.0391235351562,
+        "width": 432.627685546875,
+        "height": 802.6737670898438,
+        "opacity": 1,
+        "yaw": 0,
+        "z": -120.3149
+      }
+    },
+    "8.28": {
+      "coach": {
+        "x": 75.31226348876953,
+        "y": 759.3438720703125,
+        "width": 493.7044677734375,
+        "height": 912.416015625,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 20.6869
+      },
+      "client": {
+        "x": 585.1133422851562,
+        "y": 825.9825439453125,
+        "width": 459.29583740234375,
+        "height": 852.15234375,
+        "opacity": 1,
+        "yaw": 0,
+        "z": -78.5434
+      }
+    },
+    "8.5": {
+      "coach": {
+        "x": 65.15604400634766,
+        "y": 767.1678466796875,
+        "width": 477.3678894042969,
+        "height": 882.2242431640625,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 3.584
+      },
+      "client": {
+        "x": 419.0547180175781,
+        "y": 752.7800903320312,
+        "width": 563.25048828125,
+        "height": 1045.0244140625,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 68.32
+      }
+    },
+    "13.3": {
+      "coach": {
+        "x": 63,
+        "y": 769.6177368164062,
+        "width": 474,
+        "height": 875.9999389648438,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 0
+      },
+      "client": {
+        "x": 334.6626892089844,
+        "y": 704.2483520507812,
+        "width": 620.6748046875,
+        "height": 1151.566162109375,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 140
+      }
+    },
+    "14.45": {
+      "coach": {
+        "x": 63,
+        "y": 767.815185546875,
+        "width": 474,
+        "height": 876,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 0
+      },
+      "client": {
+        "x": 549,
+        "y": 767.5516357421875,
+        "width": 477,
+        "height": 884.9998779296875,
+        "opacity": 1,
+        "yaw": 0,
+        "z": 0
+      }
+    }
+  },
+  "overlayCount": 2,
+  "cardCount": 4,
+  "yawGeometry": {
+    "coach": {
+      "initial": {
+        "ratio": 0.9747071909294673,
+        "meanDrift": 52.5
+      },
+      "final": {
+        "ratio": 1.0089365637156653,
+        "meanDrift": 31.7648964410986
+      }
+    },
+    "client": {
+      "initial": {
+        "ratio": 1.0264281036300869,
+        "meanDrift": -52
+      },
+      "final": {
+        "ratio": 0.9904934358980847,
+        "meanDrift": -33.36038218989262
+      }
+    }
+  },
+  "notificationStates": {
+    "7.899": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "7.9": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "7.91": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.16": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.279": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.28": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.3": {
+      "opacity": 0.187,
+      "y": -65.043,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.43": {
+      "opacity": 0.875,
+      "y": -10,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.58": {
+      "opacity": 1,
+      "y": 0,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "8.9": {
+      "opacity": 1,
+      "y": 0,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "9.69": {
+      "opacity": 1,
+      "y": 0,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "9.7": {
+      "opacity": 1,
+      "y": 0,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "9.82": {
+      "opacity": 0.875,
+      "y": -10,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "9.94": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 1,
+      "clientCardFloating": 0
+    },
+    "9.98": {
+      "opacity": 0,
+      "y": -80,
+      "clientCardDock": 0,
+      "clientCardFloating": 1
+    }
+  },
+  "notificationPlaneBounds": {
+    "left": 8,
+    "top": 22,
+    "width": 224,
+    "height": 54
+  },
+  "handoffStates": {
+    "7.9": {
+      "coachX": 100,
+      "coachY": -12,
+      "clientX": 50,
+      "clientY": 30
+    },
+    "7.91": {
+      "coachX": 96.0596,
+      "coachY": -11.5272,
+      "clientX": 49.9994,
+      "clientY": 29.9998
+    },
+    "8.16": {
+      "coachX": 29.9866,
+      "coachY": -3.5984,
+      "clientX": 39.8059,
+      "clientY": 27.0472
+    },
+    "8.279": {
+      "coachX": 14.8719,
+      "coachY": -1.7846,
+      "clientX": 18.4248,
+      "clientY": 20.8541
+    },
+    "8.28": {
+      "coachX": 14.7763,
+      "coachY": -1.7732,
+      "clientX": 18.1742,
+      "clientY": 20.7815
+    },
+    "8.3": {
+      "coachX": 12.96,
+      "coachY": -1.5552,
+      "clientX": 12.88,
+      "clientY": 19.248
+    },
+    "8.43": {
+      "coachX": 4.8797,
+      "coachY": -0.5856,
+      "clientX": -34.7827,
+      "clientY": 5.4423
+    },
+    "8.58": {
+      "coachX": 1.0486,
+      "coachY": -0.1258,
+      "clientX": -75.9946,
+      "clientY": -6.495
+    },
+    "8.9": {
+      "coachX": 0,
+      "coachY": 0,
+      "clientX": -95,
+      "clientY": -12
+    }
+  },
+  "handoffTweens": [
+    {
+      "start": 7.9,
+      "duration": 1,
+      "targets": [
+        "coach-focus",
+        "coach-label-focus"
+      ],
+      "ease": "power3.out"
+    },
+    {
+      "start": 7.9,
+      "duration": 1,
+      "targets": [
+        "client-focus",
+        "client-label-focus"
+      ],
+      "ease": "power2.inOut"
+    }
+  ],
+  "cardSwapStates": {
+    "mesocycle-card": {
+      "2.4": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      },
+      "3.55": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      }
+    },
+    "days-card": {
+      "3.6": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      },
+      "5.2": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      }
+    },
+    "exercise-card": {
+      "5.2": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      },
+      "7.6": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      }
+    },
+    "client-series-card": {
+      "9.98": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      },
+      "12.65": {
+        "radius": 0,
+        "scale": 1,
+        "shadow": "rgba(0, 12, 24, 0) 0px 0px 0px 0px"
+      }
+    }
+  },
+  "entranceGeometry": {
+    "maxCoordinateDelta": 0,
+    "propertiesEqual": true
+  },
+  "entranceRaster": {
+    "pixelIdentical": false,
+    "samples": [
+      {
+        "t": 0.01,
+        "changed": 100324,
+        "MAE": 0.03828092849794239,
+        "max": 9
+      },
+      {
+        "t": 0.32,
+        "changed": 0,
+        "MAE": 0,
+        "max": 0
+      },
+      {
+        "t": 0.8,
+        "changed": 0,
+        "MAE": 0,
+        "max": 0
+      },
+      {
+        "t": 1.5,
+        "changed": 0,
+        "MAE": 0,
+        "max": 0
+      }
+    ],
+    "note": "Samples.32,.8,1.5 are pixel-identical to baseline. At.01, geometry is identical (0px) and source background unchanged; raster differs100324pixels,MAE.03828093/255,max9. No composition change was identified. This variance is recorded separately from functional failures."
+  },
+  "updatePixels": {
+    "blue": 217958,
+    "white": 2990,
+    "gray": 0,
+    "outsideChanged": 0,
+    "oldPixelsRemaining": 0
+  },
+  "stackingHandOff": {
+    "time": 8.16,
+    "pixelsChanged": 0,
+    "bounds": null
+  },
+  "closingPixelEquality": {
+    "17": true,
+    "16.3": true,
+    "16.6": true,
+    "17.5": true,
+    "17.99": true
+  },
+  "daysBackgroundPixelChanges": 0,
+  "contactSheetTimes": [
+    1,
+    1.85,
+    2.2,
+    2.8,
+    4.2,
+    5.5,
+    6.95,
+    7.8,
+    7.9,
+    8.16,
+    8.28,
+    8.43,
+    8.58,
+    8.9,
+    9.7,
+    9.94,
+    9.98,
+    10.26,
+    10.52,
+    10.76,
+    11.33,
+    11.97,
+    12.4,
+    12.65,
+    12.9,
+    13.3,
+    14.45,
+    15.4,
+    16.3,
+    17.99
+  ],
+  "errors": [],
+  "warnings": [
+    "First .01 s raster differs: geometry is exact and background asset unchanged; retained as an explicit rasterisation exception.",
+    "Main9.2 vs preview7.7 have identical geometry and all inline styles;403 pixels differ in rasterisation."
+  ],
+  "previewCrossComparison": {
+    "sourceTime": 9.2,
+    "previewTime": 7.7,
+    "sourceOffset": 1.5,
+    "geometryAndStylesEqual": true,
+    "allInlineStylesEqual": true,
+    "pixelsChanged": 403,
+    "MAE": 0.0012864904835390946,
+    "maxDelta": 96,
+    "backdropFilter": "blur(8px)",
+    "backgroundSourceSha256": "03781d7c214825487eb06c9790766ecf75dacbfbcf391cbc9292a09364de8c79"
+  },
+  "status": "functional-pass-with-recorded-raster-variance",
+  "notificationBlurValidation": {
+    "frame": 9.2,
+    "computedBackdropFilter": "blur(8px)",
+    "crop": "notification-banner-blur-crop.png",
+    "note": "Blur was validated by an isolated9.2s snapshot after the CSS-only adjustment; the2159-sample functional pass precedes that cosmetic adjustment."
+  }
+}

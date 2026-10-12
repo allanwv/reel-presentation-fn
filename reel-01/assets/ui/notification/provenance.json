@@ -1,0 +1,13 @@
+{
+  "kind": "User-authorized localized iOS-style notification overlay",
+  "message": "Tu coach actualizó tu rutina",
+  "box": { "left": 8, "top": 22, "width": 224, "height": 54 },
+  "parentSpace": { "width": 240, "height": 520 },
+  "iconSource": "assets/ASSET_FITNODE_LOGO_FN_LIGHT.png",
+  "iconSourceSha256": "431f1c9c645404bb810de61d0335152dc7ffd766486ad7a41c6934b1fd1134a3",
+  "iconCopyByteIdentical": true,
+  "registryQuery": "iOS mobile push notification rounded translucent card app icon message",
+  "registryResult": [],
+  "implementation": "Minimal local CSS and deterministic DOM factory; no standalone timeline or input handlers. Root composition owns GSAP timing. Perspective is inherited from its screen-plane parent.",
+  "visualVerification": "component-proof.png and component-proof.json; exact text fits without overflow."
+}

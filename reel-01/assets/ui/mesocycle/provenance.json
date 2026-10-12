@@ -1,0 +1,30 @@
+{
+  "originalHashes": {
+    "../source/screenshots/SCREEN_01_COACH_ROUTINE.png": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+    "../source/videos/VIDEO_01_COACH_ROUTINE_ASSIGN.mp4": "761ebdfa1216f5702ca8d1bbd0e321a66b9c41d8d74242d97a37e25b62d1af0b"
+  },
+  "card": {
+    "source": "../source/screenshots/SCREEN_01_COACH_ROUTINE.png",
+    "crop": {
+      "left": 0,
+      "top": 334,
+      "width": 1440,
+      "height": 210
+    }
+  },
+  "menu": {
+    "source": "../source/videos/VIDEO_01_COACH_ROUTINE_ASSIGN.mp4",
+    "crop": {
+      "left": 356,
+      "top": 395,
+      "width": 476,
+      "height": 340
+    },
+    "states": {
+      "open": 46.7,
+      "pressed": 47.35
+    },
+    "operation": "Original pixels; rounded alpha boundary only. Uniform scaling in original screen coordinates."
+  },
+  "selection": "Authentic re-selection of the already selected Meso octubre (4 semanas). No alternate selected mesocycle supplied."
+}

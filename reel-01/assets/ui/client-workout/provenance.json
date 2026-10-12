@@ -1,0 +1,120 @@
+{
+  "source": "source/screenshots/SCREEN_04_PR_REAL.png",
+  "sourceDimensions": {
+    "width": 1440,
+    "height": 3120
+  },
+  "sourceSha256": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa",
+  "videoSource": "source/videos/VIDEO_02_CLIENT_WORKOUT_FULL.mp4",
+  "videoSha256": "5cf3caeb9d1330a9ca6c1c8fc49873c573f4a92069ac9b940171327b8c5806d3",
+  "videoFrame": {
+    "seconds": 40,
+    "width": 1080,
+    "height": 2340
+  },
+  "card": {
+    "left": 0,
+    "top": 1500,
+    "width": 1440,
+    "height": 840
+  },
+  "row": {
+    "left": 0,
+    "top": 2124,
+    "width": 1440,
+    "height": 212
+  },
+  "button": {
+    "left": 54,
+    "top": 2796,
+    "width": 1332,
+    "height": 216
+  },
+  "features": {
+    "weight": {
+      "left": 674,
+      "top": 2184,
+      "width": 115,
+      "height": 84
+    },
+    "reps": {
+      "left": 1025,
+      "top": 2184,
+      "width": 116,
+      "height": 84
+    },
+    "previous": {
+      "left": 286,
+      "top": 2184,
+      "width": 182,
+      "height": 84
+    },
+    "medal": {
+      "left": 55,
+      "top": 2153,
+      "width": 135,
+      "height": 166
+    },
+    "check": {
+      "left": 1264,
+      "top": 2168,
+      "width": 120,
+      "height": 120
+    }
+  },
+  "pendingCheck": {
+    "left": 946,
+    "top": 1504,
+    "width": 100,
+    "height": 100
+  },
+  "pendingNumber": {
+    "left": 68,
+    "top": 1522,
+    "width": 43,
+    "height": 56
+  },
+  "logicalScale": 0.16666666666666666,
+  "logicalCard": {
+    "left": 0,
+    "top": 250,
+    "width": 240,
+    "height": 140
+  },
+  "logicalRow": {
+    "left": 0,
+    "top": 104,
+    "width": 240,
+    "height": 35.333333333333336
+  },
+  "logicalButton": {
+    "left": 9,
+    "top": 466,
+    "width": 222,
+    "height": 36
+  },
+  "exactFinalReconstruction": true,
+  "limitation": "Video 02 contains a different exercise and different loads. The exact 75 kg x 10 pending-to-PR transition is unavailable. Pending row is a localized mask variant: genuine 75, 10 and previous 70x10 pixels retained from SCREEN_04; genuine unchecked control and set digit 3 extracted from video at 40 s. Completed row, medal, green check and finish button are exact screenshot crops. No new metrics or messages.",
+  "motionGuidance": "Use series-card-apertures as fixed background. Keep pending row fixed. Fade completed row container 0 to 1, then retain it. Both rows start at row.top-card.top = 624 screenshot px (104 logical). For independent metric/medal/check pulses, completed container contains series-row-completed-clean plus weight/reps/medal/check-original crops at features coordinates relative to row. Clean backing removes original foreground copies and uses authentic nearby yellow paper pixels; opaque backing prevents pending content showing through while features move. Composite at rest reconstructs the exact screenshot. Keep pulses subtle within row bounds. Simpler option is series-row-completed as one rigid object.",
+  "assetHashes": {
+    "check-original.png": "d9189aa37435ae50da947d424e847589ab1d2319a4983e7458498ca9869c2f88",
+    "check-pending.png": "830b4d7d24bc278b490532633494d85ab61fb0aa0977c593c730abfd7af0a2bf",
+    "finish-button.png": "6b92b467825a033fbd206d2ae9021550593795645262f2f43b21733ee8aba878",
+    "medal-original.png": "72aef4b0d20aefdb5dc12c10d9773d7a7b9e2fd97603c09a77c90dce72912527",
+    "previous-ink.png": "e6fe965429d2f0c386fba1a2b49b056380944baaad68f8f6e852d19cf8a9d9db",
+    "previous-original.png": "b1d453761bc68d0a65e7eef910b2dfc9e40f8e251c56d3efed0748eb9784ee73",
+    "reps-ink.png": "5ebfb156ef4b979c59913aa4550465f7a7262e252f66f306dfa2a995859bda91",
+    "reps-original.png": "72cc1b6125b70c519f749424a97cf40547ceeff52a3939fff14414a3a0cf4264",
+    "screen-apertures.png": "05f39ec350bd4747c844d5657cf57a731181df5fc0362cdc70720685378c0638",
+    "series-card-apertures.png": "52203fb8122584f0848d3a1de0b56d45c98e6bc687c9734392deb42c0fce3dad",
+    "series-card-completed.png": "61d4d0e3e4e75cd0fff392cbd09181a5e1537b234b49bb4241041d7c5398026d",
+    "series-card-original.png": "fd4089de8b03fed0830815a4dc055677ed9ca50b4eb8630e24512e79c2eaefe7",
+    "series-card-pending.png": "1a4b9174486809b210436c5d4ad446fd1269adbb5be66ebb7c29d0372eb480e2",
+    "series-row-completed-clean.png": "5937c3fbefba85e33cc099f6fe4859ce58cc5cff2bbd998f862afd7739fe6ba5",
+    "series-row-completed.png": "bf29cb2763f825bd79fe9d7d9ba141078f2b1ee7c0248931f2a7dcd99c2c092b",
+    "series-row-pending.png": "bfb0039738c7f066dbb78cb54e9676e9c2c5b5f2ff74cad67191d27e2b0ec911",
+    "set-three-pending.png": "18757f1d93cef47f1c7ab0b95d7316196d3c595566d4be8cd73e6bb2a453ce54",
+    "weight-ink.png": "8be8830482cf40277c70c0f01e35551eada2085e5114d5a28422e211e77bb1d3",
+    "weight-original.png": "46551ee5fb9760731bb61dcb7e4a57a241a9747b6b343aac80cde621b1549eff"
+  }
+}

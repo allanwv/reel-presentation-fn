@@ -1,0 +1,127 @@
+{
+  "approvedAnimationUnchanged": true,
+  "originalMediaUnchanged": true,
+  "cardRasterPixelExact": true,
+  "fieldRasterPixelExact": true,
+  "masterDuration": 12.8,
+  "sampledFrames": 768,
+  "alignedOverlay": true,
+  "unclippedOverlay": true,
+  "singleVisibleCard": true,
+  "states": {
+    "2.39": {
+      "active": null,
+      "menu": 0,
+      "pressed": 0,
+      "days": [
+        "original"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "2.9": {
+      "active": "mesocycle-card",
+      "menu": 1,
+      "pressed": 0,
+      "days": [
+        "original"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "3.1": {
+      "active": "mesocycle-card",
+      "menu": 1,
+      "pressed": 1,
+      "days": [
+        "original"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "3.55": {
+      "active": null,
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "original"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "4.24": {
+      "active": "days-card",
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "l"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "4.5": {
+      "active": "days-card",
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "lx"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "4.8": {
+      "active": "days-card",
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "lxv"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "5.2": {
+      "active": "exercise-card",
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "lxv"
+      ],
+      "rir": "0",
+      "rest": "0"
+    },
+    "6.62": {
+      "active": "exercise-card",
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "lxv"
+      ],
+      "rir": "1",
+      "rest": "0"
+    },
+    "7.1": {
+      "active": "exercise-card",
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "lxv"
+      ],
+      "rir": "0",
+      "rest": "1"
+    },
+    "7.6": {
+      "active": null,
+      "menu": 0,
+      "pressed": 1,
+      "days": [
+        "lxv"
+      ],
+      "rir": "0",
+      "rest": "0"
+    }
+  },
+  "missingAuthenticStates": [
+    "Series: authentic focused/editing state at value 3",
+    "Reps: authentic focused/editing state at value 12"
+  ]
+}

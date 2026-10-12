@@ -1,0 +1,463 @@
+{
+  "sourceTime": 9.2,
+  "previewTime": 7.7,
+  "sourceOffset": 1.5,
+  "geometryAndStylesEqual": true,
+  "pixelsChanged": 403,
+  "MAE": 0.0012864904835390946,
+  "maxDelta": 96,
+  "blur": "blur(8px)",
+  "styleDifferences": [],
+  "state": {
+    "nodes": {
+      "phone-coach-object": {
+        "transform": "perspective(1800px) translate(0px, -8.565px)",
+        "opacity": "1",
+        "bounds": [
+          63,
+          770.5036010742188,
+          474,
+          876.0001831054688
+        ]
+      },
+      "phone-client-object": {
+        "transform": "perspective(1800px) translate(0px, -5.71px)",
+        "opacity": "1",
+        "bounds": [
+          334.6626892089844,
+          705.5989379882812,
+          620.6748046875,
+          1151.56640625
+        ]
+      },
+      "coach-float": {
+        "transform": "translate(0px, 2.2341px)",
+        "opacity": "1",
+        "bounds": [
+          0,
+          3.3511500358581543,
+          1080,
+          1920
+        ]
+      },
+      "client-float": {
+        "transform": "translate(0px, -0.2424px)",
+        "opacity": "1",
+        "bounds": [
+          -379.69879150390625,
+          -298.19598388671875,
+          1405.30126953125,
+          2498.313232421875
+        ]
+      },
+      "coach-focus": {
+        "transform": "translate(0px, 0px)",
+        "opacity": "1",
+        "bounds": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "client-focus": {
+        "transform": "translate(-95px, -12px) scale(1.2, 1.2)",
+        "opacity": "1",
+        "bounds": [
+          -300,
+          -174,
+          1296.0001220703125,
+          2304
+        ]
+      },
+      "coach-depth": {
+        "transform": "perspective(1800px)",
+        "opacity": "1",
+        "bounds": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "client-depth": {
+        "transform": "perspective(1800px) translate3d(0px, 0px, 140px)",
+        "opacity": "1",
+        "bounds": [
+          -379.69879150390625,
+          -297.722900390625,
+          1405.30126953125,
+          2498.3134765625
+        ]
+      },
+      "fitnode-notification": {
+        "transform": "translate(0px, 0px)",
+        "opacity": "1",
+        "bounds": [
+          454.0682373046875,
+          780.222412109375,
+          419.1004638671875,
+          137.2779541015625
+        ]
+      },
+      "screen-client": {
+        "transform": "matrix3d(0.901914, 0.0384714, 0, -0.0001065, -0.110904, 0.959445, 0, -9.2e-05, 0, 0, 1, 0, 71, 20, 0, 1)",
+        "opacity": "1",
+        "bounds": [
+          371.82635498046875,
+          737.1651611328125,
+          517.9871215820312,
+          1072.5323486328125
+        ]
+      },
+      "client-series-card": {
+        "transform": "",
+        "opacity": "1",
+        "bounds": [
+          392.2227783203125,
+          1224.0911865234375,
+          473.30816650390625,
+          315.75732421875
+        ]
+      },
+      "floating-client-series-card": {
+        "transform": "translate(0px, 0px)",
+        "opacity": "0",
+        "bounds": [
+          392.2227783203125,
+          1224.0911865234375,
+          473.30816650390625,
+          315.75732421875
+        ]
+      }
+    },
+    "yaw": {
+      "coach": {
+        "angle": 0,
+        "transform": "none",
+        "overlay": "none"
+      },
+      "client": {
+        "angle": 13.5,
+        "transform": "matrix3d(1.06218, 0.0463148, 0, 0.0001627, 0.0378308, 1.02709, 0, 2.9e-06, 0, 0, 1, 0, -16.3732, -7.46969, 0, 1)",
+        "overlay": "matrix3d(1.06218, 0.0463148, 0, 0.0001627, 0.0378308, 1.02709, 0, 2.9e-06, 0, 0, 1, 0, -16.3732, -7.46969, 0, 1)"
+      }
+    },
+    "blur": "blur(8px)",
+    "allStyles": [
+      [
+        "root",
+        ""
+      ],
+      [
+        "reference-space",
+        ""
+      ],
+      [
+        "background",
+        "visibility: visible;"
+      ],
+      [
+        "phone-shadow-track",
+        "visibility: visible;"
+      ],
+      [
+        "official-logo",
+        "visibility: visible;"
+      ],
+      [
+        "logo-art",
+        "translate: none; rotate: none; scale: none; transform-origin: 0px 0px; transform: translate(0px, 0px); opacity: 1;"
+      ],
+      [
+        "presentation-copy",
+        "visibility: visible;"
+      ],
+      [
+        "hero-line-1",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"
+      ],
+      [
+        "hero-line-2",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"
+      ],
+      [
+        "hero-subtitle",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"
+      ],
+      [
+        "coming-soon",
+        "opacity: 0;"
+      ],
+      [
+        "phone-coach",
+        "visibility: visible;"
+      ],
+      [
+        "coach-focus",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "coach-depth",
+        "translate: none; rotate: none; scale: none; transform: perspective(1800px);"
+      ],
+      [
+        "coach-float",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 2.2341px);"
+      ],
+      [
+        "phone-coach-object",
+        "translate: none; rotate: none; scale: none; opacity: 1; transform: perspective(1800px) translate(0px, -8.565px);"
+      ],
+      [
+        "phone-coach-object-yaw",
+        "position: absolute; inset: 0px; width: 100%; height: 100%; overflow: visible; transform-origin: 0px 0px; transform-style: flat; transform: none;"
+      ],
+      [
+        "screen-coach",
+        "transform: matrix3d(0.930143, -0.0275431, 0, 0.0001082, 0.0830004, 0.990083, 0, -0.0001054, 0, 0, 1, 0, 23, 22, 0, 1);"
+      ],
+      [
+        "coach-update-button",
+        "translate: none; rotate: none; scale: none; transform-origin: 50% 50%; transform: translate(0px, 0px);"
+      ],
+      [
+        "mesocycle-card",
+        "opacity: 1;"
+      ],
+      [
+        "mesocycle-card-surface",
+        ""
+      ],
+      [
+        "mesocycle-menu",
+        ""
+      ],
+      [
+        "mesocycle-menu-open",
+        ""
+      ],
+      [
+        "mesocycle-menu-pressed",
+        ""
+      ],
+      [
+        "days-card",
+        "opacity: 1;"
+      ],
+      [
+        "exercise-card",
+        "opacity: 1;"
+      ],
+      [
+        "field-series",
+        "left: 20px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "field-reps",
+        "left: 71.3333px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "field-rir",
+        "left: 122.667px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "field-rest",
+        "left: 174px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "phone-client",
+        "z-index: 6; visibility: visible;"
+      ],
+      [
+        "client-focus",
+        "translate: none; rotate: none; scale: none; transform: translate(-95px, -12px) scale(1.2, 1.2);"
+      ],
+      [
+        "client-depth",
+        "translate: none; rotate: none; scale: none; transform: perspective(1800px) translate3d(0px, 0px, 140px);"
+      ],
+      [
+        "client-float",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, -0.2424px);"
+      ],
+      [
+        "phone-client-object",
+        "translate: none; rotate: none; scale: none; opacity: 1; transform: perspective(1800px) translate(0px, -5.71px);"
+      ],
+      [
+        "phone-client-object-yaw",
+        "position: absolute; inset: 0px; width: 100%; height: 100%; overflow: visible; transform-origin: 0px 0px; transform-style: flat; transform: matrix3d(1.06218, 0.0463148, 0, 0.0001627, 0.0378308, 1.02709, 0, 2.9e-06, 0, 0, 1, 0, -16.3732, -7.46969, 0, 1);"
+      ],
+      [
+        "screen-client",
+        "transform: matrix3d(0.901914, 0.0384714, 0, -0.0001065, -0.110904, 0.959445, 0, -9.2e-05, 0, 0, 1, 0, 71, 20, 0, 1);"
+      ],
+      [
+        "fitnode-notification",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"
+      ],
+      [
+        "client-series-card",
+        "opacity: 1;"
+      ],
+      [
+        "client-finish-button",
+        "translate: none; rotate: none; scale: none; transform-origin: 50% 50%; transform: translate(0px, 0px);"
+      ],
+      [
+        "phone-labels",
+        "visibility: visible;"
+      ],
+      [
+        "coach-label-focus",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "coach-label-depth",
+        "translate: none; rotate: none; scale: none; transform: perspective(1800px);"
+      ],
+      [
+        "coach-label-float",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, 2.2341px);"
+      ],
+      [
+        "coach-label",
+        "translate: none; rotate: none; scale: none; opacity: 1; transform: translate3d(0px, -6.6617px, 0px);"
+      ],
+      [
+        "client-label-focus",
+        "translate: none; rotate: none; scale: none; transform: translate(-95px, -12px) scale(1.2, 1.2);"
+      ],
+      [
+        "client-label-depth",
+        "translate: none; rotate: none; scale: none; transform: perspective(1800px) translate3d(0px, 0px, 140px) rotateY(4deg);"
+      ],
+      [
+        "client-label-float",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, -0.2424px);"
+      ],
+      [
+        "client-label",
+        "translate: none; rotate: none; scale: none; opacity: 1; transform: translate3d(0px, -5.71px, 0px);"
+      ],
+      [
+        "ui-overlay",
+        "visibility: visible;"
+      ],
+      [
+        "ui-overlay-focus",
+        "transform: translate(0px, 0px);"
+      ],
+      [
+        "ui-overlay-depth",
+        "transform: perspective(1800px);"
+      ],
+      [
+        "ui-overlay-float",
+        "transform: translate(0px, 2.2341px);"
+      ],
+      [
+        "ui-overlay-phone",
+        "transform: perspective(1800px) translate(0px, -8.565px);"
+      ],
+      [
+        "ui-overlay-phone-yaw",
+        "position: absolute; inset: 0px; width: 100%; height: 100%; overflow: visible; transform-origin: 0px 0px; transform-style: flat; transform: none;"
+      ],
+      [
+        "ui-overlay-plane",
+        "transform: matrix3d(0.930143, -0.0275431, 0, 0.0001082, 0.0830004, 0.990083, 0, -0.0001054, 0, 0, 1, 0, 23, 22, 0, 1);"
+      ],
+      [
+        "floating-mesocycle-card",
+        "left: 0px; top: 55.6667px; width: 240px; height: 35px; transform-origin: 50% 50%; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 0; border-radius: 0px; box-shadow: rgba(0, 12, 24, 0) 0px 0px 0px 0px;"
+      ],
+      [
+        "floating-mesocycle-card-surface",
+        ""
+      ],
+      [
+        "floating-mesocycle-menu",
+        "translate: none; rotate: none; scale: none; transform: translate(0px, -1px); opacity: 0;"
+      ],
+      [
+        "floating-mesocycle-menu-open",
+        ""
+      ],
+      [
+        "floating-mesocycle-menu-pressed",
+        "opacity: 1;"
+      ],
+      [
+        "floating-days-card",
+        "left: 0px; top: 155px; width: 240px; height: 56.6667px; transform-origin: 50% 50%; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 0; border-radius: 0px; box-shadow: rgba(0, 12, 24, 0) 0px 0px 0px 0px;"
+      ],
+      [
+        "floating-exercise-card",
+        "left: 0px; top: 273.333px; width: 240px; height: 154.167px; transform-origin: 50% 50%; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 0; border-radius: 0px; box-shadow: rgba(0, 12, 24, 0) 0px 0px 0px 0px;"
+      ],
+      [
+        "floating-field-series",
+        "left: 20px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "floating-field-reps",
+        "left: 71.3333px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "floating-field-rir",
+        "left: 122.667px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "floating-field-rest",
+        "left: 174px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"
+      ],
+      [
+        "client-ui-overlay",
+        "visibility: visible;"
+      ],
+      [
+        "client-ui-overlay-focus",
+        "transform: translate(-95px, -12px) scale(1.2, 1.2);"
+      ],
+      [
+        "client-ui-overlay-depth",
+        "transform: perspective(1800px) translate3d(0px, 0px, 140px);"
+      ],
+      [
+        "client-ui-overlay-float",
+        "transform: translate(0px, -0.2424px);"
+      ],
+      [
+        "client-ui-overlay-phone",
+        "transform: perspective(1800px) translate(0px, -5.71px);"
+      ],
+      [
+        "client-ui-overlay-phone-yaw",
+        "position: absolute; inset: 0px; width: 100%; height: 100%; overflow: visible; transform-origin: 0px 0px; transform-style: flat; transform: matrix3d(1.06218, 0.0463148, 0, 0.0001627, 0.0378308, 1.02709, 0, 2.9e-06, 0, 0, 1, 0, -16.3732, -7.46969, 0, 1);"
+      ],
+      [
+        "client-ui-overlay-plane",
+        "transform: matrix3d(0.901914, 0.0384714, 0, -0.0001065, -0.110904, 0.959445, 0, -9.2e-05, 0, 0, 1, 0, 71, 20, 0, 1);"
+      ],
+      [
+        "floating-client-series-card",
+        "left: 0px; top: 250px; width: 240px; height: 140px; transform-origin: 50% 50%; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 0; border-radius: 0px; box-shadow: rgba(0, 12, 24, 0) 0px 0px 0px 0px;"
+      ],
+      [
+        "closing-copy",
+        "visibility: hidden;"
+      ],
+      [
+        "closing-title",
+        ""
+      ],
+      [
+        "closing-subtitle",
+        ""
+      ]
+    ]
+  },
+  "backgroundSourceSha256": "03781d7c214825487eb06c9790766ecf75dacbfbcf391cbc9292a09364de8c79"
+}

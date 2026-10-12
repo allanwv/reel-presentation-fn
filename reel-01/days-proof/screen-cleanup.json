@@ -1,0 +1,16 @@
+{
+  "source": "assets/phone-coach-reference.png",
+  "sha256": "897a2978680e40506323dc30137964f22b750c1d2ba593a3ab823cdae6f3b0a9",
+  "output": "assets/ui/floating/phone-coach-clean.png",
+  "changedPixels": 1490,
+  "alphaUnchanged": true,
+  "operation": "Old UI sliver integrated into #ffffff; physical bezel, screen geometry and original files unchanged.",
+  "region": {
+    "y": [
+      45,
+      510
+    ],
+    "left": "floor(239 + y * .105)",
+    "right": "floor(242.72 + y * .1035 - .5)"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "screenshots": [
+    {
+      "source": "../source/screenshots/SCREEN_01_COACH_ROUTINE.png",
+      "copy": "assets/SCREEN_01_COACH_ROUTINE.png",
+      "sha256": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+      "dimensions": [
+        1440,
+        3120
+      ],
+      "modifications": "None. Byte-identical copy. CSS perspective only."
+    },
+    {
+      "source": "../source/screenshots/SCREEN_04_PR_REAL.png",
+      "copy": "assets/SCREEN_04_PR_REAL.png",
+      "sha256": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa",
+      "dimensions": [
+        1440,
+        3120
+      ],
+      "modifications": "None. Byte-identical copy. CSS perspective only."
+    }
+  ],
+  "logo": {
+    "source": "../assets/ASSET_FITNODE_LOGO_FULL_DARK.png",
+    "crop": [
+      227,
+      416,
+      1137,
+      168
+    ],
+    "operation": "Black matte removed mathematically; original untouched."
+  },
+  "background": {
+    "source": "../references/GEMINI_REEL_BASE.mp4",
+    "frames": [
+      0,
+      72,
+      168
+    ],
+    "operation": "Feathered exposed-background patches. No generative fill. No complete reference used as background."
+  },
+  "phones": {
+    "sourceFrame": 72,
+    "operation": "Independent masked rigid shells from reference; screens replaced with intact originals."
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "family": "Inter",
+    "weight": 750,
+    "error": 0.04520591024038981,
+    "naturalWidthAt100": 704,
+    "naturalHeightAt100": 78
+  },
+  {
+    "family": "Inter",
+    "weight": 700,
+    "error": 0.045856815158430375,
+    "naturalWidthAt100": 696,
+    "naturalHeightAt100": 78
+  },
+  {
+    "family": "Inter",
+    "weight": 800,
+    "error": 0.054620712898122994,
+    "naturalWidthAt100": 710,
+    "naturalHeightAt100": 79
+  },
+  {
+    "family": "Inter",
+    "weight": 650,
+    "error": 0.05533083414325604,
+    "naturalWidthAt100": 691,
+    "naturalHeightAt100": 78
+  },
+  {
+    "family": "Inter",
+    "weight": 600,
+    "error": 0.07779613207020991,
+    "naturalWidthAt100": 685,
+    "naturalHeightAt100": 79
+  },
+  {
+    "family": "Calibri",
+    "weight": 700,
+    "error": 0.11154386102319643,
+    "naturalWidthAt100": 600,
+    "naturalHeightAt100": 70
+  },
+  {
+    "family": "Segoe UI",
+    "weight": 700,
+    "error": 0.11243269927955446,
+    "naturalWidthAt100": 679,
+    "naturalHeightAt100": 75
+  },
+  {
+    "family": "Arial",
+    "weight": 700,
+    "error": 0.23593256221571118,
+    "naturalWidthAt100": 679,
+    "naturalHeightAt100": 75
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "role": "coach",
+    "normalYaw": -9.826051414082738,
+    "firstColumnYaw": 10.273302220248704,
+    "basisDot": 0.0408781021942108,
+    "basisNormRatio": 0.8917644187298266,
+    "correctionAnglePositiveCameraZ": 0,
+    "corners": [
+      [
+        65,
+        542
+      ],
+      [
+        282.00000000000006,
+        535
+      ],
+      [
+        340.00000000000006,
+        1066
+      ],
+      [
+        111.99999999999997,
+        1088
+      ]
+    ],
+    "ratioRoverL": 0.9747071909294673,
+    "verticalDriftLeft": 46.99999999999997,
+    "verticalDriftRight": 58,
+    "meanVerticalDrift": 52.499999999999986,
+    "centerProjection": [
+      200.48557981381273,
+      800.161613899774
+    ],
+    "topWidth": 217.11287386979157,
+    "bottomWidth": 229.0589443789525
+  },
+  {
+    "role": "coach",
+    "normalYaw": -9.826051414082738,
+    "firstColumnYaw": 10.273302220248704,
+    "basisDot": 0.0408781021942108,
+    "basisNormRatio": 0.8917644187298266,
+    "correctionAnglePositiveCameraZ": 9,
+    "corners": [
+      [
+        74.14145141168245,
+        543.371370589253
+      ],
+      [
+        289.7316753850174,
+        534.1179197596371
+      ],
+      [
+        334.39004044930135,
+        1072.31798128955
+      ],
+      [
+        105.2751901730756,
+        1083.984941054002
+      ]
+    ],
+    "ratioRoverL": 0.9973045317226493,
+    "verticalDriftLeft": 31.133738761393147,
+    "verticalDriftRight": 44.65836506428394,
+    "meanVerticalDrift": 37.896051912838544,
+    "centerProjection": [
+      200.48557981381273,
+      800.161613899774
+    ],
+    "topWidth": 215.788718484375,
+    "bottomWidth": 229.41170974307892
+  },
+  {
+    "role": "coach",
+    "normalYaw": -9.826051414082738,
+    "firstColumnYaw": 10.273302220248704,
+    "basisDot": 0.0408781021942108,
+    "basisNormRatio": 0.8917644187298266,
+    "correctionAnglePositiveCameraZ": -9,
+    "corners": [
+      [
+        58.928419203811984,
+        540.5532781456634
+      ],
+      [
+        272.4747584919934,
+        535.7672396079822
+      ],
+      [
+        342.0114575102599,
+        1059.7125784471568
+      ],
+      [
+        121.13055513198162,
+        1091.6085019307607
+      ]
+    ],
+    "ratioRoverL": 0.9530881639933209,
+    "verticalDriftLeft": 62.20213592816964,
+    "verticalDriftRight": 69.53669901826652,
+    "meanVerticalDrift": 65.86941747321808,
+    "centerProjection": [
+      200.48557981381273,
+      800.161613899774
+    ],
+    "topWidth": 213.59996532833813,
+    "bottomWidth": 223.17195829744026
+  },
+  {
+    "role": "client",
+    "normalYaw": 9.54061099252842,
+    "firstColumnYaw": -10.051843521546122,
+    "basisDot": -0.03167943628743834,
+    "basisNormRatio": 0.9292272029298629,
+    "correctionAnglePositiveCameraZ": 0,
+    "corners": [
+      [
+        437,
+        540
+      ],
+      [
+        661,
+        550
+      ],
+      [
+        614.0000000000001,
+        1090
+      ],
+      [
+        380,
+        1065
+      ]
+    ],
+    "ratioRoverL": 1.0264281036300869,
+    "verticalDriftLeft": -57,
+    "verticalDriftRight": -46.999999999999886,
+    "meanVerticalDrift": -51.99999999999994,
+    "centerProjection": [
+      522.1268390956635,
+      804.5184265684459
+    ],
+    "topWidth": 224.2231031807383,
+    "bottomWidth": 235.33168082517076
+  },
+  {
+    "role": "client",
+    "normalYaw": 9.54061099252842,
+    "firstColumnYaw": -10.051843521546122,
+    "basisDot": -0.03167943628743834,
+    "basisNormRatio": 0.9292272029298629,
+    "correctionAnglePositiveCameraZ": -9,
+    "corners": [
+      [
+        429.9687974609408,
+        539.1214399817808
+      ],
+      [
+        652.3322408854972,
+        551.2894649031699
+      ],
+      [
+        619.8041111960518,
+        1085.8097085186212
+      ],
+      [
+        384.8923469998934,
+        1071.417859774502
+      ]
+    ],
+    "ratioRoverL": 1.0024475050104211,
+    "verticalDriftLeft": -45.076450461047386,
+    "verticalDriftRight": -32.528129689445336,
+    "meanVerticalDrift": -38.80229007524636,
+    "centerProjection": [
+      522.1268390956635,
+      804.5184265684459
+    ],
+    "topWidth": 222.69611986317463,
+    "bottomWidth": 235.35220897205352
+  },
+  {
+    "role": "client",
+    "normalYaw": 9.54061099252842,
+    "firstColumnYaw": -10.051843521546122,
+    "basisDot": -0.03167943628743834,
+    "basisNormRatio": 0.9292272029298629,
+    "correctionAnglePositiveCameraZ": 9,
+    "corners": [
+      [
+        445.9194961853544,
+        540.774458364587
+      ],
+      [
+        666.4947926650738,
+        548.6463681323851
+      ],
+      [
+        605.7197217829707,
+        1093.822813148333
+      ],
+      [
+        378.74016863299727,
+        1058.6512975863627
+      ]
+    ],
+    "ratioRoverL": 1.0504342828064492,
+    "verticalDriftLeft": -67.17932755235711,
+    "verticalDriftRight": -60.77507088210302,
+    "meanVerticalDrift": -63.977199217230066,
+    "centerProjection": [
+      522.1268390956635,
+      804.5184265684459
+    ],
+    "topWidth": 220.71571847176733,
+    "bottomWidth": 229.6883824991755
+  }
+]

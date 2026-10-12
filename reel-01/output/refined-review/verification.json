@@ -1,0 +1,32 @@
+{
+  "file": "output/FITNODE_REEL_MOTION_REFINADO_12.8s.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 384,
+  "duration": 12.8,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "audioStreams": 0,
+  "bytes": 8035244,
+  "closingMeanPixelDelta": 0.0006214927048260382,
+  "closingMaxPixelDelta": 2,
+  "reviewTimes": [
+    0.6,
+    1.5,
+    1.85,
+    2.1,
+    2.8,
+    4.35,
+    5.5,
+    5.85,
+    6.2,
+    6.55,
+    6.95,
+    7.65,
+    9.6,
+    10.9,
+    11.8,
+    12.5
+  ]
+}

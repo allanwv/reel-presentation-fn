@@ -1,0 +1,62 @@
+[
+  {
+    "t": 0.01,
+    "counts": {
+      "border": 2777,
+      "logo": 26,
+      "phones": 0,
+      "elsewhere": 614
+    },
+    "max": {
+      "border": 9,
+      "logo": 1,
+      "phones": 0,
+      "elsewhere": 1
+    }
+  },
+  {
+    "t": 0.32,
+    "counts": {
+      "border": 2612,
+      "logo": 11,
+      "phones": 214,
+      "elsewhere": 326
+    },
+    "max": {
+      "border": 6,
+      "logo": 1,
+      "phones": 115,
+      "elsewhere": 2
+    }
+  },
+  {
+    "t": 0.8,
+    "counts": {
+      "border": 1,
+      "logo": 0,
+      "phones": 591,
+      "elsewhere": 0
+    },
+    "max": {
+      "border": 1,
+      "logo": 0,
+      "phones": 97,
+      "elsewhere": 0
+    }
+  },
+  {
+    "t": 1.5,
+    "counts": {
+      "border": 0,
+      "logo": 0,
+      "phones": 537,
+      "elsewhere": 0
+    },
+    "max": {
+      "border": 0,
+      "logo": 0,
+      "phones": 120,
+      "elsewhere": 0
+    }
+  }
+]

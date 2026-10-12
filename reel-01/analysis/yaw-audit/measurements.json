@@ -1,0 +1,482 @@
+[
+  {
+    "role": "coach",
+    "angle": 0,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        186.50599670410156,
+        828.1864013671875
+      ],
+      "tr": [
+        610.0518798828125,
+        814.5239868164062
+      ],
+      "br": [
+        723.2303466796875,
+        1850.89208984375
+      ],
+      "bl": [
+        278.2342834472656,
+        1893.819580078125
+      ]
+    },
+    "leftHeight": 1069.573817068468,
+    "rightHeight": 1042.5297167558278,
+    "ratioRoverL": 0.9747150688610124,
+    "bbox": {
+      "x": 141.61444091796875,
+      "y": 785.24658203125,
+      "width": 616.7710571289062,
+      "height": 1139.8558349609375
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "coach",
+    "angle": -4,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        188.63059997558594,
+        831.1163330078125
+      ],
+      "tr": [
+        610.2139892578125,
+        812.6807861328125
+      ],
+      "br": [
+        724.1776123046875,
+        1853.870361328125
+      ],
+      "bl": [
+        279.28399658203125,
+        1891.8072509765625
+      ]
+    },
+    "leftHeight": 1064.557777566664,
+    "rightHeight": 1047.407962005906,
+    "ratioRoverL": 0.9838901974865483,
+    "bbox": {
+      "x": 144.39471435546875,
+      "y": 781.4879150390625,
+      "width": 615.2957763671875,
+      "height": 1147.474365234375
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px) rotateY(-4deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "coach",
+    "angle": -9,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        193.01939392089844,
+        834.71142578125
+      ],
+      "tr": [
+        609.3123779296875,
+        810.37255859375
+      ],
+      "br": [
+        723.47412109375,
+        1857.620361328125
+      ],
+      "bl": [
+        281.744384765625,
+        1889.3271484375
+      ]
+    },
+    "leftHeight": 1058.3413657578358,
+    "rightHeight": 1053.4518802177124,
+    "ratioRoverL": 0.9953800487268848,
+    "bbox": {
+      "x": 149.87982177734375,
+      "y": 776.7469482421875,
+      "width": 609.3126831054688,
+      "height": 1157.0841064453125
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px) rotateY(-9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "coach",
+    "angle": 9,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        186.39646911621094,
+        821.4932861328125
+      ],
+      "tr": [
+        606.869140625,
+        818.61181640625
+      ],
+      "br": [
+        716.3527221679688,
+        1844.3389892578125
+      ],
+      "bl": [
+        278.9302978515625,
+        1898.387451171875
+      ]
+    },
+    "leftHeight": 1080.8624112973873,
+    "rightHeight": 1031.5536281519906,
+    "ratioRoverL": 0.9543801480835936,
+    "bbox": {
+      "x": 140.80743408203125,
+      "y": 776.7469482421875,
+      "width": 609.3128051757812,
+      "height": 1157.0841064453125
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px) rotateY(9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "coach",
+    "angle": -9,
+    "distance": 1400,
+    "corners": {
+      "tl": [
+        187.72015380859375,
+        824.1351318359375
+      ],
+      "tr": [
+        613.6506958007812,
+        795.7432250976562
+      ],
+      "br": [
+        731.4208984375,
+        1872.44091796875
+      ],
+      "bl": [
+        278.0389404296875,
+        1901.25732421875
+      ]
+    },
+    "leftHeight": 1080.902262251432,
+    "rightHeight": 1083.1194497667511,
+    "ratioRoverL": 1.0020512377416075,
+    "bbox": {
+      "x": 143.8951416015625,
+      "y": 759.8314819335938,
+      "width": 624.4593505859375,
+      "height": 1191.37060546875
+    },
+    "depthMatrix": "perspective(1400px) translate3d(0px, 0px, 140px) rotateY(-9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "coach",
+    "angle": -9,
+    "distance": 1200,
+    "corners": {
+      "tl": [
+        183.60006713867188,
+        815.912109375
+      ],
+      "tr": [
+        617.0626831054688,
+        784.237548828125
+      ],
+      "br": [
+        737.69091796875,
+        1884.134033203125
+      ],
+      "bl": [
+        275.15093994140625,
+        1910.5557861328125
+      ]
+    },
+    "leftHeight": 1098.465448421936,
+    "rightHeight": 1106.491503531191,
+    "ratioRoverL": 1.0073066067947658,
+    "bbox": {
+      "x": 139.2476043701172,
+      "y": 746.4721069335938,
+      "width": 636.3427124023438,
+      "height": 1218.44921875
+    },
+    "depthMatrix": "perspective(1200px) translate3d(0px, 0px, 140px) rotateY(-9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "client",
+    "angle": 0,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        473.24102783203125,
+        806.41259765625
+      ],
+      "tr": [
+        910.4448852539062,
+        825.9306640625
+      ],
+      "br": [
+        818.6947631835938,
+        1879.86962890625
+      ],
+      "bl": [
+        361.9871826171875,
+        1831.07861328125
+      ]
+    },
+    "leftHeight": 1030.688052541554,
+    "rightHeight": 1057.925057135822,
+    "ratioRoverL": 1.0264260408637753,
+    "bbox": {
+      "x": 334.6626892089844,
+      "y": 767.3765258789062,
+      "width": 620.6748046875,
+      "height": 1151.56640625
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "client",
+    "angle": 4,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        473.02349853515625,
+        804.3839111328125
+      ],
+      "tr": [
+        908.2935791015625,
+        828.9256591796875
+      ],
+      "br": [
+        817.6261596679688,
+        1877.9066162109375
+      ],
+      "bl": [
+        360.9458312988281,
+        1834.0096435546875
+      ]
+    },
+    "leftHeight": 1035.7077543199239,
+    "rightHeight": 1052.8920311033532,
+    "ratioRoverL": 1.0165918201459379,
+    "bbox": {
+      "x": 333.33624267578125,
+      "y": 763.4373779296875,
+      "width": 619.1904907226562,
+      "height": 1159.3123779296875
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px) rotateY(4deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "client",
+    "angle": 9,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        473.93701171875,
+        801.8419189453125
+      ],
+      "tr": [
+        903.8592529296875,
+        832.6001586914062
+      ],
+      "br": [
+        815.129638671875,
+        1875.48779296875
+      ],
+      "bl": [
+        361.5989990234375,
+        1837.701904296875
+      ]
+    },
+    "leftHeight": 1041.93365352544,
+    "rightHeight": 1046.6554171144078,
+    "ratioRoverL": 1.004531731529154,
+    "bbox": {
+      "x": 333.82080078125,
+      "y": 758.4681396484375,
+      "width": 613.1708984375,
+      "height": 1169.0836181640625
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px) rotateY(9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "client",
+    "angle": -9,
+    "distance": 1800,
+    "corners": {
+      "tl": [
+        476.7508850097656,
+        810.9080810546875
+      ],
+      "tr": [
+        910.58056640625,
+        819.087890625
+      ],
+      "br": [
+        818.0072021484375,
+        1884.3255615234375
+      ],
+      "bl": [
+        369.23968505859375,
+        1824.634033203125
+      ]
+    },
+    "leftHeight": 1019.4110869390215,
+    "rightHeight": 1069.2526003106739,
+    "ratioRoverL": 1.0488924576260115,
+    "bbox": {
+      "x": 343.0084533691406,
+      "y": 758.4681396484375,
+      "width": 613.1707763671875,
+      "height": 1169.0836181640625
+    },
+    "depthMatrix": "perspective(1800px) translate3d(0px, 0px, 140px) rotateY(-9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "client",
+    "angle": 9,
+    "distance": 1400,
+    "corners": {
+      "tl": [
+        469.2466735839844,
+        786.7298583984375
+      ],
+      "tr": [
+        909.1895141601562,
+        821.8843994140625
+      ],
+      "br": [
+        818.8712158203125,
+        1886.97900390625
+      ],
+      "bl": [
+        353.31866455078125,
+        1851.8638916015625
+      ]
+    },
+    "leftHeight": 1071.42419795614,
+    "rightHeight": 1068.9171677606146,
+    "ratioRoverL": 0.9976600955995694,
+    "bbox": {
+      "x": 324.590087890625,
+      "y": 740.8320922851562,
+      "width": 628.4146728515625,
+      "height": 1203.762939453125
+    },
+    "depthMatrix": "perspective(1400px) translate3d(0px, 0px, 140px) rotateY(9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  },
+  {
+    "role": "client",
+    "angle": 9,
+    "distance": 1200,
+    "corners": {
+      "tl": [
+        465.55657958984375,
+        774.840576171875
+      ],
+      "tr": [
+        913.3335571289062,
+        813.553466796875
+      ],
+      "br": [
+        821.787353515625,
+        1895.9344482421875
+      ],
+      "bl": [
+        346.7837219238281,
+        1863.0406494140625
+      ]
+    },
+    "leftHeight": 1094.6626837169767,
+    "rightHeight": 1086.2455046583723,
+    "ratioRoverL": 0.992310709788678,
+    "bbox": {
+      "x": 317.2994384765625,
+      "y": 726.9028930664062,
+      "width": 640.3746337890625,
+      "height": 1231.153564453125
+    },
+    "depthMatrix": "perspective(1200px) translate3d(0px, 0px, 140px) rotateY(9deg)",
+    "depthComputed": {
+      "transformStyle": "flat",
+      "perspective": "none"
+    },
+    "floatComputed": {
+      "transformStyle": "flat"
+    }
+  }
+]

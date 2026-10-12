@@ -1,0 +1,46 @@
+{
+  "sourceHashes": {
+    "../source/screenshots/SCREEN_01_COACH_ROUTINE.png": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+    "assets/ui/floating/screen-apertures.png": "6018229c8106a091063c3f6129b053660d4297ba1b55374b1b753ce671ae8a9d",
+    "../source/videos/VIDEO_01_COACH_ROUTINE_ASSIGN.mp4": "761ebdfa1216f5702ca8d1bbd0e321a66b9c41d8d74242d97a37e25b62d1af0b"
+  },
+  "sourceSize": {
+    "width": 1440,
+    "height": 3120
+  },
+  "buttonBox": {
+    "left": 54,
+    "top": 2828,
+    "width": 1332,
+    "height": 181
+  },
+  "cssBox": {
+    "left": 9,
+    "top": 471.3333333333333,
+    "width": 222,
+    "height": 30.166666666666668
+  },
+  "detectedOriginalCoverage": {
+    "left": 56,
+    "top": 2830,
+    "right": 1383,
+    "bottom": 3006
+  },
+  "enabledColor": "#2F80ED",
+  "textIconColor": "#FFFFFF",
+  "authenticEnabledState": {
+    "source": "../source/videos/VIDEO_01_COACH_ROUTINE_ASSIGN.mp4",
+    "time": 60,
+    "note": "The original recording shows the blue enabled Actualizar button with white check/text. Its visual state was inspected; the production patch retains screenshot geometry and glyph pixels."
+  },
+  "files": {
+    "enabledPatch": "assets/ui/coach-update/update-enabled.png",
+    "screenWithHole": "assets/ui/coach-update/screen-apertures-with-update-hole.png"
+  },
+  "operation": "Raster-derived button coverage and foreground alpha. Original disabled surface and its glyphs are recolored locally; no redrawn text, icon or shape. Base screenshot is identical outside the button rectangle and contains no old button pixels in that rectangle.",
+  "verification": {
+    "sourceHashesUnchanged": true,
+    "outsideButtonPixelsChanged": 0,
+    "residualOldGrayPixels": 0
+  }
+}

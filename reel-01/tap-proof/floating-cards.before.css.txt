@@ -1,0 +1,15 @@
+#ui-overlay { z-index:20; overflow:visible; pointer-events:none; }
+#ui-overlay-focus { position:absolute; inset:0; width:720px; height:1280px; transform-origin:200px 520px; }
+#ui-overlay-phone { position:absolute; left:42px; top:520px; width:316px; height:584px; transform-origin:50% 50%; }
+#ui-overlay-plane { position:absolute; left:0; top:0; width:240px; height:520px; transform-origin:0 0; overflow:visible; }
+.ui-card,.floating-card { position:absolute; transform-origin:50% 50%; }
+.floating-card { overflow:visible; }
+.ui-card-surface,.ui-state { position:absolute; inset:0; display:block; width:100%; height:100%; }
+.ui-state:not([data-state="original"]) { opacity:0; }
+.ui-menu { position:absolute; left:79.1111111111px; top:11.1111111111px; width:105.7777777778px; height:75.5555555556px; opacity:0; transform-origin:50% 0; }
+.ui-menu img { position:absolute; inset:0; width:100%; height:100%; }
+.ui-state-pressed,.ui-field-focused { opacity:0; }
+.ui-field { position:absolute; width:46px; height:28px; top:114.8333333333px; transform-origin:50% 50%; }
+.ui-field img { position:absolute; inset:0; width:100%; height:100%; }
+#days-card { left:0; top:155px; width:240px; height:56.6666666667px; }
+#exercise-card { left:0; top:273.3333333333px; width:240px; height:154.1666666667px; }

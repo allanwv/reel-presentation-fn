@@ -1,0 +1,62 @@
+/* Local overlay exception: iOS-style notification; host timeline owns motion. */
+.fitnode-notification {
+  position:absolute;
+  left:8px;
+  top:22px;
+  width:224px;
+  height:54px;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:8px 10px;
+  border:0.6px solid rgba(255,255,255,0.72);
+  border-radius:12px;
+  background:rgba(246,247,249,0.97);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  box-shadow:0 5px 14px rgba(9,21,33,0.16);
+  color:#182231;
+  font-family:'Inter',sans-serif;
+  transform-origin:50% 0;
+  opacity:0;
+  z-index:12;
+  pointer-events:none;
+}
+.fitnode-notification__icon {
+  display:block;
+  width:30px;
+  height:30px;
+  flex:0 0 30px;
+  object-fit:contain;
+  border-radius:7px;
+}
+.fitnode-notification__content {
+  display:block;
+  width:163px;
+  min-width:0;
+}
+.fitnode-notification__heading {
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  width:100%;
+  font-size:8.2px;
+  line-height:11px;
+  font-weight:650;
+}
+.fitnode-notification__time {
+  color:#78808b;
+  font-size:7.4px;
+  line-height:11px;
+  font-weight:400;
+}
+.fitnode-notification__message {
+  display:block;
+  width:100%;
+  margin-top:2px;
+  font-size:10px;
+  line-height:13px;
+  font-weight:500;
+  letter-spacing:-0.12px;
+}

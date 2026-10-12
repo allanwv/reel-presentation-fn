@@ -1,0 +1,17 @@
+const fs=require('fs'),path=require('path'),http=require('http');
+const req=require('module').createRequire('C:/Users/aweis/AppData/Local/npm-cache/_npx/702923228c2ce1e6/node_modules/hyperframes/package.json');
+(async()=>{
+ const root=process.cwd(),out='analysis/yaw-audit';fs.mkdirSync(out,{recursive:true});
+ const server=http.createServer((q,r)=>{const file=path.resolve(root,'.'+decodeURIComponent(q.url.split('?')[0]));if(!file.startsWith(root+path.sep)||!fs.existsSync(file)){r.writeHead(404).end();return;}r.writeHead(200,{'Content-Type':({'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.png':'image/png','.svg':'image/svg+xml','.woff2':'font/woff2'})[path.extname(file)]||'text/plain'});fs.createReadStream(file).pipe(r);});await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser;
+ try{
+  browser=await req('puppeteer-core').launch({executablePath:'C:/Users/aweis/.cache/puppeteer/chrome-headless-shell/win64-152.0.7977.75/chrome-headless-shell-win64/chrome-headless-shell.exe',headless:true});const page=await browser.newPage();await page.setViewport({width:1080,height:1920});await page.evaluateOnNewDocument('window.__timelines={};');const rows=[];
+  for(const role of ['coach','client']){
+   await page.goto('http://127.0.0.1:'+server.address().port+'/index.html');await page.waitForFunction('Boolean(window.__timelines?.main)');await page.evaluate('Promise.all([...document.images].map(img=>img.decode()))');
+   await page.evaluate(`(()=>{window.__timelines.main.totalTime(${role==='coach'?2.2:9},false);document.getElementById('closing-copy').style.visibility='hidden';const screen=document.getElementById('screen-${role}');for(const [name,x,y]of [['tl',0,0],['tr',240,0],['br',240,520],['bl',0,520]]){const m=document.createElement('div');m.dataset.corner=name;Object.assign(m.style,{position:'absolute',left:x+'px',top:y+'px',width:'0',height:'0'});screen.appendChild(m);}})()`);
+   for(const [angle,distance]of [[0,1800],[role==='coach'?-4:4,1800],[role==='coach'?-9:9,1800],[role==='coach'?9:-9,1800],[role==='coach'?-9:9,1400],[role==='coach'?-9:9,1200]]){
+    const row=await page.evaluate(`(()=>{const role='${role}',depth=document.getElementById(role+'-depth');gsap.set(depth,{rotationY:${angle},transformPerspective:${distance},rotation:0});for(const sync of window.__timelines.main.__fitnodeCardSyncers)sync();const corners={};for(const m of document.querySelectorAll('#screen-'+role+' [data-corner]')){const r=m.getBoundingClientRect();corners[m.dataset.corner]=[r.x,r.y];}const len=(a,b)=>Math.hypot(a[0]-b[0],a[1]-b[1]),left=len(corners.tl,corners.bl),right=len(corners.tr,corners.br),box=document.getElementById('phone-'+role+'-object').getBoundingClientRect();return {role,angle:${angle},distance:${distance},corners,leftHeight:left,rightHeight:right,ratioRoverL:right/left,bbox:{x:box.x,y:box.y,width:box.width,height:box.height},depthMatrix:depth.style.transform,depthComputed:{transformStyle:getComputedStyle(depth).transformStyle,perspective:getComputedStyle(depth).perspective},floatComputed:{transformStyle:getComputedStyle(document.getElementById(role+'-float')).transformStyle}};})()`);rows.push(row);await page.screenshot({path:out+'/'+role+'-yaw-'+angle+'-perspective-'+distance+'.png'});
+   }
+  }
+  fs.writeFileSync(out+'/measurements.json',JSON.stringify(rows,null,2));console.log(JSON.stringify(rows));
+ }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
+})().catch(e=>{console.error(e);process.exitCode=1;});

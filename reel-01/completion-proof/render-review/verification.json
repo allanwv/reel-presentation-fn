@@ -1,0 +1,34 @@
+{
+  "file": "output/FITNODE_ASESORADO_SERIES_FINALIZACION_PREVIEW.mp4",
+  "sourceWindow": [
+    10,
+    15.1
+  ],
+  "duration": 5.1,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 153,
+  "decodeErrors": 0,
+  "audioStreams": 0,
+  "approvedOriginalAssetsUnchanged": 18,
+  "bytes": 3876561,
+  "times": [
+    10,
+    10.6,
+    10.96,
+    11.36,
+    11.75,
+    12.4,
+    12.8,
+    12.96,
+    13.2,
+    13.42,
+    13.7,
+    14.1,
+    14.5,
+    14.7,
+    14.8,
+    15
+  ]
+}

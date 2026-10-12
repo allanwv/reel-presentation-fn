@@ -1,0 +1,53 @@
+{
+  "sourceHashes": {
+    "assets/ui/floating/days-original.png": "d4ba9752e9c6cb8e3b99ad5d4fa27134b8d9120a08216a5546c398e21ba1c6ba",
+    "assets/ui/floating/days-none.png": "cd738f36c6339c669bad25f065cad191e219fb23e5e6bee9e1ee06b500a8b022",
+    "assets/ui/floating/days-lxv.png": "c29aa7b87bf22e0a1e2e218d3cde1b846b996608c1fe5aab442b68abecc9df96"
+  },
+  "positions": [
+    {
+      "name": "l",
+      "left": 12.666666666666666,
+      "top": 22,
+      "initial": false
+    },
+    {
+      "name": "m",
+      "left": 44,
+      "top": 22,
+      "initial": true
+    },
+    {
+      "name": "x",
+      "left": 75.5,
+      "top": 22,
+      "initial": false
+    },
+    {
+      "name": "j",
+      "left": 107,
+      "top": 22,
+      "initial": true
+    },
+    {
+      "name": "v",
+      "left": 138.33333333333334,
+      "top": 22,
+      "initial": false
+    },
+    {
+      "name": "s",
+      "left": 169.83333333333334,
+      "top": 22,
+      "initial": true
+    },
+    {
+      "name": "d",
+      "left": 201.16666666666666,
+      "top": 22,
+      "initial": false
+    }
+  ],
+  "cropSize": 156,
+  "operation": "Authentic circle crops, alpha-only outer margins. Fixed original card background. No UI controls redrawn."
+}

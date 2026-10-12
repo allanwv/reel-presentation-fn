@@ -1,0 +1,22 @@
+{
+  "approvedCompositionAndMesocycleUnchanged": true,
+  "originalAssetsUnchanged": true,
+  "physicalBezelAndAlphaUnchanged": true,
+  "oldUiSliverWhite": true,
+  "duration": 12.8,
+  "sampledFrames": 768,
+  "states": {
+    "3.7": "none",
+    "4.1": "l",
+    "4.4": "lx",
+    "4.7": "lxv",
+    "5.2": "lxv",
+    "8.8": "lxv",
+    "10.4": "lxv"
+  },
+  "extendsOutsidePhone": true,
+  "duplicatedDays": false,
+  "perspectiveStable": true,
+  "overlayAligned": true,
+  "finalDocked": true
+}

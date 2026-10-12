@@ -1,0 +1,91 @@
+{
+  "sourceHashes": {
+    "../source/screenshots/SCREEN_01_COACH_ROUTINE.png": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+    "../source/videos/VIDEO_01_COACH_ROUTINE_ASSIGN.mp4": "761ebdfa1216f5702ca8d1bbd0e321a66b9c41d8d74242d97a37e25b62d1af0b"
+  },
+  "bands": {
+    "mesocycle": {
+      "left": 0,
+      "top": 334,
+      "width": 1440,
+      "height": 210
+    },
+    "days": {
+      "left": 0,
+      "top": 930,
+      "width": 1440,
+      "height": 340
+    },
+    "exercise": {
+      "left": 0,
+      "top": 1640,
+      "width": 1440,
+      "height": 925
+    }
+  },
+  "days": {
+    "crop": {
+      "left": 0,
+      "top": 790,
+      "width": 1080,
+      "height": 255
+    },
+    "states": {
+      "none": 48.2,
+      "l": 49.2,
+      "lx": 49.8,
+      "lxv": 50.8
+    }
+  },
+  "cells": {
+    "series": {
+      "left": 120,
+      "top": 2329,
+      "width": 276,
+      "height": 168
+    },
+    "reps": {
+      "left": 428,
+      "top": 2329,
+      "width": 276,
+      "height": 168
+    },
+    "rir": {
+      "left": 736,
+      "top": 2329,
+      "width": 276,
+      "height": 168
+    },
+    "rest": {
+      "left": 1044,
+      "top": 2329,
+      "width": 276,
+      "height": 168
+    }
+  },
+  "fieldSources": {
+    "rir": {
+      "time": 54.8,
+      "crop": {
+        "left": 552,
+        "top": 1271,
+        "width": 207,
+        "height": 126
+      }
+    },
+    "rest": {
+      "time": 56.6,
+      "crop": {
+        "left": 783,
+        "top": 1271,
+        "width": 207,
+        "height": 126
+      }
+    }
+  },
+  "missing": [
+    "Series: authentic focused/editing state at value 3",
+    "Reps: authentic focused/editing state at value 12"
+  ],
+  "operations": "Native screenshot crops and transparent apertures; video states uniformly resized 4/3. No redrawn UI."
+}

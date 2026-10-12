@@ -1,0 +1,41 @@
+﻿{
+  "entries": [
+    {
+      "id": "6945071b-d548-40ef-90e9-6aa5dc855213",
+      "who": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1791816073005,
+      "endedAt": 1791816075018,
+      "files": [
+        "output/FITNODE_REEL_MOTION_REFINADO_12.8s.mp4"
+      ],
+      "undone": false,
+      "pinned": false
+    },
+    {
+      "id": "75c20c17-4754-43ce-84e6-059ea1837fba",
+      "who": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1791814728325,
+      "endedAt": 1791814730887,
+      "files": [
+        "analysis/yaw-audit/validation/narrative-contact-sheet.png",
+        "analysis/yaw-audit/validation/stdout.json",
+        "analysis/yaw-audit/validation/verification.json"
+      ],
+      "undone": false,
+      "pinned": false
+    }
+  ],
+  "_meta": {
+    "version": "0.8.149",
+    "latestVersion": "0.8.149",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,73 @@
+/* One seekable GSAP timeline; overlay follows cached transforms, never layout measurements. */
+window.FitnodeFloatingCards=function({timeline,plane,focus,depth,float,phone,overlayFocus,overlayDepth,overlayFloat,overlayPhone}){
+  const sync=()=>{
+    for(const [source,target] of [[focus,overlayFocus],[depth,overlayDepth],[float,overlayFloat],[phone,overlayPhone]]){
+      target.style.transform=source.style.transform;
+      target.style.transformOrigin=source.style.transformOrigin;
+    }
+  };
+  timeline.eventCallback('onUpdate',sync);
+  const add=({id,box,start,end,scale=1.4,x=0,y=-10,travel=.24})=>{
+    const dock=document.getElementById(id),floating=dock.cloneNode(true);
+    for(const node of [floating,...floating.querySelectorAll('[id]')])if(node.id)node.id='floating-'+node.id;
+    floating.classList.add('floating-card');
+    Object.assign(floating.style,{left:box.left+'px',top:box.top+'px',width:box.width+'px',height:box.height+'px',transformOrigin:'50% 50%'});
+    // Clip only the card face; the authentic dropdown remains outside the mask.
+    const face=document.createElement('div');face.className='floating-face';
+    for(const child of [...floating.children])if(!child.classList.contains('ui-menu'))face.appendChild(child);
+    floating.prepend(face);
+    const radius=11/(1.5*1.30*scale); // Approximately 11 delivery pixels at full elevation.
+    plane.appendChild(floating);
+    timeline.set(dock,{opacity:1},0);
+    timeline.set(floating,{opacity:0,x:0,y:0,scale:1,force3D:false},0);
+    timeline.set([floating,face],{borderRadius:0},0);
+    timeline.set(floating,{boxShadow:'0px 0px 0px 0px rgba(0,12,24,0)'},0);
+    // Identical geometry at both hand-offs. At most one card surface is visible.
+    timeline.set(dock,{opacity:0},start);
+    timeline.set(floating,{opacity:1},start);
+    timeline.to(floating,{x,y,scale,duration:travel,ease:'sine.inOut'},start);
+    timeline.to([floating,face],{borderRadius:radius,duration:travel,ease:'sine.inOut'},start);
+    timeline.to(floating,{boxShadow:'0px 4px 10px 1px rgba(0,12,24,0.20)',duration:travel,ease:'sine.inOut'},start);
+    timeline.to(floating,{x:0,y:0,scale:1,duration:travel,ease:'sine.inOut'},end-travel);
+    timeline.to([floating,face],{borderRadius:0,duration:travel,ease:'sine.inOut'},end-travel);
+    timeline.to(floating,{boxShadow:'0px 0px 0px 0px rgba(0,12,24,0)',duration:travel,ease:'sine.inOut'},end-travel);
+    timeline.set(floating,{opacity:0},end);
+    timeline.set(dock,{opacity:1},end);
+    return {dock,floating,start,end};
+  };
+  const state=(card,name,at,duration=.06)=>{
+    for(const root of [card.dock,card.floating]){
+      const target=root.querySelector('[data-state="'+name+'"]');
+      if(!target)throw Error('Missing authentic state: '+name);
+      const others=[...root.querySelectorAll('.ui-state')].filter(node=>node!==target);
+      timeline.to(others,{opacity:0,duration,ease:'none'},at);
+      timeline.to(target,{opacity:1,duration,ease:'none'},at);
+    }
+  };
+  const parameter=(card,name,at)=>{
+    const field=card.floating.querySelector('[data-field="'+name+'"]');
+    timeline.to(field,{y:-2,scale:1.12,duration:.12,ease:'sine.inOut'},at);
+    const authentic=field.querySelector('.ui-field-focused');
+    if(authentic){
+      timeline.to(authentic,{opacity:1,duration:.08,ease:'none'},at+.08);
+      timeline.to(authentic,{opacity:0,duration:.08,ease:'none'},at+.28);
+    }
+    timeline.to(field,{y:0,scale:1,duration:.12,ease:'sine.inOut'},at+.28);
+  };
+  const inputSequence=(card,entries)=>{
+    for(const root of [card.dock,card.floating]){
+      timeline.set(root.querySelectorAll('.ui-field-initial'),{opacity:1},0);
+      timeline.set(root.querySelectorAll('.ui-field-initial'),{opacity:0},card.start);
+      timeline.set(root.querySelectorAll('.ui-field-value'),{opacity:0},0);
+      for(const [name,at] of entries){
+        const field=root.querySelector('[data-field="'+name+'"]'),value=field.querySelector('.ui-field-value');
+        timeline.set(field,{y:0,scale:1,force3D:false},0);
+        timeline.to(field,{y:-.4,scale:1.045,duration:.10,ease:'power2.out'},at);
+        timeline.to(value,{opacity:1,duration:.12,ease:'power1.out'},at+.035);
+        timeline.to(field,{y:0,scale:1,duration:.18,ease:'power2.out'},at+.10);
+      }
+    }
+  };
+  sync();
+  return {add,state,parameter,inputSequence,sync};
+};

@@ -1,0 +1,48 @@
+/* One seekable GSAP timeline; overlay follows cached transforms, never layout measurements. */
+window.FitnodeFloatingCards=function({timeline,plane,focus,phone,overlayFocus,overlayPhone}){
+  const sync=()=>{
+    overlayFocus.style.transform=focus.style.transform;
+    overlayFocus.style.transformOrigin=focus.style.transformOrigin||'200px 520px';
+    overlayPhone.style.transform=phone.style.transform;
+    overlayPhone.style.transformOrigin=phone.style.transformOrigin||'50% 50%';
+  };
+  timeline.eventCallback('onUpdate',sync);
+  const add=({id,box,start,end,scale=1.4,x=0,y=-10,travel=.24})=>{
+    const dock=document.getElementById(id),floating=dock.cloneNode(true);
+    for(const node of [floating,...floating.querySelectorAll('[id]')])if(node.id)node.id='floating-'+node.id;
+    floating.classList.add('floating-card');
+    Object.assign(floating.style,{left:box.left+'px',top:box.top+'px',width:box.width+'px',height:box.height+'px',transformOrigin:'50% 50%'});
+    plane.appendChild(floating);
+    timeline.set(dock,{opacity:1},0);
+    timeline.set(floating,{opacity:0,x:0,y:0,scale:1,force3D:false},0);
+    // Identical geometry at both hand-offs. At most one card surface is visible.
+    timeline.set(dock,{opacity:0},start);
+    timeline.set(floating,{opacity:1},start);
+    timeline.to(floating,{x,y,scale,duration:travel,ease:'sine.inOut'},start);
+    timeline.to(floating,{x:0,y:0,scale:1,duration:travel,ease:'sine.inOut'},end-travel);
+    timeline.set(floating,{opacity:0},end);
+    timeline.set(dock,{opacity:1},end);
+    return {dock,floating,start,end};
+  };
+  const state=(card,name,at,duration=.06)=>{
+    for(const root of [card.dock,card.floating]){
+      const target=root.querySelector('[data-state="'+name+'"]');
+      if(!target)throw Error('Missing authentic state: '+name);
+      const others=[...root.querySelectorAll('.ui-state')].filter(node=>node!==target);
+      timeline.to(others,{opacity:0,duration,ease:'none'},at);
+      timeline.to(target,{opacity:1,duration,ease:'none'},at);
+    }
+  };
+  const parameter=(card,name,at)=>{
+    const field=card.floating.querySelector('[data-field="'+name+'"]');
+    timeline.to(field,{y:-2,scale:1.12,duration:.12,ease:'sine.inOut'},at);
+    const authentic=field.querySelector('.ui-field-focused');
+    if(authentic){
+      timeline.to(authentic,{opacity:1,duration:.08,ease:'none'},at+.08);
+      timeline.to(authentic,{opacity:0,duration:.08,ease:'none'},at+.28);
+    }
+    timeline.to(field,{y:0,scale:1,duration:.12,ease:'sine.inOut'},at+.28);
+  };
+  sync();
+  return {add,state,parameter,sync};
+};

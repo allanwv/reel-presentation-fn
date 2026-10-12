@@ -1,0 +1,2511 @@
+[
+  {
+    "frame": 0,
+    "time": 0,
+    "coach": {
+      "labelY": null,
+      "maskMismatch": 0.3084967320261438,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.32868217054263565,
+      "phoneTopEdgeEstimate": null
+    }
+  },
+  {
+    "frame": 1,
+    "time": 0.041666666666666664,
+    "coach": {
+      "labelY": null,
+      "maskMismatch": 0.3084967320261438,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.32868217054263565,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 0.5561805555555556
+  },
+  {
+    "frame": 2,
+    "time": 0.08333333333333333,
+    "coach": {
+      "labelY": null,
+      "maskMismatch": 0.3084967320261438,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.32868217054263565,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 0.6189236111111112
+  },
+  {
+    "frame": 3,
+    "time": 0.125,
+    "coach": {
+      "labelY": 1244,
+      "maskMismatch": 0.07712418300653595,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.32868217054263565,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 1.0201215277777778
+  },
+  {
+    "frame": 4,
+    "time": 0.16666666666666666,
+    "coach": {
+      "labelY": 1220,
+      "maskMismatch": 0.06666666666666667,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.31550387596899226,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 1.6043402777777778
+  },
+  {
+    "frame": 5,
+    "time": 0.20833333333333334,
+    "coach": {
+      "labelY": 1194,
+      "maskMismatch": 0.054901960784313725,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1238,
+      "maskMismatch": 0.10852713178294573,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 2.305451388888889
+  },
+  {
+    "frame": 6,
+    "time": 0.25,
+    "coach": {
+      "labelY": 1165,
+      "maskMismatch": 0.032679738562091505,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1212,
+      "maskMismatch": 0.09147286821705426,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 2.6028819444444444
+  },
+  {
+    "frame": 7,
+    "time": 0.2916666666666667,
+    "coach": {
+      "labelY": 1133,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1185,
+      "maskMismatch": 0.10775193798449613,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 2.8789583333333333
+  },
+  {
+    "frame": 8,
+    "time": 0.3333333333333333,
+    "coach": {
+      "labelY": 1098,
+      "maskMismatch": 0.10065359477124183,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1154,
+      "maskMismatch": 0.1325581395348837,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 3.2492708333333336
+  },
+  {
+    "frame": 9,
+    "time": 0.375,
+    "coach": {
+      "labelY": 1060,
+      "maskMismatch": 0.0915032679738562,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1120,
+      "maskMismatch": 0.0937984496124031,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 3.29828125
+  },
+  {
+    "frame": 10,
+    "time": 0.4166666666666667,
+    "coach": {
+      "labelY": 1019,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1083,
+      "maskMismatch": 0.08682170542635659,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 3.4433333333333334
+  },
+  {
+    "frame": 11,
+    "time": 0.4583333333333333,
+    "coach": {
+      "labelY": 975,
+      "maskMismatch": 0.05620915032679739,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1042,
+      "maskMismatch": 0.09612403100775194,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 4.168628472222222
+  },
+  {
+    "frame": 12,
+    "time": 0.5,
+    "coach": {
+      "labelY": 927,
+      "maskMismatch": 0.10718954248366012,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.15658914728682172,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 5.364878472222222
+  },
+  {
+    "frame": 13,
+    "time": 0.5416666666666666,
+    "coach": {
+      "labelY": 880,
+      "maskMismatch": 0.08496732026143791,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 950,
+      "maskMismatch": 0.08759689922480621,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 5.775850694444444
+  },
+  {
+    "frame": 14,
+    "time": 0.5833333333333334,
+    "coach": {
+      "labelY": 835,
+      "maskMismatch": 0.03529411764705882,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 902,
+      "maskMismatch": 0.09147286821705426,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 7.670815972222222
+  },
+  {
+    "frame": 15,
+    "time": 0.625,
+    "coach": {
+      "labelY": 793,
+      "maskMismatch": 0.040522875816993466,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 856,
+      "maskMismatch": 0.08837209302325581,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 9.70125
+  },
+  {
+    "frame": 16,
+    "time": 0.6666666666666666,
+    "coach": {
+      "labelY": 754,
+      "maskMismatch": 0.12810457516339868,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.17984496124031008,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 11.987517361111111
+  },
+  {
+    "frame": 17,
+    "time": 0.7083333333333334,
+    "coach": {
+      "labelY": 720,
+      "maskMismatch": 0.07320261437908497,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 767,
+      "maskMismatch": 0.08992248062015504,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 12.574913194444445
+  },
+  {
+    "frame": 18,
+    "time": 0.75,
+    "coach": {
+      "labelY": 690,
+      "maskMismatch": 0.03398692810457516,
+      "phoneTopEdgeEstimate": 739
+    },
+    "client": {
+      "labelY": 730,
+      "maskMismatch": 0.08062015503875969,
+      "phoneTopEdgeEstimate": 774
+    },
+    "frameLumaChange": 13.679322916666667
+  },
+  {
+    "frame": 19,
+    "time": 0.7916666666666666,
+    "coach": {
+      "labelY": 664,
+      "maskMismatch": 0.06013071895424837,
+      "phoneTopEdgeEstimate": 712
+    },
+    "client": {
+      "labelY": 698,
+      "maskMismatch": 0.07441860465116279,
+      "phoneTopEdgeEstimate": 741
+    },
+    "frameLumaChange": 14.999201388888888
+  },
+  {
+    "frame": 20,
+    "time": 0.8333333333333334,
+    "coach": {
+      "labelY": 641,
+      "maskMismatch": 0.05620915032679739,
+      "phoneTopEdgeEstimate": 686
+    },
+    "client": {
+      "labelY": 668,
+      "maskMismatch": 0.06589147286821706,
+      "phoneTopEdgeEstimate": 711
+    },
+    "frameLumaChange": 15.997291666666667
+  },
+  {
+    "frame": 21,
+    "time": 0.875,
+    "coach": {
+      "labelY": 621,
+      "maskMismatch": 0.058823529411764705,
+      "phoneTopEdgeEstimate": 666
+    },
+    "client": {
+      "labelY": 643,
+      "maskMismatch": 0.08527131782945736,
+      "phoneTopEdgeEstimate": 669
+    },
+    "frameLumaChange": 15.128263888888888
+  },
+  {
+    "frame": 22,
+    "time": 0.9166666666666666,
+    "coach": {
+      "labelY": 603,
+      "maskMismatch": 0.03790849673202614,
+      "phoneTopEdgeEstimate": 647
+    },
+    "client": {
+      "labelY": 622,
+      "maskMismatch": 0.07364341085271318,
+      "phoneTopEdgeEstimate": 647
+    },
+    "frameLumaChange": 15.170694444444445
+  },
+  {
+    "frame": 23,
+    "time": 0.9583333333333334,
+    "coach": {
+      "labelY": 587,
+      "maskMismatch": 0.05228758169934641,
+      "phoneTopEdgeEstimate": 632
+    },
+    "client": {
+      "labelY": 603,
+      "maskMismatch": 0.06589147286821706,
+      "phoneTopEdgeEstimate": 644
+    },
+    "frameLumaChange": 13.804635416666667
+  },
+  {
+    "frame": 24,
+    "time": 1,
+    "coach": {
+      "labelY": 573,
+      "maskMismatch": 0.054901960784313725,
+      "phoneTopEdgeEstimate": 616
+    },
+    "client": {
+      "labelY": 586,
+      "maskMismatch": 0.06744186046511629,
+      "phoneTopEdgeEstimate": 622
+    },
+    "frameLumaChange": 14.071267361111111
+  },
+  {
+    "frame": 25,
+    "time": 1.0416666666666667,
+    "coach": {
+      "labelY": 560,
+      "maskMismatch": 0.048366013071895426,
+      "phoneTopEdgeEstimate": 603
+    },
+    "client": {
+      "labelY": 571,
+      "maskMismatch": 0.06589147286821706,
+      "phoneTopEdgeEstimate": 608
+    },
+    "frameLumaChange": 12.73986111111111
+  },
+  {
+    "frame": 26,
+    "time": 1.0833333333333333,
+    "coach": {
+      "labelY": 549,
+      "maskMismatch": 0.05359477124183006,
+      "phoneTopEdgeEstimate": 591
+    },
+    "client": {
+      "labelY": 559,
+      "maskMismatch": 0.05503875968992248,
+      "phoneTopEdgeEstimate": 594
+    },
+    "frameLumaChange": 12.275902777777778
+  },
+  {
+    "frame": 27,
+    "time": 1.125,
+    "coach": {
+      "labelY": 540,
+      "maskMismatch": 0.03790849673202614,
+      "phoneTopEdgeEstimate": 581
+    },
+    "client": {
+      "labelY": 548,
+      "maskMismatch": 0.04961240310077519,
+      "phoneTopEdgeEstimate": 589
+    },
+    "frameLumaChange": 11.65734375
+  },
+  {
+    "frame": 28,
+    "time": 1.1666666666666667,
+    "coach": {
+      "labelY": 531,
+      "maskMismatch": 0.058823529411764705,
+      "phoneTopEdgeEstimate": 572
+    },
+    "client": {
+      "labelY": 538,
+      "maskMismatch": 0.03643410852713178,
+      "phoneTopEdgeEstimate": 574
+    },
+    "frameLumaChange": 11.79670138888889
+  },
+  {
+    "frame": 29,
+    "time": 1.2083333333333333,
+    "coach": {
+      "labelY": 524,
+      "maskMismatch": 0.050980392156862744,
+      "phoneTopEdgeEstimate": 565
+    },
+    "client": {
+      "labelY": 530,
+      "maskMismatch": 0.030232558139534883,
+      "phoneTopEdgeEstimate": 566
+    },
+    "frameLumaChange": 10.674184027777779
+  },
+  {
+    "frame": 30,
+    "time": 1.25,
+    "coach": {
+      "labelY": 518,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": 558
+    },
+    "client": {
+      "labelY": 523,
+      "maskMismatch": 0.06046511627906977,
+      "phoneTopEdgeEstimate": 564
+    },
+    "frameLumaChange": 10.050138888888888
+  },
+  {
+    "frame": 31,
+    "time": 1.2916666666666667,
+    "coach": {
+      "labelY": 513,
+      "maskMismatch": 0.0457516339869281,
+      "phoneTopEdgeEstimate": 553
+    },
+    "client": {
+      "labelY": 518,
+      "maskMismatch": 0.03178294573643411,
+      "phoneTopEdgeEstimate": 558
+    },
+    "frameLumaChange": 9.17578125
+  },
+  {
+    "frame": 32,
+    "time": 1.3333333333333333,
+    "coach": {
+      "labelY": 509,
+      "maskMismatch": 0.03529411764705882,
+      "phoneTopEdgeEstimate": 548
+    },
+    "client": {
+      "labelY": 513,
+      "maskMismatch": 0.040310077519379844,
+      "phoneTopEdgeEstimate": 553
+    },
+    "frameLumaChange": 8.564184027777777
+  },
+  {
+    "frame": 33,
+    "time": 1.375,
+    "coach": {
+      "labelY": 506,
+      "maskMismatch": 0.030065359477124184,
+      "phoneTopEdgeEstimate": 545
+    },
+    "client": {
+      "labelY": 510,
+      "maskMismatch": 0.03875968992248062,
+      "phoneTopEdgeEstimate": 549
+    },
+    "frameLumaChange": 7.278854166666667
+  },
+  {
+    "frame": 34,
+    "time": 1.4166666666666667,
+    "coach": {
+      "labelY": 504,
+      "maskMismatch": 0.050980392156862744,
+      "phoneTopEdgeEstimate": 542
+    },
+    "client": {
+      "labelY": 507,
+      "maskMismatch": 0.02945736434108527,
+      "phoneTopEdgeEstimate": 546
+    },
+    "frameLumaChange": 6.247222222222222
+  },
+  {
+    "frame": 35,
+    "time": 1.4583333333333333,
+    "coach": {
+      "labelY": 502,
+      "maskMismatch": 0.043137254901960784,
+      "phoneTopEdgeEstimate": 540
+    },
+    "client": {
+      "labelY": 505,
+      "maskMismatch": 0.02558139534883721,
+      "phoneTopEdgeEstimate": 544
+    },
+    "frameLumaChange": 4.859826388888889
+  },
+  {
+    "frame": 36,
+    "time": 1.5,
+    "coach": {
+      "labelY": 501,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 504,
+      "maskMismatch": 0.034108527131782945,
+      "phoneTopEdgeEstimate": 543
+    },
+    "frameLumaChange": 3.7042534722222222
+  },
+  {
+    "frame": 37,
+    "time": 1.5416666666666667,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.02483660130718954,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.020155038759689922,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 2.4210069444444446
+  },
+  {
+    "frame": 38,
+    "time": 1.5833333333333333,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.02875816993464052,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.023255813953488372,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.9877083333333333
+  },
+  {
+    "frame": 39,
+    "time": 1.625,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.030065359477124184,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.023255813953488372,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.8400520833333334
+  },
+  {
+    "frame": 40,
+    "time": 1.6666666666666667,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.023529411764705882,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.020155038759689922,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.17109375
+  },
+  {
+    "frame": 41,
+    "time": 1.7083333333333333,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.023529411764705882,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.020155038759689922,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.8082118055555556
+  },
+  {
+    "frame": 42,
+    "time": 1.75,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.022222222222222223,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.018604651162790697,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.8802951388888889
+  },
+  {
+    "frame": 43,
+    "time": 1.7916666666666667,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.018300653594771243,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.01937984496124031,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.7965104166666667
+  },
+  {
+    "frame": 44,
+    "time": 1.8333333333333333,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.018300653594771243,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.020155038759689922,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.0925868055555557
+  },
+  {
+    "frame": 45,
+    "time": 1.875,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.018300653594771243,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.024031007751937984,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.7612847222222222
+  },
+  {
+    "frame": 46,
+    "time": 1.9166666666666667,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.018300653594771243,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.024806201550387597,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.8291666666666667
+  },
+  {
+    "frame": 47,
+    "time": 1.9583333333333333,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.018300653594771243,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.024031007751937984,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.7180208333333333
+  },
+  {
+    "frame": 48,
+    "time": 2,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.018300653594771243,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.02248062015503876,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.2548958333333333
+  },
+  {
+    "frame": 49,
+    "time": 2.0416666666666665,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.02248062015503876,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.7895138888888888
+  },
+  {
+    "frame": 50,
+    "time": 2.0833333333333335,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.040522875816993466,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.024031007751937984,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.9306770833333333
+  },
+  {
+    "frame": 51,
+    "time": 2.125,
+    "coach": {
+      "labelY": 500,
+      "maskMismatch": 0.05228758169934641,
+      "phoneTopEdgeEstimate": 539
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.02945736434108527,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 0.9053298611111111
+  },
+  {
+    "frame": 52,
+    "time": 2.1666666666666665,
+    "coach": {
+      "labelY": 499,
+      "maskMismatch": 0.036601307189542485,
+      "phoneTopEdgeEstimate": 538
+    },
+    "client": {
+      "labelY": 503,
+      "maskMismatch": 0.04496124031007752,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.3118055555555554
+  },
+  {
+    "frame": 53,
+    "time": 2.2083333333333335,
+    "coach": {
+      "labelY": 499,
+      "maskMismatch": 0.023529411764705882,
+      "phoneTopEdgeEstimate": 538
+    },
+    "client": {
+      "labelY": 502,
+      "maskMismatch": 0.053488372093023255,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.0671527777777778
+  },
+  {
+    "frame": 54,
+    "time": 2.25,
+    "coach": {
+      "labelY": 499,
+      "maskMismatch": 0.01699346405228758,
+      "phoneTopEdgeEstimate": 538
+    },
+    "client": {
+      "labelY": 502,
+      "maskMismatch": 0.04263565891472868,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.1744965277777777
+  },
+  {
+    "frame": 55,
+    "time": 2.2916666666666665,
+    "coach": {
+      "labelY": 499,
+      "maskMismatch": 0.03529411764705882,
+      "phoneTopEdgeEstimate": 538
+    },
+    "client": {
+      "labelY": 502,
+      "maskMismatch": 0.030232558139534883,
+      "phoneTopEdgeEstimate": 542
+    },
+    "frameLumaChange": 1.1002430555555556
+  },
+  {
+    "frame": 56,
+    "time": 2.3333333333333335,
+    "coach": {
+      "labelY": 498,
+      "maskMismatch": 0.04183006535947712,
+      "phoneTopEdgeEstimate": 538
+    },
+    "client": {
+      "labelY": 502,
+      "maskMismatch": 0.020155038759689922,
+      "phoneTopEdgeEstimate": 541
+    },
+    "frameLumaChange": 1.5203125
+  },
+  {
+    "frame": 57,
+    "time": 2.375,
+    "coach": {
+      "labelY": 498,
+      "maskMismatch": 0.02875816993464052,
+      "phoneTopEdgeEstimate": 538
+    },
+    "client": {
+      "labelY": 502,
+      "maskMismatch": 0.034108527131782945,
+      "phoneTopEdgeEstimate": 541
+    },
+    "frameLumaChange": 1.2285416666666666
+  },
+  {
+    "frame": 58,
+    "time": 2.4166666666666665,
+    "coach": {
+      "labelY": 498,
+      "maskMismatch": 0.01568627450980392,
+      "phoneTopEdgeEstimate": 537
+    },
+    "client": {
+      "labelY": 502,
+      "maskMismatch": 0.05116279069767442,
+      "phoneTopEdgeEstimate": 541
+    },
+    "frameLumaChange": 1.389375
+  },
+  {
+    "frame": 59,
+    "time": 2.4583333333333335,
+    "coach": {
+      "labelY": 498,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": 537
+    },
+    "client": {
+      "labelY": 501,
+      "maskMismatch": 0.03875968992248062,
+      "phoneTopEdgeEstimate": 540
+    },
+    "frameLumaChange": 1.3759201388888889
+  },
+  {
+    "frame": 60,
+    "time": 2.5,
+    "coach": {
+      "labelY": 497,
+      "maskMismatch": 0.026143790849673203,
+      "phoneTopEdgeEstimate": 536
+    },
+    "client": {
+      "labelY": 501,
+      "maskMismatch": 0.018604651162790697,
+      "phoneTopEdgeEstimate": 540
+    },
+    "frameLumaChange": 1.6126215277777778
+  },
+  {
+    "frame": 61,
+    "time": 2.5416666666666665,
+    "coach": {
+      "labelY": 497,
+      "maskMismatch": 0.02483660130718954,
+      "phoneTopEdgeEstimate": 536
+    },
+    "client": {
+      "labelY": 501,
+      "maskMismatch": 0.031007751937984496,
+      "phoneTopEdgeEstimate": 540
+    },
+    "frameLumaChange": 1.4723090277777777
+  },
+  {
+    "frame": 62,
+    "time": 2.5833333333333335,
+    "coach": {
+      "labelY": 496,
+      "maskMismatch": 0.054901960784313725,
+      "phoneTopEdgeEstimate": 536
+    },
+    "client": {
+      "labelY": 501,
+      "maskMismatch": 0.047286821705426356,
+      "phoneTopEdgeEstimate": 540
+    },
+    "frameLumaChange": 1.6211111111111112
+  },
+  {
+    "frame": 63,
+    "time": 2.625,
+    "coach": {
+      "labelY": 496,
+      "maskMismatch": 0.022222222222222223,
+      "phoneTopEdgeEstimate": 535
+    },
+    "client": {
+      "labelY": 500,
+      "maskMismatch": 0.02635658914728682,
+      "phoneTopEdgeEstimate": 539
+    },
+    "frameLumaChange": 1.5588194444444445
+  },
+  {
+    "frame": 64,
+    "time": 2.6666666666666665,
+    "coach": {
+      "labelY": 496,
+      "maskMismatch": 0.036601307189542485,
+      "phoneTopEdgeEstimate": 535
+    },
+    "client": {
+      "labelY": 500,
+      "maskMismatch": 0.020155038759689922,
+      "phoneTopEdgeEstimate": 539
+    },
+    "frameLumaChange": 1.8215625
+  },
+  {
+    "frame": 65,
+    "time": 2.7083333333333335,
+    "coach": {
+      "labelY": 495,
+      "maskMismatch": 0.027450980392156862,
+      "phoneTopEdgeEstimate": 534
+    },
+    "client": {
+      "labelY": 500,
+      "maskMismatch": 0.04186046511627907,
+      "phoneTopEdgeEstimate": 538
+    },
+    "frameLumaChange": 1.619045138888889
+  },
+  {
+    "frame": 66,
+    "time": 2.75,
+    "coach": {
+      "labelY": 495,
+      "maskMismatch": 0.022222222222222223,
+      "phoneTopEdgeEstimate": 534
+    },
+    "client": {
+      "labelY": 499,
+      "maskMismatch": 0.031007751937984496,
+      "phoneTopEdgeEstimate": 538
+    },
+    "frameLumaChange": 1.7122395833333333
+  },
+  {
+    "frame": 67,
+    "time": 2.7916666666666665,
+    "coach": {
+      "labelY": 494,
+      "maskMismatch": 0.04183006535947712,
+      "phoneTopEdgeEstimate": 533
+    },
+    "client": {
+      "labelY": 499,
+      "maskMismatch": 0.015503875968992248,
+      "phoneTopEdgeEstimate": 538
+    },
+    "frameLumaChange": 1.6045486111111111
+  },
+  {
+    "frame": 68,
+    "time": 2.8333333333333335,
+    "coach": {
+      "labelY": 494,
+      "maskMismatch": 0.011764705882352941,
+      "phoneTopEdgeEstimate": 533
+    },
+    "client": {
+      "labelY": 498,
+      "maskMismatch": 0.04883720930232558,
+      "phoneTopEdgeEstimate": 537
+    },
+    "frameLumaChange": 1.8464409722222221
+  },
+  {
+    "frame": 69,
+    "time": 2.875,
+    "coach": {
+      "labelY": 493,
+      "maskMismatch": 0.0457516339869281,
+      "phoneTopEdgeEstimate": 532
+    },
+    "client": {
+      "labelY": 498,
+      "maskMismatch": 0.013953488372093023,
+      "phoneTopEdgeEstimate": 536
+    },
+    "frameLumaChange": 1.7058680555555557
+  },
+  {
+    "frame": 70,
+    "time": 2.9166666666666665,
+    "coach": {
+      "labelY": 493,
+      "maskMismatch": 0.00522875816993464,
+      "phoneTopEdgeEstimate": 532
+    },
+    "client": {
+      "labelY": 498,
+      "maskMismatch": 0.02945736434108527,
+      "phoneTopEdgeEstimate": 536
+    },
+    "frameLumaChange": 1.820920138888889
+  },
+  {
+    "frame": 71,
+    "time": 2.9583333333333335,
+    "coach": {
+      "labelY": 493,
+      "maskMismatch": 0.04967320261437908,
+      "phoneTopEdgeEstimate": 531
+    },
+    "client": {
+      "labelY": 497,
+      "maskMismatch": 0.04573643410852713,
+      "phoneTopEdgeEstimate": 536
+    },
+    "frameLumaChange": 1.724375
+  },
+  {
+    "frame": 72,
+    "time": 3,
+    "coach": {
+      "labelY": 492,
+      "maskMismatch": 0,
+      "phoneTopEdgeEstimate": 531
+    },
+    "client": {
+      "labelY": 497,
+      "maskMismatch": 0,
+      "phoneTopEdgeEstimate": 534
+    },
+    "frameLumaChange": 1.9351041666666666
+  },
+  {
+    "frame": 73,
+    "time": 3.0416666666666665,
+    "coach": {
+      "labelY": 492,
+      "maskMismatch": 0.048366013071895426,
+      "phoneTopEdgeEstimate": 530
+    },
+    "client": {
+      "labelY": 497,
+      "maskMismatch": 0.03875968992248062,
+      "phoneTopEdgeEstimate": 534
+    },
+    "frameLumaChange": 1.7795833333333333
+  },
+  {
+    "frame": 74,
+    "time": 3.0833333333333335,
+    "coach": {
+      "labelY": 491,
+      "maskMismatch": 0.006535947712418301,
+      "phoneTopEdgeEstimate": 530
+    },
+    "client": {
+      "labelY": 496,
+      "maskMismatch": 0.030232558139534883,
+      "phoneTopEdgeEstimate": 534
+    },
+    "frameLumaChange": 1.866875
+  },
+  {
+    "frame": 75,
+    "time": 3.125,
+    "coach": {
+      "labelY": 491,
+      "maskMismatch": 0.048366013071895426,
+      "phoneTopEdgeEstimate": 529
+    },
+    "client": {
+      "labelY": 496,
+      "maskMismatch": 0.017829457364341085,
+      "phoneTopEdgeEstimate": 534
+    },
+    "frameLumaChange": 1.7191666666666667
+  },
+  {
+    "frame": 76,
+    "time": 3.1666666666666665,
+    "coach": {
+      "labelY": 490,
+      "maskMismatch": 0.009150326797385621,
+      "phoneTopEdgeEstimate": 528
+    },
+    "client": {
+      "labelY": 495,
+      "maskMismatch": 0.05193798449612403,
+      "phoneTopEdgeEstimate": 533
+    },
+    "frameLumaChange": 1.9325347222222222
+  },
+  {
+    "frame": 77,
+    "time": 3.2083333333333335,
+    "coach": {
+      "labelY": 490,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": 528
+    },
+    "client": {
+      "labelY": 495,
+      "maskMismatch": 0.021705426356589147,
+      "phoneTopEdgeEstimate": 532
+    },
+    "frameLumaChange": 1.7524479166666667
+  },
+  {
+    "frame": 78,
+    "time": 3.25,
+    "coach": {
+      "labelY": 489,
+      "maskMismatch": 0.01045751633986928,
+      "phoneTopEdgeEstimate": 527
+    },
+    "client": {
+      "labelY": 495,
+      "maskMismatch": 0.02635658914728682,
+      "phoneTopEdgeEstimate": 532
+    },
+    "frameLumaChange": 1.7898611111111111
+  },
+  {
+    "frame": 79,
+    "time": 3.2916666666666665,
+    "coach": {
+      "labelY": 489,
+      "maskMismatch": 0.04183006535947712,
+      "phoneTopEdgeEstimate": 527
+    },
+    "client": {
+      "labelY": 494,
+      "maskMismatch": 0.04496124031007752,
+      "phoneTopEdgeEstimate": 531
+    },
+    "frameLumaChange": 1.6528298611111112
+  },
+  {
+    "frame": 80,
+    "time": 3.3333333333333335,
+    "coach": {
+      "labelY": 488,
+      "maskMismatch": 0.022222222222222223,
+      "phoneTopEdgeEstimate": 526
+    },
+    "client": {
+      "labelY": 494,
+      "maskMismatch": 0.010852713178294573,
+      "phoneTopEdgeEstimate": 531
+    },
+    "frameLumaChange": 1.8574652777777778
+  },
+  {
+    "frame": 81,
+    "time": 3.375,
+    "coach": {
+      "labelY": 488,
+      "maskMismatch": 0.0392156862745098,
+      "phoneTopEdgeEstimate": 526
+    },
+    "client": {
+      "labelY": 494,
+      "maskMismatch": 0.037209302325581395,
+      "phoneTopEdgeEstimate": 530
+    },
+    "frameLumaChange": 1.6228993055555556
+  },
+  {
+    "frame": 82,
+    "time": 3.4166666666666665,
+    "coach": {
+      "labelY": 487,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 525
+    },
+    "client": {
+      "labelY": 493,
+      "maskMismatch": 0.04496124031007752,
+      "phoneTopEdgeEstimate": 530
+    },
+    "frameLumaChange": 1.59203125
+  },
+  {
+    "frame": 83,
+    "time": 3.4583333333333335,
+    "coach": {
+      "labelY": 487,
+      "maskMismatch": 0.026143790849673203,
+      "phoneTopEdgeEstimate": 525
+    },
+    "client": {
+      "labelY": 493,
+      "maskMismatch": 0.01937984496124031,
+      "phoneTopEdgeEstimate": 530
+    },
+    "frameLumaChange": 1.4480555555555557
+  },
+  {
+    "frame": 84,
+    "time": 3.5,
+    "coach": {
+      "labelY": 487,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": 524
+    },
+    "client": {
+      "labelY": 493,
+      "maskMismatch": 0.03255813953488372,
+      "phoneTopEdgeEstimate": 529
+    },
+    "frameLumaChange": 1.6878125
+  },
+  {
+    "frame": 85,
+    "time": 3.5416666666666665,
+    "coach": {
+      "labelY": 486,
+      "maskMismatch": 0.02483660130718954,
+      "phoneTopEdgeEstimate": 524
+    },
+    "client": {
+      "labelY": 492,
+      "maskMismatch": 0.04961240310077519,
+      "phoneTopEdgeEstimate": 529
+    },
+    "frameLumaChange": 1.3511631944444444
+  },
+  {
+    "frame": 86,
+    "time": 3.5833333333333335,
+    "coach": {
+      "labelY": 486,
+      "maskMismatch": 0.022222222222222223,
+      "phoneTopEdgeEstimate": 524
+    },
+    "client": {
+      "labelY": 492,
+      "maskMismatch": 0.034108527131782945,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 1.3189583333333332
+  },
+  {
+    "frame": 87,
+    "time": 3.625,
+    "coach": {
+      "labelY": 486,
+      "maskMismatch": 0.047058823529411764,
+      "phoneTopEdgeEstimate": 523
+    },
+    "client": {
+      "labelY": 492,
+      "maskMismatch": 0.01317829457364341,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 1.1993402777777777
+  },
+  {
+    "frame": 88,
+    "time": 3.6666666666666665,
+    "coach": {
+      "labelY": 485,
+      "maskMismatch": 0.032679738562091505,
+      "phoneTopEdgeEstimate": 523
+    },
+    "client": {
+      "labelY": 492,
+      "maskMismatch": 0.02945736434108527,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 1.4402083333333333
+  },
+  {
+    "frame": 89,
+    "time": 3.7083333333333335,
+    "coach": {
+      "labelY": 485,
+      "maskMismatch": 0.01699346405228758,
+      "phoneTopEdgeEstimate": 523
+    },
+    "client": {
+      "labelY": 492,
+      "maskMismatch": 0.05581395348837209,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 0.9763888888888889
+  },
+  {
+    "frame": 90,
+    "time": 3.75,
+    "coach": {
+      "labelY": 485,
+      "maskMismatch": 0.02483660130718954,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.047286821705426356,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 0.9459201388888889
+  },
+  {
+    "frame": 91,
+    "time": 3.7916666666666665,
+    "coach": {
+      "labelY": 485,
+      "maskMismatch": 0.047058823529411764,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.03798449612403101,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 0.8657118055555556
+  },
+  {
+    "frame": 92,
+    "time": 3.8333333333333335,
+    "coach": {
+      "labelY": 484,
+      "maskMismatch": 0.05228758169934641,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.018604651162790697,
+      "phoneTopEdgeEstimate": 527
+    },
+    "frameLumaChange": 0.9223090277777778
+  },
+  {
+    "frame": 93,
+    "time": 3.875,
+    "coach": {
+      "labelY": 484,
+      "maskMismatch": 0.04183006535947712,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.017829457364341085,
+      "phoneTopEdgeEstimate": 527
+    },
+    "frameLumaChange": 0.5846180555555556
+  },
+  {
+    "frame": 94,
+    "time": 3.9166666666666665,
+    "coach": {
+      "labelY": 484,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.01937984496124031,
+      "phoneTopEdgeEstimate": 527
+    },
+    "frameLumaChange": 0.6159722222222223
+  },
+  {
+    "frame": 95,
+    "time": 3.9583333333333335,
+    "coach": {
+      "labelY": 484,
+      "maskMismatch": 0.02483660130718954,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.023255813953488372,
+      "phoneTopEdgeEstimate": 527
+    },
+    "frameLumaChange": 0.5456770833333333
+  },
+  {
+    "frame": 96,
+    "time": 4,
+    "coach": {
+      "labelY": 484,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.023255813953488372,
+      "phoneTopEdgeEstimate": 527
+    },
+    "frameLumaChange": 1.1382118055555555
+  },
+  {
+    "frame": 97,
+    "time": 4.041666666666667,
+    "coach": {
+      "labelY": 484,
+      "maskMismatch": 0.0392156862745098,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.018604651162790697,
+      "phoneTopEdgeEstimate": 527
+    },
+    "frameLumaChange": 0.5486284722222222
+  },
+  {
+    "frame": 98,
+    "time": 4.083333333333333,
+    "coach": {
+      "labelY": 485,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 522
+    },
+    "client": {
+      "labelY": 491,
+      "maskMismatch": 0.05503875968992248,
+      "phoneTopEdgeEstimate": 528
+    },
+    "frameLumaChange": 1.9484027777777777
+  },
+  {
+    "frame": 99,
+    "time": 4.125,
+    "coach": {
+      "labelY": 486,
+      "maskMismatch": 0.027450980392156862,
+      "phoneTopEdgeEstimate": 523
+    },
+    "client": {
+      "labelY": 493,
+      "maskMismatch": 0.05116279069767442,
+      "phoneTopEdgeEstimate": 529
+    },
+    "frameLumaChange": 3.3228125
+  },
+  {
+    "frame": 100,
+    "time": 4.166666666666667,
+    "coach": {
+      "labelY": 488,
+      "maskMismatch": 0.048366013071895426,
+      "phoneTopEdgeEstimate": 525
+    },
+    "client": {
+      "labelY": 494,
+      "maskMismatch": 0.044186046511627906,
+      "phoneTopEdgeEstimate": 531
+    },
+    "frameLumaChange": 5.342309027777778
+  },
+  {
+    "frame": 101,
+    "time": 4.208333333333333,
+    "coach": {
+      "labelY": 490,
+      "maskMismatch": 0.02483660130718954,
+      "phoneTopEdgeEstimate": 528
+    },
+    "client": {
+      "labelY": 497,
+      "maskMismatch": 0.020930232558139535,
+      "phoneTopEdgeEstimate": 534
+    },
+    "frameLumaChange": 7.075329861111111
+  },
+  {
+    "frame": 102,
+    "time": 4.25,
+    "coach": {
+      "labelY": 494,
+      "maskMismatch": 0.026143790849673203,
+      "phoneTopEdgeEstimate": 533
+    },
+    "client": {
+      "labelY": 501,
+      "maskMismatch": 0.021705426356589147,
+      "phoneTopEdgeEstimate": 539
+    },
+    "frameLumaChange": 9.226527777777777
+  },
+  {
+    "frame": 103,
+    "time": 4.291666666666667,
+    "coach": {
+      "labelY": 499,
+      "maskMismatch": 0.030065359477124184,
+      "phoneTopEdgeEstimate": 540
+    },
+    "client": {
+      "labelY": 506,
+      "maskMismatch": 0.037209302325581395,
+      "phoneTopEdgeEstimate": 545
+    },
+    "frameLumaChange": 10.799375
+  },
+  {
+    "frame": 104,
+    "time": 4.333333333333333,
+    "coach": {
+      "labelY": 506,
+      "maskMismatch": 0.030065359477124184,
+      "phoneTopEdgeEstimate": 548
+    },
+    "client": {
+      "labelY": 513,
+      "maskMismatch": 0.03798449612403101,
+      "phoneTopEdgeEstimate": 554
+    },
+    "frameLumaChange": 12.832552083333333
+  },
+  {
+    "frame": 105,
+    "time": 4.375,
+    "coach": {
+      "labelY": 514,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 560
+    },
+    "client": {
+      "labelY": 521,
+      "maskMismatch": 0.04806201550387597,
+      "phoneTopEdgeEstimate": 565
+    },
+    "frameLumaChange": 13.626284722222222
+  },
+  {
+    "frame": 106,
+    "time": 4.416666666666667,
+    "coach": {
+      "labelY": 524,
+      "maskMismatch": 0.032679738562091505,
+      "phoneTopEdgeEstimate": 574
+    },
+    "client": {
+      "labelY": 531,
+      "maskMismatch": 0.04573643410852713,
+      "phoneTopEdgeEstimate": 580
+    },
+    "frameLumaChange": 15.384322916666667
+  },
+  {
+    "frame": 107,
+    "time": 4.458333333333333,
+    "coach": {
+      "labelY": 536,
+      "maskMismatch": 0.0457516339869281,
+      "phoneTopEdgeEstimate": 591
+    },
+    "client": {
+      "labelY": 544,
+      "maskMismatch": 0.03875968992248062,
+      "phoneTopEdgeEstimate": 597
+    },
+    "frameLumaChange": 16.914427083333333
+  },
+  {
+    "frame": 108,
+    "time": 4.5,
+    "coach": {
+      "labelY": 551,
+      "maskMismatch": 0.043137254901960784,
+      "phoneTopEdgeEstimate": 613
+    },
+    "client": {
+      "labelY": 559,
+      "maskMismatch": 0.04573643410852713,
+      "phoneTopEdgeEstimate": 619
+    },
+    "frameLumaChange": 18.911527777777778
+  },
+  {
+    "frame": 109,
+    "time": 4.541666666666667,
+    "coach": {
+      "labelY": 569,
+      "maskMismatch": 0.03137254901960784,
+      "phoneTopEdgeEstimate": 640
+    },
+    "client": {
+      "labelY": 576,
+      "maskMismatch": 0.04573643410852713,
+      "phoneTopEdgeEstimate": 644
+    },
+    "frameLumaChange": 20.28465277777778
+  },
+  {
+    "frame": 110,
+    "time": 4.583333333333333,
+    "coach": {
+      "labelY": 590,
+      "maskMismatch": 0.026143790849673203,
+      "phoneTopEdgeEstimate": 672
+    },
+    "client": {
+      "labelY": 597,
+      "maskMismatch": 0.04263565891472868,
+      "phoneTopEdgeEstimate": 677
+    },
+    "frameLumaChange": 22.92342013888889
+  },
+  {
+    "frame": 111,
+    "time": 4.625,
+    "coach": {
+      "labelY": 615,
+      "maskMismatch": 0.023529411764705882,
+      "phoneTopEdgeEstimate": 709
+    },
+    "client": {
+      "labelY": 622,
+      "maskMismatch": 0.07364341085271318,
+      "phoneTopEdgeEstimate": 715
+    },
+    "frameLumaChange": 24.861649305555556
+  },
+  {
+    "frame": 112,
+    "time": 4.666666666666667,
+    "coach": {
+      "labelY": 646,
+      "maskMismatch": 0.06143790849673202,
+      "phoneTopEdgeEstimate": 754
+    },
+    "client": {
+      "labelY": 651,
+      "maskMismatch": 0.07829457364341086,
+      "phoneTopEdgeEstimate": 760
+    },
+    "frameLumaChange": 24.838524305555556
+  },
+  {
+    "frame": 113,
+    "time": 4.708333333333333,
+    "coach": {
+      "labelY": 681,
+      "maskMismatch": 0.048366013071895426,
+      "phoneTopEdgeEstimate": 806
+    },
+    "client": {
+      "labelY": 685,
+      "maskMismatch": 0.05736434108527132,
+      "phoneTopEdgeEstimate": 812
+    },
+    "frameLumaChange": 22.24032986111111
+  },
+  {
+    "frame": 114,
+    "time": 4.75,
+    "coach": {
+      "labelY": 723,
+      "maskMismatch": 0.050980392156862744,
+      "phoneTopEdgeEstimate": 866
+    },
+    "client": {
+      "labelY": 727,
+      "maskMismatch": 0.03798449612403101,
+      "phoneTopEdgeEstimate": 871
+    },
+    "frameLumaChange": 21.88222222222222
+  },
+  {
+    "frame": 115,
+    "time": 4.791666666666667,
+    "coach": {
+      "labelY": 775,
+      "maskMismatch": 0.054901960784313725,
+      "phoneTopEdgeEstimate": 931
+    },
+    "client": {
+      "labelY": 777,
+      "maskMismatch": 0.07209302325581396,
+      "phoneTopEdgeEstimate": 930
+    },
+    "frameLumaChange": 20.92621527777778
+  },
+  {
+    "frame": 116,
+    "time": 4.833333333333333,
+    "coach": {
+      "labelY": 833,
+      "maskMismatch": 0.06797385620915032,
+      "phoneTopEdgeEstimate": 998
+    },
+    "client": {
+      "labelY": 835,
+      "maskMismatch": 0.07674418604651163,
+      "phoneTopEdgeEstimate": 1004
+    },
+    "frameLumaChange": 19.3496875
+  },
+  {
+    "frame": 117,
+    "time": 4.875,
+    "coach": {
+      "labelY": 895,
+      "maskMismatch": 0.08104575163398693,
+      "phoneTopEdgeEstimate": 1061
+    },
+    "client": {
+      "labelY": 897,
+      "maskMismatch": 0.08682170542635659,
+      "phoneTopEdgeEstimate": 1066
+    },
+    "frameLumaChange": 17.196805555555557
+  },
+  {
+    "frame": 118,
+    "time": 4.916666666666667,
+    "coach": {
+      "labelY": 952,
+      "maskMismatch": 0.044444444444444446,
+      "phoneTopEdgeEstimate": 1117
+    },
+    "client": {
+      "labelY": 954,
+      "maskMismatch": 0.06744186046511629,
+      "phoneTopEdgeEstimate": 1121
+    },
+    "frameLumaChange": 12.040451388888888
+  },
+  {
+    "frame": 119,
+    "time": 4.958333333333333,
+    "coach": {
+      "labelY": 1006,
+      "maskMismatch": 0.08758169934640522,
+      "phoneTopEdgeEstimate": 1166
+    },
+    "client": {
+      "labelY": 1007,
+      "maskMismatch": 0.1,
+      "phoneTopEdgeEstimate": 1171
+    },
+    "frameLumaChange": 10.336371527777779
+  },
+  {
+    "frame": 120,
+    "time": 5,
+    "coach": {
+      "labelY": 1051,
+      "maskMismatch": 0.05359477124183006,
+      "phoneTopEdgeEstimate": 1204
+    },
+    "client": {
+      "labelY": 1052,
+      "maskMismatch": 0.07984496124031008,
+      "phoneTopEdgeEstimate": 1210
+    },
+    "frameLumaChange": 9.435902777777779
+  },
+  {
+    "frame": 121,
+    "time": 5.041666666666667,
+    "coach": {
+      "labelY": 1089,
+      "maskMismatch": 0.054901960784313725,
+      "phoneTopEdgeEstimate": 1238
+    },
+    "client": {
+      "labelY": 1089,
+      "maskMismatch": 0.047286821705426356,
+      "phoneTopEdgeEstimate": 1243
+    },
+    "frameLumaChange": 7.354791666666666
+  },
+  {
+    "frame": 122,
+    "time": 5.083333333333333,
+    "coach": {
+      "labelY": 1120,
+      "maskMismatch": 0.05228758169934641,
+      "phoneTopEdgeEstimate": 1265
+    },
+    "client": {
+      "labelY": 1120,
+      "maskMismatch": 0.06821705426356589,
+      "phoneTopEdgeEstimate": 1269
+    },
+    "frameLumaChange": 6.308784722222223
+  },
+  {
+    "frame": 123,
+    "time": 5.125,
+    "coach": {
+      "labelY": 1144,
+      "maskMismatch": 0.07581699346405228,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1144,
+      "maskMismatch": 0.05581395348837209,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 5.49375
+  },
+  {
+    "frame": 124,
+    "time": 5.166666666666667,
+    "coach": {
+      "labelY": 1165,
+      "maskMismatch": 0.03790849673202614,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1164,
+      "maskMismatch": 0.06899224806201551,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 5.303993055555556
+  },
+  {
+    "frame": 125,
+    "time": 5.208333333333333,
+    "coach": {
+      "labelY": 1181,
+      "maskMismatch": 0.03790849673202614,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1180,
+      "maskMismatch": 0.06511627906976744,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 4.6348263888888885
+  },
+  {
+    "frame": 126,
+    "time": 5.25,
+    "coach": {
+      "labelY": 1194,
+      "maskMismatch": 0.058823529411764705,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1194,
+      "maskMismatch": 0.07519379844961241,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 3.715763888888889
+  },
+  {
+    "frame": 127,
+    "time": 5.291666666666667,
+    "coach": {
+      "labelY": 1205,
+      "maskMismatch": 0.08104575163398693,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": 1204,
+      "maskMismatch": 0.10542635658914729,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 2.9355381944444443
+  },
+  {
+    "frame": 128,
+    "time": 5.333333333333333,
+    "coach": {
+      "labelY": null,
+      "maskMismatch": 0.17647058823529413,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.17131782945736435,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 3.223003472222222
+  },
+  {
+    "frame": 129,
+    "time": 5.375,
+    "coach": {
+      "labelY": null,
+      "maskMismatch": 0.3084967320261438,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.32558139534883723,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 2.974947916666667
+  },
+  {
+    "frame": 130,
+    "time": 5.416666666666667,
+    "coach": {
+      "labelY": null,
+      "maskMismatch": 0.3084967320261438,
+      "phoneTopEdgeEstimate": null
+    },
+    "client": {
+      "labelY": null,
+      "maskMismatch": 0.32868217054263565,
+      "phoneTopEdgeEstimate": null
+    },
+    "frameLumaChange": 2.927013888888889
+  },
+  {
+    "frame": 131,
+    "time": 5.458333333333333,
+    "frameLumaChange": 3.0255555555555556
+  },
+  {
+    "frame": 132,
+    "time": 5.5,
+    "frameLumaChange": 3.348003472222222
+  },
+  {
+    "frame": 133,
+    "time": 5.541666666666667,
+    "frameLumaChange": 3.1648958333333335
+  },
+  {
+    "frame": 134,
+    "time": 5.583333333333333,
+    "frameLumaChange": 2.887795138888889
+  },
+  {
+    "frame": 135,
+    "time": 5.625,
+    "frameLumaChange": 2.71265625
+  },
+  {
+    "frame": 136,
+    "time": 5.666666666666667,
+    "frameLumaChange": 2.6226736111111113
+  },
+  {
+    "frame": 137,
+    "time": 5.708333333333333,
+    "frameLumaChange": 2.2669270833333335
+  },
+  {
+    "frame": 138,
+    "time": 5.75,
+    "frameLumaChange": 2.0996354166666666
+  },
+  {
+    "frame": 139,
+    "time": 5.791666666666667,
+    "frameLumaChange": 1.7879340277777778
+  },
+  {
+    "frame": 140,
+    "time": 5.833333333333333,
+    "frameLumaChange": 1.6872222222222222
+  },
+  {
+    "frame": 141,
+    "time": 5.875,
+    "frameLumaChange": 1.417829861111111
+  },
+  {
+    "frame": 142,
+    "time": 5.916666666666667,
+    "frameLumaChange": 1.2744965277777778
+  },
+  {
+    "frame": 143,
+    "time": 5.958333333333333,
+    "frameLumaChange": 1.1679513888888888
+  },
+  {
+    "frame": 144,
+    "time": 6,
+    "frameLumaChange": 1.0736284722222222
+  },
+  {
+    "frame": 145,
+    "time": 6.041666666666667,
+    "frameLumaChange": 0.8228819444444444
+  },
+  {
+    "frame": 146,
+    "time": 6.083333333333333,
+    "frameLumaChange": 0.6906944444444445
+  },
+  {
+    "frame": 147,
+    "time": 6.125,
+    "frameLumaChange": 0.6088888888888889
+  },
+  {
+    "frame": 148,
+    "time": 6.166666666666667,
+    "frameLumaChange": 0.4397048611111111
+  },
+  {
+    "frame": 149,
+    "time": 6.208333333333333,
+    "frameLumaChange": 0.25798611111111114
+  },
+  {
+    "frame": 150,
+    "time": 6.25,
+    "frameLumaChange": 0.26524305555555555
+  },
+  {
+    "frame": 151,
+    "time": 6.291666666666667,
+    "frameLumaChange": 0.3016666666666667
+  },
+  {
+    "frame": 152,
+    "time": 6.333333333333333,
+    "frameLumaChange": 0.28713541666666664
+  },
+  {
+    "frame": 153,
+    "time": 6.375,
+    "frameLumaChange": 0.14819444444444443
+  },
+  {
+    "frame": 154,
+    "time": 6.416666666666667,
+    "frameLumaChange": 0.20505208333333333
+  },
+  {
+    "frame": 155,
+    "time": 6.458333333333333,
+    "frameLumaChange": 0.2682638888888889
+  },
+  {
+    "frame": 156,
+    "time": 6.5,
+    "frameLumaChange": 0.2757291666666667
+  },
+  {
+    "frame": 157,
+    "time": 6.541666666666667,
+    "frameLumaChange": 0.16279513888888889
+  },
+  {
+    "frame": 158,
+    "time": 6.583333333333333,
+    "frameLumaChange": 0.20229166666666668
+  },
+  {
+    "frame": 159,
+    "time": 6.625,
+    "frameLumaChange": 0.2576041666666667
+  },
+  {
+    "frame": 160,
+    "time": 6.666666666666667,
+    "frameLumaChange": 0.30269097222222224
+  },
+  {
+    "frame": 161,
+    "time": 6.708333333333333,
+    "frameLumaChange": 0.15425347222222222
+  },
+  {
+    "frame": 162,
+    "time": 6.75,
+    "frameLumaChange": 0.18085069444444443
+  },
+  {
+    "frame": 163,
+    "time": 6.791666666666667,
+    "frameLumaChange": 0.25255208333333334
+  },
+  {
+    "frame": 164,
+    "time": 6.833333333333333,
+    "frameLumaChange": 0.24194444444444443
+  },
+  {
+    "frame": 165,
+    "time": 6.875,
+    "frameLumaChange": 0.13442708333333334
+  },
+  {
+    "frame": 166,
+    "time": 6.916666666666667,
+    "frameLumaChange": 0.17262152777777778
+  },
+  {
+    "frame": 167,
+    "time": 6.958333333333333,
+    "frameLumaChange": 0.20791666666666667
+  },
+  {
+    "frame": 168,
+    "time": 7,
+    "frameLumaChange": 0.23637152777777778
+  },
+  {
+    "frame": 169,
+    "time": 7.041666666666667,
+    "frameLumaChange": 0.14963541666666666
+  },
+  {
+    "frame": 170,
+    "time": 7.083333333333333,
+    "frameLumaChange": 0.16536458333333334
+  },
+  {
+    "frame": 171,
+    "time": 7.125,
+    "frameLumaChange": 0.20380208333333333
+  },
+  {
+    "frame": 172,
+    "time": 7.166666666666667,
+    "frameLumaChange": 0.24868055555555554
+  },
+  {
+    "frame": 173,
+    "time": 7.208333333333333,
+    "frameLumaChange": 0.13241319444444444
+  },
+  {
+    "frame": 174,
+    "time": 7.25,
+    "frameLumaChange": 0.1620486111111111
+  },
+  {
+    "frame": 175,
+    "time": 7.291666666666667,
+    "frameLumaChange": 0.19244791666666666
+  },
+  {
+    "frame": 176,
+    "time": 7.333333333333333,
+    "frameLumaChange": 0.2443576388888889
+  },
+  {
+    "frame": 177,
+    "time": 7.375,
+    "frameLumaChange": 0.1349826388888889
+  },
+  {
+    "frame": 178,
+    "time": 7.416666666666667,
+    "frameLumaChange": 0.1679861111111111
+  },
+  {
+    "frame": 179,
+    "time": 7.458333333333333,
+    "frameLumaChange": 0.23012152777777778
+  },
+  {
+    "frame": 180,
+    "time": 7.5,
+    "frameLumaChange": 0.27038194444444447
+  },
+  {
+    "frame": 181,
+    "time": 7.541666666666667,
+    "frameLumaChange": 0.13678819444444446
+  },
+  {
+    "frame": 182,
+    "time": 7.583333333333333,
+    "frameLumaChange": 0.16821180555555557
+  },
+  {
+    "frame": 183,
+    "time": 7.625,
+    "frameLumaChange": 0.22029513888888888
+  },
+  {
+    "frame": 184,
+    "time": 7.666666666666667,
+    "frameLumaChange": 0.25189236111111113
+  },
+  {
+    "frame": 185,
+    "time": 7.708333333333333,
+    "frameLumaChange": 0.12579861111111112
+  },
+  {
+    "frame": 186,
+    "time": 7.75,
+    "frameLumaChange": 0.1609201388888889
+  },
+  {
+    "frame": 187,
+    "time": 7.791666666666667,
+    "frameLumaChange": 0.18534722222222222
+  },
+  {
+    "frame": 188,
+    "time": 7.833333333333333,
+    "frameLumaChange": 0.2444097222222222
+  },
+  {
+    "frame": 189,
+    "time": 7.875,
+    "frameLumaChange": 0.1282986111111111
+  },
+  {
+    "frame": 190,
+    "time": 7.916666666666667,
+    "frameLumaChange": 0.16065972222222222
+  },
+  {
+    "frame": 191,
+    "time": 7.958333333333333,
+    "frameLumaChange": 0.19434027777777776
+  },
+  {
+    "frame": 192,
+    "time": 8,
+    "frameLumaChange": 0.32416666666666666
+  },
+  {
+    "frame": 193,
+    "time": 8.041666666666666,
+    "frameLumaChange": 0.1440451388888889
+  },
+  {
+    "frame": 194,
+    "time": 8.083333333333334,
+    "frameLumaChange": 0.18508680555555557
+  },
+  {
+    "frame": 195,
+    "time": 8.125,
+    "frameLumaChange": 0.24418402777777778
+  },
+  {
+    "frame": 196,
+    "time": 8.166666666666666,
+    "frameLumaChange": 0.25335069444444447
+  },
+  {
+    "frame": 197,
+    "time": 8.208333333333334,
+    "frameLumaChange": 0.12631944444444446
+  },
+  {
+    "frame": 198,
+    "time": 8.25,
+    "frameLumaChange": 0.17032986111111112
+  },
+  {
+    "frame": 199,
+    "time": 8.291666666666666,
+    "frameLumaChange": 0.21614583333333334
+  },
+  {
+    "frame": 200,
+    "time": 8.333333333333334,
+    "frameLumaChange": 0.24354166666666666
+  },
+  {
+    "frame": 201,
+    "time": 8.375,
+    "frameLumaChange": 0.15138888888888888
+  },
+  {
+    "frame": 202,
+    "time": 8.416666666666666,
+    "frameLumaChange": 0.17315972222222223
+  },
+  {
+    "frame": 203,
+    "time": 8.458333333333334,
+    "frameLumaChange": 0.20378472222222221
+  },
+  {
+    "frame": 204,
+    "time": 8.5,
+    "frameLumaChange": 0.26534722222222223
+  },
+  {
+    "frame": 205,
+    "time": 8.541666666666666,
+    "frameLumaChange": 0.1644965277777778
+  },
+  {
+    "frame": 206,
+    "time": 8.583333333333334,
+    "frameLumaChange": 0.1907638888888889
+  },
+  {
+    "frame": 207,
+    "time": 8.625,
+    "frameLumaChange": 0.24173611111111112
+  },
+  {
+    "frame": 208,
+    "time": 8.666666666666666,
+    "frameLumaChange": 0.2561805555555556
+  },
+  {
+    "frame": 209,
+    "time": 8.708333333333334,
+    "frameLumaChange": 0.15276041666666668
+  },
+  {
+    "frame": 210,
+    "time": 8.75,
+    "frameLumaChange": 0.2217361111111111
+  },
+  {
+    "frame": 211,
+    "time": 8.791666666666666,
+    "frameLumaChange": 0.2515277777777778
+  },
+  {
+    "frame": 212,
+    "time": 8.833333333333334,
+    "frameLumaChange": 0.25623263888888886
+  },
+  {
+    "frame": 213,
+    "time": 8.875,
+    "frameLumaChange": 0.13185763888888888
+  },
+  {
+    "frame": 214,
+    "time": 8.916666666666666,
+    "frameLumaChange": 0.16597222222222222
+  },
+  {
+    "frame": 215,
+    "time": 8.958333333333334,
+    "frameLumaChange": 0.21378472222222222
+  },
+  {
+    "frame": 216,
+    "time": 9,
+    "frameLumaChange": 0.2517013888888889
+  },
+  {
+    "frame": 217,
+    "time": 9.041666666666666,
+    "frameLumaChange": 0.12638888888888888
+  },
+  {
+    "frame": 218,
+    "time": 9.083333333333334,
+    "frameLumaChange": 0.1568923611111111
+  },
+  {
+    "frame": 219,
+    "time": 9.125,
+    "frameLumaChange": 0.19538194444444446
+  },
+  {
+    "frame": 220,
+    "time": 9.166666666666666,
+    "frameLumaChange": 0.22611111111111112
+  },
+  {
+    "frame": 221,
+    "time": 9.208333333333334,
+    "frameLumaChange": 0.13244791666666667
+  },
+  {
+    "frame": 222,
+    "time": 9.25,
+    "frameLumaChange": 0.18274305555555556
+  },
+  {
+    "frame": 223,
+    "time": 9.291666666666666,
+    "frameLumaChange": 0.21244791666666665
+  },
+  {
+    "frame": 224,
+    "time": 9.333333333333334,
+    "frameLumaChange": 0.27522569444444445
+  },
+  {
+    "frame": 225,
+    "time": 9.375,
+    "frameLumaChange": 0.15987847222222223
+  },
+  {
+    "frame": 226,
+    "time": 9.416666666666666,
+    "frameLumaChange": 0.2039409722222222
+  },
+  {
+    "frame": 227,
+    "time": 9.458333333333334,
+    "frameLumaChange": 0.2585763888888889
+  },
+  {
+    "frame": 228,
+    "time": 9.5,
+    "frameLumaChange": 0.28390625
+  },
+  {
+    "frame": 229,
+    "time": 9.541666666666666,
+    "frameLumaChange": 0.13701388888888888
+  },
+  {
+    "frame": 230,
+    "time": 9.583333333333334,
+    "frameLumaChange": 0.17151041666666667
+  },
+  {
+    "frame": 231,
+    "time": 9.625,
+    "frameLumaChange": 0.22178819444444445
+  },
+  {
+    "frame": 232,
+    "time": 9.666666666666666,
+    "frameLumaChange": 0.24854166666666666
+  },
+  {
+    "frame": 233,
+    "time": 9.708333333333334,
+    "frameLumaChange": 0.13241319444444444
+  },
+  {
+    "frame": 234,
+    "time": 9.75,
+    "frameLumaChange": 0.15977430555555555
+  },
+  {
+    "frame": 235,
+    "time": 9.791666666666666,
+    "frameLumaChange": 0.18758680555555557
+  },
+  {
+    "frame": 236,
+    "time": 9.833333333333334,
+    "frameLumaChange": 0.28284722222222225
+  },
+  {
+    "frame": 237,
+    "time": 9.875,
+    "frameLumaChange": 0.13791666666666666
+  },
+  {
+    "frame": 238,
+    "time": 9.916666666666666,
+    "frameLumaChange": 0.21878472222222223
+  },
+  {
+    "frame": 239,
+    "time": 9.958333333333334,
+    "frameLumaChange": 0.2204340277777778
+  }
+]

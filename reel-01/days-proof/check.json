@@ -1,0 +1,610 @@
+﻿{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 9,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"background\"> is a timeline element that contains nested <img>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#background",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"background\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"phone-shadow-track\"> is a timeline element that contains nested <img>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#phone-shadow-track",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"phone-shadow-track\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"official-logo\"> is a timeline element that contains nested <img id=\"logo-art\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#official-logo",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"official-logo\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"presentation-copy\"> is a timeline element that contains nested <svg id=\"hero-line-1\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#presentation-copy",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"presentation-copy\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"phone-coach\"> is a timeline element that contains nested <div id=\"coach-focus\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#phone-coach",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"phone-coach\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"phone-client\"> is a timeline element that contains nested <div id=\"client-focus\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#phone-client",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"phone-client\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"phone-labels\"> is a timeline element that contains nested <div id=\"coach-label-focus\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#phone-labels",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"phone-labels\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"ui-overlay\"> is a timeline element that contains nested <div id=\"ui-overlay-focus\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#ui-overlay",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"ui-overlay\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"closing-copy\"> is a timeline element that contains nested <svg id=\"closing-title\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#closing-copy",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"closing-copy\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 3,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0.711,
+        "selector": "#hero-line-1 > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 237.14,
+          "top": 386.11,
+          "right": 830.39,
+          "bottom": 475.01,
+          "width": 593.25,
+          "height": 88.9
+        },
+        "containerSelector": "#hero-line-1",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 241.5,
+          "top": 400.8,
+          "right": 829.5,
+          "bottom": 472.8,
+          "width": 588,
+          "height": 72
+        },
+        "overflow": {
+          "left": 4.36
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 237.14,
+          "y": 386.11,
+          "width": 593.25,
+          "height": 88.9
+        },
+        "firstSeen": 0.711,
+        "lastSeen": 10.667,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          0.711,
+          2.133,
+          3.556,
+          4.978,
+          6.4,
+          7.822,
+          9.244,
+          10.667
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0.711,
+        "selector": "#hero-line-2 > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 273,
+          "top": 477.79,
+          "right": 837.86,
+          "bottom": 566.09,
+          "width": 564.86,
+          "height": 88.3
+        },
+        "containerSelector": "#hero-line-2",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 273,
+          "top": 495.3,
+          "right": 832.5,
+          "bottom": 549.3,
+          "width": 559.5,
+          "height": 54
+        },
+        "overflow": {
+          "right": 5.36
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 273,
+          "y": 477.79,
+          "width": 564.86,
+          "height": 88.3
+        },
+        "firstSeen": 0.711,
+        "lastSeen": 10.667,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          0.711,
+          2.133,
+          3.556,
+          4.978,
+          6.4,
+          7.822,
+          9.244,
+          10.667
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0.711,
+        "selector": "#hero-subtitle > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 162.99,
+          "top": 594.31,
+          "right": 917.98,
+          "bottom": 648.02,
+          "width": 754.99,
+          "height": 53.71
+        },
+        "containerSelector": "#hero-subtitle",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 166.5,
+          "top": 603.63,
+          "right": 915,
+          "bottom": 647.13,
+          "width": 748.5,
+          "height": 43.5
+        },
+        "overflow": {
+          "left": 3.51,
+          "right": 2.98
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 162.99,
+          "y": 594.31,
+          "width": 754.99,
+          "height": 53.71
+        },
+        "firstSeen": 0.711,
+        "lastSeen": 10.667,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          0.711,
+          2.133,
+          3.556,
+          4.978,
+          6.4,
+          7.822,
+          9.244,
+          10.667
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0.711,
+        "selector": "#coach-label > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 195.56,
+          "top": 960.41,
+          "right": 346.5,
+          "bottom": 1020.11,
+          "width": 150.94,
+          "height": 59.7
+        },
+        "containerSelector": "#coach-label",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 198,
+          "top": 971.76,
+          "right": 343.5,
+          "bottom": 1009.26,
+          "width": 145.5,
+          "height": 37.5
+        },
+        "overflow": {
+          "left": 2.44,
+          "right": 3
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 195.56,
+          "y": 960.41,
+          "width": 150.94,
+          "height": 59.7
+        },
+        "firstSeen": 0.711,
+        "lastSeen": 10.667,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          0.711,
+          2.133,
+          3.556,
+          4.978,
+          6.4,
+          7.822,
+          9.244,
+          10.667
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0.711,
+        "selector": "#client-label > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 684.51,
+          "top": 1130.58,
+          "right": 938.18,
+          "bottom": 1191.08,
+          "width": 253.66,
+          "height": 60.5
+        },
+        "containerSelector": "#client-label",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 685.5,
+          "top": 1142.58,
+          "right": 936,
+          "bottom": 1180.08,
+          "width": 250.5,
+          "height": 37.5
+        },
+        "overflow": {
+          "right": 2.18
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 684.51,
+          "y": 1130.58,
+          "width": 253.66,
+          "height": 60.5
+        },
+        "firstSeen": 0.711,
+        "lastSeen": 10.667,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          0.711,
+          9.244,
+          10.667
+        ]
+      },
+      {
+        "code": "panel_out_of_canvas",
+        "severity": "info",
+        "time": 0.711,
+        "selector": "#screen-client",
+        "message": "Painted panel extends outside the composition canvas.",
+        "rect": {
+          "left": 571.37,
+          "top": 1205.66,
+          "right": 1007.5,
+          "bottom": 2043.05,
+          "width": 436.13,
+          "height": 837.39
+        },
+        "containerSelector": "#root",
+        "text": "",
+        "fixHint": "Move the panel inward, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 123.05
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 571.37,
+          "y": 1205.66,
+          "width": 436.13,
+          "height": 837.39
+        },
+        "firstSeen": 0.711,
+        "lastSeen": 0.711,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          0.711
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 12.089,
+        "selector": "#closing-title > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 136.82,
+          "top": 961.61,
+          "right": 945.2,
+          "bottom": 1105.88,
+          "width": 808.38,
+          "height": 144.27
+        },
+        "containerSelector": "#closing-title",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 142.5,
+          "top": 985.45,
+          "right": 942,
+          "bottom": 1078.45,
+          "width": 799.5,
+          "height": 93
+        },
+        "overflow": {
+          "left": 5.68,
+          "right": 3.2
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 136.82,
+          "y": 961.61,
+          "width": 808.38,
+          "height": 144.27
+        },
+        "firstSeen": 12.089,
+        "lastSeen": 12.089,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          12.089
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 12.089,
+        "selector": "#closing-subtitle > text:nth-of-type(1)",
+        "message": "Nowrap text is wider than its container.",
+        "rect": {
+          "left": 313.43,
+          "top": 1133.94,
+          "right": 767.63,
+          "bottom": 1203.17,
+          "width": 454.2,
+          "height": 69.23
+        },
+        "containerSelector": "#closing-subtitle",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 318,
+          "top": 1145.95,
+          "right": 763.5,
+          "bottom": 1201.45,
+          "width": 445.5,
+          "height": 55.5
+        },
+        "overflow": {
+          "left": 4.57,
+          "right": 4.13
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 313.43,
+          "y": 1133.94,
+          "width": 454.2,
+          "height": 69.23
+        },
+        "firstSeen": 12.089,
+        "lastSeen": 12.089,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          12.089
+        ]
+      }
+    ],
+    "duration": 12.8,
+    "samples": [
+      0.711,
+      2.133,
+      3.556,
+      4.978,
+      6.4,
+      7.822,
+      9.244,
+      10.667,
+      12.089
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 8,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.711,
+      3.556,
+      6.4,
+      9.244,
+      12.089
+    ],
+    "checked": 22,
+    "passed": 22
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.147",
+    "latestVersion": "0.8.147",
+    "updateAvailable": false
+  }
+}

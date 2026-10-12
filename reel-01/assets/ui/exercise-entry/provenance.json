@@ -1,0 +1,119 @@
+{
+  "size": {
+    "width": 276,
+    "height": 168
+  },
+  "values": [
+    "4",
+    "12",
+    "2",
+    "2"
+  ],
+  "sourceHashes": {
+    "../source/screenshots/SCREEN_01_COACH_ROUTINE.png": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+    "assets/ui/floating/field-series-original.png": "949d154759b85e6aca4b1a23387e30cdc62a3a99aa36d837005e2c3618359658",
+    "assets/ui/floating/field-reps-original.png": "ffaf52608fc5cefae78e23b7892fc48643087eabc655ffa1bfc39603dcc1b9c6",
+    "assets/ui/floating/field-rir-original.png": "6fdd2cc2022743553f94cae4986fa889f9981fe7a605d65ab116a2b9db15a3b6",
+    "assets/ui/floating/field-rest-original.png": "b4e05437d470f0cb4f1317b8d3042f214ce24a775498b4e218eded6888198d22"
+  },
+  "operation": "Only embedded numeric content is masked on its original white input surface. All borders, field dimensions, and the original min suffix are preserved. Raster value layers use authentic screenshot pixels; no synthetic type or redrawn UI.",
+  "four": {
+    "source": "../source/screenshots/SCREEN_01_COACH_ROUTINE.png",
+    "crop": {
+      "left": 312,
+      "top": 755,
+      "width": 32,
+      "height": 42
+    },
+    "sourceInkBounds": {
+      "left": 314,
+      "top": 757,
+      "width": 28,
+      "height": 38
+    },
+    "resize": {
+      "width": 37,
+      "fit": "inside",
+      "scale": 1.15625
+    },
+    "placement": {
+      "left": 115,
+      "top": 59
+    },
+    "note": "Digit 4 from the original period label, same regular typography and text color, uniformly enlarged to match input cap height. This digit is not an original capture of a completed Series field."
+  },
+  "fields": {
+    "series": {
+      "value": "4",
+      "source": "assets/ui/floating/field-series-original.png",
+      "mask": {
+        "left": 110,
+        "top": 54,
+        "width": 50,
+        "height": 58
+      },
+      "empty": "assets/ui/exercise-entry/field-series-empty.png",
+      "valueLayer": "assets/ui/exercise-entry/field-series-value.png",
+      "filled": "assets/ui/exercise-entry/field-series-filled.png",
+      "verification": {
+        "outsideMaskPixelsChanged": 0,
+        "emptyMaskNonwhitePixels": 0,
+        "filledEqualsOriginal": false
+      }
+    },
+    "reps": {
+      "value": "12",
+      "source": "assets/ui/floating/field-reps-original.png",
+      "mask": {
+        "left": 96,
+        "top": 54,
+        "width": 70,
+        "height": 58
+      },
+      "empty": "assets/ui/exercise-entry/field-reps-empty.png",
+      "valueLayer": "assets/ui/exercise-entry/field-reps-value.png",
+      "filled": "assets/ui/exercise-entry/field-reps-filled.png",
+      "verification": {
+        "outsideMaskPixelsChanged": 0,
+        "emptyMaskNonwhitePixels": 0,
+        "filledEqualsOriginal": true
+      }
+    },
+    "rir": {
+      "value": "2",
+      "source": "assets/ui/floating/field-rir-original.png",
+      "mask": {
+        "left": 110,
+        "top": 54,
+        "width": 44,
+        "height": 58
+      },
+      "empty": "assets/ui/exercise-entry/field-rir-empty.png",
+      "valueLayer": "assets/ui/exercise-entry/field-rir-value.png",
+      "filled": "assets/ui/exercise-entry/field-rir-filled.png",
+      "verification": {
+        "outsideMaskPixelsChanged": 0,
+        "emptyMaskNonwhitePixels": 0,
+        "filledEqualsOriginal": true
+      }
+    },
+    "rest": {
+      "value": "2",
+      "source": "assets/ui/floating/field-rest-original.png",
+      "mask": {
+        "left": 80,
+        "top": 54,
+        "width": 44,
+        "height": 58
+      },
+      "empty": "assets/ui/exercise-entry/field-rest-empty.png",
+      "valueLayer": "assets/ui/exercise-entry/field-rest-value.png",
+      "filled": "assets/ui/exercise-entry/field-rest-filled.png",
+      "verification": {
+        "outsideMaskPixelsChanged": 0,
+        "emptyMaskNonwhitePixels": 0,
+        "filledEqualsOriginal": true
+      }
+    }
+  }
+}

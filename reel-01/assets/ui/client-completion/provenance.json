@@ -1,0 +1,86 @@
+{
+  "sourceHashes": {
+    "../source/screenshots/SCREEN_04_PR_REAL.png": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa",
+    "../source/videos/VIDEO_02_CLIENT_WORKOUT_FULL.mp4": "5cf3caeb9d1330a9ca6c1c8fc49873c573f4a92069ac9b940171327b8c5806d3",
+    "../source/screenshots/SCREEN_10_WORKOUT_COMPLETE_LOADING.png": "13b827085c16dad507ac4246e748d2c882dfc181c7fc885a41759f43bc472404",
+    "../source/screenshots/SCREEN_10_WORKOUT_COMPLETE_SERPENTINA.png": "c58e0aa3743e938424500f1a81e3028cba1aa9cc00482477823fd7f82281812e",
+    "../source/screenshots/SCREEN_10_WORKOUT_COMPLETED.png": "dff91a0606fe7c79e15a5102f9b6ce61736248d3ecf58cbae877f4fd98f60e16"
+  },
+  "rows": [
+    {
+      "row": 1,
+      "sourceBox": {
+        "left": 0,
+        "top": 1696,
+        "width": 1440,
+        "height": 214
+      },
+      "logicalTop": 32.666666666666664,
+      "logicalHeight": 35.666666666666664,
+      "check": {
+        "left": 1264,
+        "top": 44,
+        "width": 120,
+        "height": 120
+      }
+    },
+    {
+      "row": 2,
+      "sourceBox": {
+        "left": 0,
+        "top": 1910,
+        "width": 1440,
+        "height": 214
+      },
+      "logicalTop": 68.33333333333333,
+      "logicalHeight": 35.666666666666664,
+      "check": {
+        "left": 1264,
+        "top": 44,
+        "width": 120,
+        "height": 120
+      }
+    }
+  ],
+  "exactCompletedCardReconstruction": true,
+  "prLayersUnchanged": true,
+  "celebration": {
+    "source": "source/videos/VIDEO_02_CLIENT_WORKOUT_FULL.mp4",
+    "start": 53.96,
+    "end": 60.8,
+    "fps": 30,
+    "frames": 205,
+    "atlasColumns": 5,
+    "atlasRows": 4,
+    "frameWidth": 360,
+    "frameHeight": 780,
+    "atlases": [
+      "serpentinas-00.png",
+      "serpentinas-01.png",
+      "serpentinas-02.png",
+      "serpentinas-03.png",
+      "serpentinas-04.png",
+      "serpentinas-05.png",
+      "serpentinas-06.png",
+      "serpentinas-07.png",
+      "serpentinas-08.png",
+      "serpentinas-09.png",
+      "serpentinas-10.png"
+    ],
+    "method": "Real video pixels with static UI subtraction and neutral/blue-link rejection; no generated confetti or reconstructed trajectories."
+  },
+  "loading": {
+    "sourceDimensions": [
+      412,
+      787
+    ],
+    "logicalBox": [
+      0,
+      15,
+      240,
+      458.45
+    ],
+    "note": "Original screenshot is a cropped capture of a different routine; white padding preserves text proportions. Its original text and figures remain unchanged."
+  },
+  "final": "Exact byte copy of SCREEN_10_WORKOUT_COMPLETED.png"
+}

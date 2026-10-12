@@ -1,0 +1,48 @@
+{
+  "approvedEntranceUnchanged": true,
+  "reassembledScreenshotPixelExact": true,
+  "originalMediaUnchanged": true,
+  "states": {
+    "1.6": {
+      "coachScale": 1,
+      "cardScale": 1,
+      "open": 0,
+      "pressed": 0
+    },
+    "2.4": {
+      "coachScale": 1.3,
+      "cardScale": 1,
+      "open": 0,
+      "pressed": 0
+    },
+    "2.8": {
+      "coachScale": 1.3,
+      "cardScale": 1.12,
+      "open": 1,
+      "pressed": 0
+    },
+    "3.1": {
+      "coachScale": 1.3,
+      "cardScale": 1.12,
+      "open": 1,
+      "pressed": 1
+    },
+    "3.56": {
+      "coachScale": 1.3,
+      "cardScale": 1,
+      "open": 0,
+      "pressed": 1
+    }
+  },
+  "rootDuration": "12.8",
+  "screenPerspectiveUnchanged": true,
+  "render": {
+    "start": 1.6,
+    "end": 3.6,
+    "duration": 2,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audio": false
+  }
+}

@@ -1,0 +1,7 @@
+<div id="fitnode-notification" class="fitnode-notification" role="img" aria-label="Fitnode: Tu coach actualizó tu rutina">
+  <img class="fitnode-notification__icon" src="assets/ui/notification/fitnode-fn-light.png" alt="">
+  <div class="fitnode-notification__content">
+    <div class="fitnode-notification__heading"><span>Fitnode</span><span class="fitnode-notification__time">ahora</span></div>
+    <div class="fitnode-notification__message">Tu coach actualizó tu rutina</div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+{
+  "screenshots": [
+    {
+      "source": "../source/screenshots/SCREEN_01_COACH_ROUTINE.png",
+      "sha256": "11505aa908c85a9a2c9b0dbe5f9757dc7eedb324d0f7dc28efa9fdb81dd8314d",
+      "unchanged": true
+    },
+    {
+      "source": "../source/screenshots/SCREEN_04_PR_REAL.png",
+      "sha256": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa",
+      "unchanged": true
+    }
+  ],
+  "proofs": [
+    {
+      "file": "proofs/frame-00-at-3s.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "proofs/frame-01-at-7s.png",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "referenceFramesProcessed": 240,
+  "hyperframes": {
+    "ok": true,
+    "browserSkipped": false,
+    "checkedTimes": [
+      3,
+      7
+    ],
+    "errors": 0,
+    "lintWarnings": 8,
+    "warningCode": "nested_structure_needs_subcomposition",
+    "note": "Eight separate tracks confirmed by official timeline command. Warnings recommend splitting the current single-file composition; no runtime/layout/contrast errors."
+  }
+}
