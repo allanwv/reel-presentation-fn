@@ -1,0 +1,742 @@
+{
+  "errors": [],
+  "captures": [
+    {
+      "t": 8.35,
+      "file": "client-8_35.png",
+      "angle": 0,
+      "quad": [
+        [
+          67.66164289821985,
+          23.395735691630307
+        ],
+        [
+          298.0063721357496,
+          27.583796907774115
+        ],
+        [
+          247.0111254741256,
+          571.5564670260446
+        ],
+        [
+          14.254333036765445,
+          542.2338810940101
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-19.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-19.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 668.0231323242188,
+        "y": 872.218994140625,
+        "width": 386.40240478515625,
+        "height": 760.109130859375,
+        "top": 872.218994140625,
+        "right": 1054.425537109375,
+        "bottom": 1632.328125,
+        "left": 668.0231323242188
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 8.675,
+      "file": "client-8_675.png",
+      "angle": 4.5,
+      "quad": [
+        [
+          63.78722444848354,
+          21.819736284160854
+        ],
+        [
+          299.61890260294683,
+          29.16589915490738
+        ],
+        [
+          252.06215878552584,
+          570.6120505948743
+        ],
+        [
+          12.923281031386892,
+          543.5591120836721
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-15.3727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-15.3727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 513.0158081054688,
+        "y": 817.8305053710938,
+        "width": 476.16705322265625,
+        "height": 917.5497436523438,
+        "top": 817.8305053710938,
+        "right": 989.182861328125,
+        "bottom": 1735.3802490234375,
+        "left": 513.0158081054688
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 9,
+      "file": "client-9.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 743.9808349609375,
+        "width": 579.2513427734375,
+        "height": 1105.3089599609375,
+        "top": 743.9808349609375,
+        "right": 930.03076171875,
+        "bottom": 1849.289794921875,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 9.6,
+      "file": "client-9_6.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 739.01416015625,
+        "width": 579.2513427734375,
+        "height": 1105.282470703125,
+        "top": 739.01416015625,
+        "right": 930.03076171875,
+        "bottom": 1844.296630859375,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 11.1,
+      "file": "client-11_1.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 741.7831420898438,
+        "width": 579.2513427734375,
+        "height": 1105.268798828125,
+        "top": 741.7831420898438,
+        "right": 930.03076171875,
+        "bottom": 1847.0519409179688,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 12.4,
+      "file": "client-12_4.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 746.7655029296875,
+        "width": 579.2513427734375,
+        "height": 1105.2689208984375,
+        "top": 746.7655029296875,
+        "right": 930.03076171875,
+        "bottom": 1852.034423828125,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 13.4,
+      "file": "client-13_4.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 740.094970703125,
+        "width": 579.2513427734375,
+        "height": 1105.268798828125,
+        "top": 740.094970703125,
+        "right": 930.03076171875,
+        "bottom": 1845.36376953125,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 14.5,
+      "file": "client-14_5.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 737.8192749023438,
+        "width": 579.2513427734375,
+        "height": 1105.268798828125,
+        "top": 737.8192749023438,
+        "right": 930.03076171875,
+        "bottom": 1843.0880737304688,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 16.28,
+      "file": "client-16_28.png",
+      "angle": 9,
+      "quad": [
+        [
+          60.56380191813304,
+          20.241996061963164
+        ],
+        [
+          300.4553689013228,
+          30.699884690123667
+        ],
+        [
+          256.34578790707445,
+          569.5648794335123
+        ],
+        [
+          12.359528824694507,
+          544.957412298769
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-10.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 350.7794189453125,
+        "y": 747.0598754882812,
+        "width": 579.2513427734375,
+        "height": 1105.26904296875,
+        "top": 747.0598754882812,
+        "right": 930.03076171875,
+        "bottom": 1852.3289184570312,
+        "left": 350.7794189453125
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 16.83,
+      "file": "client-16_83.png",
+      "angle": 0,
+      "quad": [
+        [
+          67.66164289821985,
+          23.395735691630307
+        ],
+        [
+          298.0063721357496,
+          27.583796907774115
+        ],
+        [
+          247.0111254741256,
+          571.5564670260446
+        ],
+        [
+          14.254333036765445,
+          542.2338810940101
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-19.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-19.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 566.865478515625,
+        "y": 796.0477294921875,
+        "width": 438.3746337890625,
+        "height": 862.316162109375,
+        "top": 796.0477294921875,
+        "right": 1005.2401123046875,
+        "bottom": 1658.3638916015625,
+        "left": 566.865478515625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 18.4,
+      "file": "client-18_4.png",
+      "angle": 0,
+      "quad": [
+        [
+          67.66164289821985,
+          23.395735691630307
+        ],
+        [
+          298.0063721357496,
+          27.583796907774115
+        ],
+        [
+          247.0111254741256,
+          571.5564670260446
+        ],
+        [
+          14.254333036765445,
+          542.2338810940101
+        ]
+      ],
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-19.8727deg) rotateX(4.29382deg)",
+      "overlayTransform": "translate3d(-0.668744px, -5.43188px, 50.7468px) rotateZ(4.14846deg) rotateY(-19.8727deg) rotateX(4.29382deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 566.865478515625,
+        "y": 1871.98681640625,
+        "width": 438.3746337890625,
+        "height": 927.99560546875,
+        "top": 1871.98681640625,
+        "right": 1005.2401123046875,
+        "bottom": 2799.982421875,
+        "left": 566.865478515625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "errors": [],
+  "captures": [
+    {
+      "t": 1.6,
+      "file": "coach-1_6.png",
+      "angle": 0,
+      "quad": [
+        [
+          19.554385669298853,
+          18.191802349293027
+        ],
+        [
+          244.1050047873684,
+          20.217454804750957
+        ],
+        [
+          297.6656463714096,
+          541.2327183063059
+        ],
+        [
+          71.0556529671397,
+          571.0987503347437
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(25.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(25.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 79.33464050292969,
+        "y": 793.6408081054688,
+        "width": 434.76141357421875,
+        "height": 893.7665405273438,
+        "top": 793.6408081054688,
+        "right": 514.0960540771484,
+        "bottom": 1687.4073486328125,
+        "left": 79.33464050292969
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 1.9,
+      "file": "coach-1_9.png",
+      "angle": -4.5,
+      "quad": [
+        [
+          17.20961423100775,
+          19.82332682918502
+        ],
+        [
+          248.90774454467692,
+          18.675398005309205
+        ],
+        [
+          299.7061649949459,
+          542.534153710804
+        ],
+        [
+          64.90668714126666,
+          570.222749433769
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(20.5943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(20.5943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 139.58319091796875,
+        "y": 756.2322998046875,
+        "width": 538.4307250976562,
+        "height": 1078.7706298828125,
+        "top": 756.2322998046875,
+        "right": 678.013916015625,
+        "bottom": 1835.0029296875,
+        "left": 139.58319091796875
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 2.2,
+      "file": "coach-2_2.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 741.0286865234375,
+        "width": 580.3179931640625,
+        "height": 1139.0933837890625,
+        "top": 741.0286865234375,
+        "right": 738.5718994140625,
+        "bottom": 1880.1220703125,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 2.6,
+      "file": "coach-2_6.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 733.17724609375,
+        "width": 580.3179931640625,
+        "height": 1138.94140625,
+        "top": 733.17724609375,
+        "right": 738.5718994140625,
+        "bottom": 1872.11865234375,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 3,
+      "file": "coach-3.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 728.4732666015625,
+        "width": 580.3179931640625,
+        "height": 1138.8472900390625,
+        "top": 728.4732666015625,
+        "right": 738.5718994140625,
+        "bottom": 1867.320556640625,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 3.55,
+      "file": "coach-3_55.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 727.7044677734375,
+        "width": 580.3179931640625,
+        "height": 1138.8057861328125,
+        "top": 727.7044677734375,
+        "right": 738.5718994140625,
+        "bottom": 1866.51025390625,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 4.35,
+      "file": "coach-4_35.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 730.21533203125,
+        "width": 580.3179931640625,
+        "height": 1138.7381591796875,
+        "top": 730.21533203125,
+        "right": 738.5718994140625,
+        "bottom": 1868.9534912109375,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 6.4,
+      "file": "coach-6_4.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 721.761962890625,
+        "width": 580.3179931640625,
+        "height": 1138.5482177734375,
+        "top": 721.761962890625,
+        "right": 738.5718994140625,
+        "bottom": 1860.3101806640625,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 8.35,
+      "file": "coach-8_35.png",
+      "angle": -9,
+      "quad": [
+        [
+          15.653407586591129,
+          21.423175642313424
+        ],
+        [
+          253.0976242767985,
+          17.11163346115177
+        ],
+        [
+          300.98614590481526,
+          543.9087018131386
+        ],
+        [
+          59.505295593547686,
+          569.2385167729732
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(16.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 158.25390625,
+        "y": 716.6832275390625,
+        "width": 580.3179931640625,
+        "height": 1138.3944091796875,
+        "top": 716.6832275390625,
+        "right": 738.5718994140625,
+        "bottom": 1855.07763671875,
+        "left": 158.25390625
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 8.675,
+      "file": "coach-8_675.png",
+      "angle": -4.5,
+      "quad": [
+        [
+          17.20961423100775,
+          19.82332682918502
+        ],
+        [
+          248.90774454467692,
+          18.675398005309205
+        ],
+        [
+          299.7061649949459,
+          542.534153710804
+        ],
+        [
+          64.90668714126666,
+          570.222749433769
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(20.5943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(20.5943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 119.68125915527344,
+        "y": 746.1099243164062,
+        "width": 505.37860107421875,
+        "height": 1011.8464965820312,
+        "top": 746.1099243164062,
+        "right": 625.0598602294922,
+        "bottom": 1757.9564208984375,
+        "left": 119.68125915527344
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    },
+    {
+      "t": 9,
+      "file": "coach-9.png",
+      "angle": 0,
+      "quad": [
+        [
+          19.554385669298853,
+          18.191802349293027
+        ],
+        [
+          244.1050047873684,
+          20.217454804750957
+        ],
+        [
+          297.6656463714096,
+          541.2327183063059
+        ],
+        [
+          71.0556529671397,
+          571.0987503347437
+        ]
+      ],
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "rigTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(25.0943deg) rotateX(4.81227deg)",
+      "overlayTransform": "translate3d(-1.88202px, -6.00676px, 69.421px) rotateZ(-3.5494deg) rotateY(25.0943deg) rotateX(4.81227deg)",
+      "screenTransform": "translateZ(0.7px)",
+      "planeTransform": "translateZ(0.7px)",
+      "edges": 132,
+      "screenBounds": {
+        "x": 79.33485412597656,
+        "y": 770.9830322265625,
+        "width": 434.760986328125,
+        "height": 893.1329345703125,
+        "top": 770.9830322265625,
+        "right": 514.0958404541016,
+        "bottom": 1664.115966796875,
+        "left": 79.33485412597656
+      },
+      "perspective": "1800px",
+      "preserve": "preserve-3d"
+    }
+  ]
+}

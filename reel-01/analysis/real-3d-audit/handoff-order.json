@@ -1,0 +1,28 @@
+{
+  "before": {
+    "time": 8.61,
+    "pixelsChanged": 22967,
+    "MAE": 1.5105367476851852,
+    "maxDelta": 255,
+    "bounds": {
+      "left": 587,
+      "top": 1087,
+      "right": 680,
+      "bottom": 1646
+    }
+  },
+  "after": {
+    "time": 8.61,
+    "pixelsChanged": 27923,
+    "MAE": 1.9638671875,
+    "maxDelta": 246,
+    "bounds": {
+      "left": 577,
+      "top": 1059,
+      "right": 688,
+      "bottom": 1654
+    }
+  },
+  "closingPixelIdentical": true,
+  "note": "The before comparison distinguishes an approved existing zIndex discontinuity from a migration regression."
+}

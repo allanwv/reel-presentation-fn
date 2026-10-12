@@ -1,0 +1,445 @@
+{
+  "convention": "CSS y-down camera; model origin centered on 240x520 screen. Transform order translate3d(tx,ty,tz) rotateZ(roll) rotateY(yaw) rotateX(pitch). Camera CSS perspective f at phone center. Uniform scale=1, size preserved. Front plane centered using left=cx-120 and top=cy-260 before translate. CSS transform-origin center.",
+  "roles": {
+    "coach": {
+      "targetQuad": [
+        [
+          23,
+          22
+        ],
+        [
+          240,
+          15
+        ],
+        [
+          298,
+          546
+        ],
+        [
+          70,
+          568
+        ]
+      ],
+      "fits": [
+        {
+          "focal": 1000,
+          "principalPoint": [
+            158,
+            292
+          ],
+          "pitch": 4.45238860115676,
+          "yaw": 19.233862918753367,
+          "roll": -4.0384879804557965,
+          "translateX": 4.094016406933518,
+          "translateY": -9.523995799672578,
+          "translateZ": 29.79641188350695,
+          "uniformScale": 1,
+          "screen": {
+            "width": 240,
+            "height": 520,
+            "left": 38,
+            "top": 32
+          },
+          "rmsCornerError": 9.615835041104173,
+          "maxCornerError": 11.89004786717294,
+          "projectedQuad": [
+            [
+              17.102360989624998,
+              18.608610376274612
+            ],
+            [
+              247.64521265286558,
+              24.106259483241615
+            ],
+            [
+              301.3390604132601,
+              534.8641711261864
+            ],
+            [
+              65.81392436637262,
+              573.433322006832
+            ]
+          ],
+          "cornerErrors": [
+            6.803210233162669,
+            11.89004786717294,
+            11.625661665052052,
+            6.858878715969079
+          ],
+          "focusYaw": 10.233862918753367,
+          "bodyThickness": 22,
+          "bodyCenterPivot": {
+            "transformOrigin": [
+              120,
+              260,
+              -11
+            ],
+            "translate": [
+              0.5503903037962887,
+              -8.417746334897478,
+              30.44175466258219
+            ],
+            "frontNormal": [
+              0.3221478275579299,
+              -0.1005681331613727,
+              0.9413324746295235
+            ],
+            "rule": "Apply the base correction once. Keep this translation constant as yaw varies; recomputing it each frame would cancel the physical front-surface arc."
+          }
+        },
+        {
+          "focal": 1500,
+          "principalPoint": [
+            158,
+            292
+          ],
+          "pitch": 4.867164797134755,
+          "yaw": 24.000412455214043,
+          "roll": -3.6014704194471796,
+          "translateX": 3.1761532447866507,
+          "translateY": -7.911081214816849,
+          "translateZ": 54.360139098866206,
+          "uniformScale": 1,
+          "screen": {
+            "width": 240,
+            "height": 520,
+            "left": 38,
+            "top": 32
+          },
+          "rmsCornerError": 6.348679073500984,
+          "maxCornerError": 8.199806694566586,
+          "projectedQuad": [
+            [
+              18.8373578865355,
+              17.813223945284108
+            ],
+            [
+              244.51427472417055,
+              21.845301566985484
+            ],
+            [
+              298.21577709764256,
+              539.4298037547865
+            ],
+            [
+              69.73955497653311,
+              571.9808944875635
+            ]
+          ],
+          "cornerErrors": [
+            5.903954869164446,
+            8.199806694566586,
+            6.573738544883354,
+            3.989405034759255
+          ],
+          "focusYaw": 15.000412455214043,
+          "bodyThickness": 22,
+          "bodyCenterPivot": {
+            "transformOrigin": [
+              120,
+              260,
+              -11
+            ],
+            "translate": [
+              -1.2144579341855781,
+              -6.699582299032089,
+              55.34740701156174
+            ],
+            "frontNormal": [
+              0.3991464708156572,
+              -0.11013626507134183,
+              0.9102483715731332
+            ],
+            "rule": "Apply the base correction once. Keep this translation constant as yaw varies; recomputing it each frame would cancel the physical front-surface arc."
+          }
+        },
+        {
+          "focal": 1800,
+          "principalPoint": [
+            158,
+            292
+          ],
+          "pitch": 4.8122694319833945,
+          "yaw": 25.09429241541356,
+          "roll": -3.549403470640947,
+          "translateX": 2.7006877190641716,
+          "translateY": -7.215596381066188,
+          "translateZ": 68.34762347245223,
+          "uniformScale": 1,
+          "screen": {
+            "width": 240,
+            "height": 520,
+            "left": 38,
+            "top": 32
+          },
+          "rmsCornerError": 5.088433052672154,
+          "maxCornerError": 6.5850248229242405,
+          "projectedQuad": [
+            [
+              19.297125931976865,
+              18.3749408085485
+            ],
+            [
+              243.7835705602709,
+              20.389540400997078
+            ],
+            [
+              297.31781514626385,
+              541.2219557562671
+            ],
+            [
+              70.77268816850314,
+              571.0759699814744
+            ]
+          ],
+          "cornerErrors": [
+            5.181923436829726,
+            6.5850248229242405,
+            4.826498002665705,
+            3.1715356426621133
+          ],
+          "focusYaw": 16.09429241541356,
+          "bodyThickness": 22,
+          "bodyCenterPivot": {
+            "transformOrigin": [
+              120,
+              260,
+              -11
+            ],
+            "translate": [
+              -1.8820210923507097,
+              -6.006762364411906,
+              69.42101779528544
+            ],
+            "frontNormal": [
+              0.41660989194680736,
+              -0.10989400151402565,
+              0.9024186979242533
+            ],
+            "rule": "Apply the base correction once. Keep this translation constant as yaw varies; recomputing it each frame would cancel the physical front-surface arc."
+          }
+        }
+      ]
+    },
+    "client": {
+      "targetQuad": [
+        [
+          71,
+          20
+        ],
+        [
+          295,
+          30
+        ],
+        [
+          248,
+          570
+        ],
+        [
+          14,
+          545
+        ]
+      ],
+      "fits": [
+        {
+          "focal": 1000,
+          "principalPoint": [
+            159,
+            295
+          ],
+          "pitch": 3.8742637161699673,
+          "yaw": -13.785009139243483,
+          "roll": 4.598303299655096,
+          "translateX": -5.042915491306399,
+          "translateY": -8.440768494059094,
+          "translateZ": 21.74176916171635,
+          "uniformScale": 1,
+          "screen": {
+            "width": 240,
+            "height": 520,
+            "left": 39,
+            "top": 35
+          },
+          "rmsCornerError": 6.45143582316915,
+          "maxCornerError": 8.086434183399833,
+          "projectedQuad": [
+            [
+              65.0052270534083,
+              25.427072426388804
+            ],
+            [
+              299.7787070030021,
+              28.810018719139975
+            ],
+            [
+              251.38297041684083,
+              572.8649375915948
+            ],
+            [
+              11.311858060638372,
+              537.9315405130271
+            ]
+          ],
+          "cornerErrors": [
+            8.086434183399833,
+            4.924641719895856,
+            4.433097815856649,
+            7.562355889875302
+          ],
+          "focusYaw": -4.785009139243483,
+          "bodyThickness": 22,
+          "bodyCenterPivot": {
+            "transformOrigin": [
+              120,
+              260,
+              -11
+            ],
+            "translate": [
+              -2.495834655333716,
+              -7.490272576538823,
+              22.08301985770333
+            ],
+            "frontNormal": [
+              -0.2315528032702439,
+              -0.08640871977457013,
+              0.968977209455729
+            ],
+            "rule": "Apply the base correction once. Keep this translation constant as yaw varies; recomputing it each frame would cancel the physical front-surface arc."
+          }
+        },
+        {
+          "focal": 1500,
+          "principalPoint": [
+            159,
+            295
+          ],
+          "pitch": 4.344138397011555,
+          "yaw": -18.687478751566957,
+          "roll": 4.204766896944674,
+          "translateX": -4.65541267914153,
+          "translateY": -7.153695094481227,
+          "translateZ": 39.722492443083766,
+          "uniformScale": 1,
+          "screen": {
+            "width": 240,
+            "height": 520,
+            "left": 39,
+            "top": 35
+          },
+          "rmsCornerError": 4.328370561436694,
+          "maxCornerError": 5.841113896912249,
+          "projectedQuad": [
+            [
+              67.34095834162586,
+              24.553023797322396
+            ],
+            [
+              298.5510983252913,
+              27.473828171016976
+            ],
+            [
+              248.16617348043047,
+              572.164943065585
+            ],
+            [
+              13.745101611077331,
+              540.8709387756037
+            ]
+          ],
+          "cornerErrors": [
+            5.841113896912249,
+            4.357963219834956,
+            2.171311148320997,
+            4.136921534606201
+          ],
+          "focusYaw": -9.687478751566957,
+          "bodyThickness": 22,
+          "bodyCenterPivot": {
+            "transformOrigin": [
+              120,
+              260,
+              -11
+            ],
+            "translate": [
+              -1.2116240211547735,
+              -6.065046387275696,
+              40.33234501047139
+            ],
+            "frontNormal": [
+              -0.3130716961806142,
+              -0.09896806429141199,
+              0.9445588575102158
+            ],
+            "rule": "Apply the base correction once. Keep this translation constant as yaw varies; recomputing it each frame would cancel the physical front-surface arc."
+          }
+        },
+        {
+          "focal": 1800,
+          "principalPoint": [
+            159,
+            295
+          ],
+          "pitch": 4.293821268392932,
+          "yaw": -19.872656569274547,
+          "roll": 4.148459616225789,
+          "translateX": -4.3281388733244315,
+          "translateY": -6.52304754002521,
+          "translateZ": 50.06272958918171,
+          "uniformScale": 1,
+          "screen": {
+            "width": 240,
+            "height": 520,
+            "left": 39,
+            "top": 35
+          },
+          "rmsCornerError": 3.477519230090484,
+          "maxCornerError": 4.705758024072131,
+          "projectedQuad": [
+            [
+              67.92649537448129,
+              23.563387138388748
+            ],
+            [
+              298.19619721937374,
+              27.757774574938935
+            ],
+            [
+              247.22486004994394,
+              571.5230148626019
+            ],
+            [
+              14.544437755326896,
+              542.2128291770597
+            ]
+          ],
+          "cornerErrors": [
+            4.705758024072131,
+            3.904260688263877,
+            1.708922530098809,
+            2.8398474722553604
+          ],
+          "focusYaw": -10.872656569274547,
+          "bodyThickness": 22,
+          "bodyCenterPivot": {
+            "transformOrigin": [
+              120,
+              260,
+              -11
+            ],
+            "translate": [
+              -0.6687439202874188,
+              -5.431881122278401,
+              50.74681060799206
+            ],
+            "frontNormal": [
+              -0.33267226845791026,
+              -0.09919694706789174,
+              0.9378108164717861
+            ],
+            "rule": "Apply the base correction once. Keep this translation constant as yaw varies; recomputing it each frame would cancel the physical front-surface arc."
+          }
+        }
+      ]
+    }
+  }
+}

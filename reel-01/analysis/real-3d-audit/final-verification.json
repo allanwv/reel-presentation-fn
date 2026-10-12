@@ -1,0 +1,128 @@
+{
+  "status": "pass-preserving-approved-behavior",
+  "duration": 18.5,
+  "sourceMediaHashesPreserved": 101,
+  "runtimeErrors": [],
+  "preservationErrors": [],
+  "reverseSeekErrors": [],
+  "geometryErrors": [],
+  "phones": {
+    "coach": {
+      "calibration": {
+        "left": 38,
+        "top": 32,
+        "principal": [
+          158,
+          292
+        ],
+        "pitch": 4.812269432,
+        "yaw": 25.094292415,
+        "roll": -3.549403471,
+        "translation": [
+          -1.882021092,
+          -6.006762364,
+          69.421017795
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "edgeCount": 132,
+      "coreCount": 44,
+      "maxOverlayDelta": 0.000244140625,
+      "maxOrthogonalError": 7.559954200431207e-7,
+      "maxProjectionDelta": 0.00006957664777473838,
+      "benchmark": {
+        "samples": 2220,
+        "milliseconds": 116.60000014305115,
+        "meanSeekMilliseconds": 0.052522522586959976,
+        "note": "JavaScript seek/synchronization cost only; does not benchmark GPU/video rendering."
+      }
+    },
+    "client": {
+      "calibration": {
+        "left": 39,
+        "top": 35,
+        "principal": [
+          159,
+          295
+        ],
+        "pitch": 4.293821268,
+        "yaw": -19.872656569,
+        "roll": 4.148459616,
+        "translation": [
+          -0.66874392,
+          -5.431881122,
+          50.746810608
+        ],
+        "focal": 1800,
+        "thickness": 22,
+        "screen": [
+          240,
+          520
+        ],
+        "body": [
+          266,
+          556
+        ],
+        "projection": "orthogonal-css-3d"
+      },
+      "edgeCount": 132,
+      "coreCount": 44,
+      "maxOverlayDelta": 0.00048828125,
+      "maxOrthogonalError": 9.645551598547186e-7,
+      "maxProjectionDelta": 0.00010078767900267849,
+      "benchmark": {
+        "samples": 2220,
+        "milliseconds": 179.79999995231628,
+        "meanSeekMilliseconds": 0.08099099096951184,
+        "note": "JavaScript seek/synchronization cost only; does not benchmark GPU/video rendering."
+      }
+    }
+  },
+  "closingPixelIdentical": true,
+  "knownBaselineBehavior": {
+    "zIndexBoundary": {
+      "before": {
+        "time": 8.61,
+        "pixelsChanged": 22967,
+        "MAE": 1.5105367476851852,
+        "maxDelta": 255,
+        "bounds": {
+          "left": 587,
+          "top": 1087,
+          "right": 680,
+          "bottom": 1646
+        }
+      },
+      "after": {
+        "time": 8.61,
+        "pixelsChanged": 27923,
+        "MAE": 1.9638671875,
+        "maxDelta": 246,
+        "bounds": {
+          "left": 577,
+          "top": 1059,
+          "right": 688,
+          "bottom": 1654
+        }
+      },
+      "closingPixelIdentical": true,
+      "note": "The before comparison distinguishes an approved existing zIndex discontinuity from a migration regression."
+    },
+    "note": "Both baseline and migrated phones overlap at the unchanged8.61s stacking switch. Original change22967pixels; migrated27923pixels because the physical silhouette differs. Timing and stacking logic are preserved; this was not introduced by the migration."
+  },
+  "visualReview": {
+    "proofs": "real-3d-proof/client-turn-comparison.png and client9/9.6/11.1/12.4/13.4/14.5/16.83/18.4",
+    "result": "Visible side thickness responds to yaw; authentic screens, floating card, notification, loading and finalization remain integrated.",
+    "contact": "analysis/real-3d-audit/client-final-contact.png"
+  }
+}
