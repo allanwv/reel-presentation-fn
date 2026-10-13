@@ -1,0 +1,4006 @@
+{
+  "runtimeErrors": [],
+  "preservationErrors": [],
+  "protectedSampleTimes": [
+    0.01,
+    0.17,
+    0.32,
+    0.5,
+    0.8,
+    1.6,
+    1.85,
+    1.9,
+    2.1,
+    2.2,
+    2.4,
+    2.66,
+    2.8,
+    3.08,
+    3.2,
+    3.326,
+    3.586,
+    3.6,
+    3.96,
+    4.28,
+    4.6,
+    5.2,
+    5.5,
+    5.79,
+    6.15,
+    6.51,
+    6.87,
+    7.6,
+    7.8,
+    7.92,
+    7.95,
+    8.055,
+    8.35,
+    8.61,
+    8.675,
+    9,
+    9.6,
+    10.55,
+    10.85,
+    11.22,
+    11.65,
+    12.4,
+    13.15,
+    13.32,
+    13.97,
+    14.2,
+    14.5,
+    15.6,
+    15.8625,
+    16.28,
+    16.6,
+    16.83,
+    17.2,
+    17.3133333333,
+    17.3483333333,
+    17.5,
+    17.95,
+    18.08,
+    18.2,
+    18.49
+  ],
+  "protectedNodes": 593,
+  "protectedTweens": 304,
+  "protectedDomEqual": true,
+  "protectedTweenDefinitionsEqual": true,
+  "reverseErrors": [],
+  "rawHiddenAtlasDifferences": [
+    {
+      "time": 14.5,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 14.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 13.97,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 13.32,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 13.15,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 12.4,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 11.65,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 11.22,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 10.85,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 10.55,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 9.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 9,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.675,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.61,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.35,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.055,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.95,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.92,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.8,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 6.87,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 6.51,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 6.15,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 5.79,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 5.5,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 5.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 4.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 4.28,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.96,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.586,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.326,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.08,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.8,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.66,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.4,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.1,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 1.9,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 1.85,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 1.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.8,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.5,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.32,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.17,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.01,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    }
+  ],
+  "baselineHiddenAtlasDifferences": [
+    {
+      "time": 14.5,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 14.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 13.97,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 13.32,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 13.15,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 12.4,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 11.65,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 11.22,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 10.85,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 10.55,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 9.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 9,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.675,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.61,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.35,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 8.055,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.95,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.92,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.8,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 7.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 6.87,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 6.51,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 6.15,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 5.79,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 5.5,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 5.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 4.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 4.28,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.96,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.586,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.326,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 3.08,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.8,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.66,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.4,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.2,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 2.1,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 1.9,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 1.85,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 1.6,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.8,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.5,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.32,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.17,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    },
+    {
+      "time": 0.01,
+      "nodes": [
+        {
+          "now": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0; transform: translate(-240px, -1560px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:484",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        },
+        {
+          "now": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0; transform: translate(-480px, -1040px);",
+            "hiddenAtlas": true
+          },
+          "before": {
+            "key": "IMG.captured-atlas:491",
+            "style": "opacity: 0;",
+            "hiddenAtlas": true
+          }
+        }
+      ],
+      "phoneChanges": false
+    }
+  ],
+  "hiddenAtlasCacheBehaviorUnchanged": true,
+  "inversePixelEqualAt14_5": true,
+  "baselineReverseErrors": [],
+  "originalHashesVerified": 129,
+  "originalFailures": [],
+  "badgeHashes": {
+    "../assets/download-on-the-app-store-flat-badge-seeklogo.png": "cf945adc9684145a4b3e56113e9dabc9584833e77265ea2c7783c0528228d0d8",
+    "../assets/get-it-on-google-play-badge-seeklogo.png": "bb0b8192b5aa2be54dc1e266a3ff2409a23167a7187f8252c1feba0a1053b8c5"
+  },
+  "badgeFailures": [],
+  "closing": {
+    "meta": {
+      "platforms": "omitted-during-prelaunch",
+      "invitationAt": 17.95,
+      "offerAt": 18.08,
+      "conditionsAt": 18.2,
+      "settledAt": 18.55,
+      "end": 21,
+      "staticHold": 2.4499999999999993
+    },
+    "failures": [],
+    "entrySamples": [
+      {
+        "t": 0,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 868.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 952.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 0.01,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 868.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 952.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 16.83,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 868.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 952.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 17.5,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 868.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 952.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 17.949,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 868.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 952.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 17.95,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 868.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 952.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.079,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.7411; transform: translate3d(0px, 3.6249px, 0px);",
+            "opacity": 0.7411,
+            "transform": "matrix(1, 0, 0, 1, 0, 3.6249)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 852.9373168945312,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 936.9373168945312
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.08,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.7443; transform: translate3d(0px, 3.58px, 0px);",
+            "opacity": 0.7443,
+            "transform": "matrix(1, 0, 0, 1, 0, 3.58)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 852.8699951171875,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 936.8699951171875
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 973.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1060.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.199,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.9602; transform: translate3d(0px, 0.5573px, 0px);",
+            "opacity": 0.9602,
+            "transform": "matrix(1, 0, 0, 1, 0, 0.5573)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 848.3359375,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 932.3359375
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.7073; transform: translate3d(0px, 4.0982px, 0px);",
+            "opacity": 0.7073,
+            "transform": "matrix(1, 0, 0, 1, 0, 4.0982)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 958.6473388671875,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1045.6473388671875
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.2,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.961; transform: translate3d(0px, 0.5463px, 0px);",
+            "opacity": 0.961,
+            "transform": "matrix(1, 0, 0, 1, 0, 0.5463)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 848.3194580078125,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 932.3194580078125
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.7108; transform: translate3d(0px, 4.0489px, 0px);",
+            "opacity": 0.7108,
+            "transform": "matrix(1, 0, 0, 1, 0, 4.0489)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 958.5733642578125,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1045.5733642578125
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 14px);",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1141.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1234.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.4,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 847.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 931.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.993; transform: translate3d(0px, 0.0975px, 0px);",
+            "opacity": 0.993,
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0975)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 952.646240234375,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1039.646240234375
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.9213; transform: translate3d(0px, 1.102px, 0px);",
+            "opacity": 0.9213,
+            "transform": "matrix(1, 0, 0, 1, 0, 1.102)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1122.1529541015625,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1215.1529541015625
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.53,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 847.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 931.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 952.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1039.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 0.9998; transform: translate3d(0px, 0.0026px, 0px);",
+            "opacity": 0.9998,
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0026)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1120.50390625,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1213.50390625
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 18.55,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 847.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 931.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 952.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1039.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1120.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1213.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 19,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 847.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 931.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 952.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1039.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1120.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1213.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      },
+      {
+        "t": 20.999,
+        "values": [
+          {
+            "id": "beta-invitation",
+            "text": "Regístrate en la beta",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "40px",
+            "lineHeight": "56px",
+            "color": "rgb(245, 245, 243)",
+            "bounds": {
+              "x": 162,
+              "y": 847.5,
+              "width": 756,
+              "height": 84,
+              "right": 918,
+              "bottom": 931.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-offer",
+            "text": "y obtén 3 meses gratis*",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "42px",
+            "lineHeight": "58px",
+            "color": "rgb(17, 201, 230)",
+            "bounds": {
+              "x": 162,
+              "y": 952.5,
+              "width": 756,
+              "height": 87,
+              "right": 918,
+              "bottom": 1039.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          },
+          {
+            "id": "beta-conditions",
+            "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+            "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "lineHeight": "31px",
+            "color": "rgb(200, 214, 226)",
+            "bounds": {
+              "x": 162,
+              "y": 1120.5,
+              "width": 756,
+              "height": 93,
+              "right": 918,
+              "bottom": 1213.5
+            },
+            "scrollWidth": 504,
+            "clientWidth": 504
+          }
+        ]
+      }
+    ],
+    "settled": [
+      {
+        "id": "beta-invitation",
+        "text": "Regístrate en la beta",
+        "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "font": "Inter, sans-serif",
+        "size": "40px",
+        "lineHeight": "56px",
+        "color": "rgb(245, 245, 243)",
+        "bounds": {
+          "x": 162,
+          "y": 847.5,
+          "width": 756,
+          "height": 84,
+          "right": 918,
+          "bottom": 931.5
+        },
+        "scrollWidth": 504,
+        "clientWidth": 504
+      },
+      {
+        "id": "beta-offer",
+        "text": "y obtén 3 meses gratis*",
+        "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "font": "Inter, sans-serif",
+        "size": "42px",
+        "lineHeight": "58px",
+        "color": "rgb(17, 201, 230)",
+        "bounds": {
+          "x": 162,
+          "y": 952.5,
+          "width": 756,
+          "height": 87,
+          "right": 918,
+          "bottom": 1039.5
+        },
+        "scrollWidth": 504,
+        "clientWidth": 504
+      },
+      {
+        "id": "beta-conditions",
+        "text": "*Aplica para planes Lite y Plus. No requiere registro de tarjeta.",
+        "style": "translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "font": "Inter, sans-serif",
+        "size": "24px",
+        "lineHeight": "31px",
+        "color": "rgb(200, 214, 226)",
+        "bounds": {
+          "x": 162,
+          "y": 1120.5,
+          "width": 756,
+          "height": 93,
+          "right": 918,
+          "bottom": 1213.5
+        },
+        "scrollWidth": 504,
+        "clientWidth": 504
+      }
+    ],
+    "reverseErrors": [],
+    "oldClosingTextStillPresent": false,
+    "conditionsLines": 2
+  },
+  "contrast": [
+    {
+      "id": "beta-invitation",
+      "minContrastAgainstUnderlyingArtwork": 11.823099407076361,
+      "displayFontAt360px": 20
+    },
+    {
+      "id": "beta-offer",
+      "minContrastAgainstUnderlyingArtwork": 6.499889292545133,
+      "displayFontAt360px": 21
+    },
+    {
+      "id": "beta-conditions",
+      "minContrastAgainstUnderlyingArtwork": 9.751702100224477,
+      "displayFontAt360px": 12
+    }
+  ],
+  "screenshots": [
+    "closing-19s-1080.png",
+    "closing-19s-mobile-360.png",
+    "inverse-seek-14_5-forward.png",
+    "inverse-seek-14_5-reverse.png"
+  ]
+}

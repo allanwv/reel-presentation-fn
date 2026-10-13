@@ -1,0 +1,26 @@
+{
+  "value": "1",
+  "size": {
+    "width": 276,
+    "height": 168
+  },
+  "source": "assets/ui/exercise-entry/field-reps-value.png",
+  "sourceHashes": {
+    "assets/ui/exercise-entry/field-reps-value.png": "7ebf4f4a9f8e547ee1dcc779f6a73fec7ffe038e37d88946136ed3d23a136a73",
+    "assets/ui/exercise-entry/field-reps-empty.png": "192c866874c38187a1d8564fdd8b36078857292616e424e034840d50e3e9d5d6"
+  },
+  "crop": {
+    "left": 96,
+    "top": 54,
+    "width": 30,
+    "height": 58
+  },
+  "offset": {
+    "x": 20,
+    "y": 0
+  },
+  "copiedPixels": 1058,
+  "operation": "Authentic first glyph cropped from the existing Reps 12 raster, translated 20 whole pixels to the original centered input alignment. No redrawn font, recoloring, interpolation, keyboard or cursor.",
+  "output": "assets/ui/exercise-typing/field-reps-one-value.png",
+  "sha256": "9244cddb71d7d86b8bedbddb96a1852337138c9e42b2bfa7d48834ebe0389ee3"
+}

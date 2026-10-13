@@ -1,0 +1,11 @@
+QA CIERRE BETA — PASS
+
+593 nodos protegidos, 304 tweens y 60 tiempos: DOM, contenido, estilos, poses, quads y movimiento del logo idénticos al baseline.
+129 assets originales y los dos PNG originales de badges: hashes intactos.
+0 errores de runtime, preservación, reverse seek visual o cierre.
+Los transforms retenidos en atlas con opacity 0 son caché invisible preexistente: comportamiento idéntico al baseline. La comparación de píxeles forward/reverse a 14,5 s es exacta.
+Textos exactos; condiciones completas con espacio entre frases, distribuidas en dos líneas.
+Entradas 17,95 / 18,08 / 18,20 s; cierre asentado en 18,55 s y estático durante 2,45 s, hasta 21 s.
+Inspección visual de PNG a 1080x1920 y 360x640: sin cortes, solapamientos ni problemas materiales de legibilidad. Condiciones: 24 px base, 36 px render, 12 px en preview 360.
+Contraste mínimo del titular/oferta/condiciones: 11,82:1 / 6,50:1 / 9,75:1.
+No se editó index.html ni ningún helper de producción. Ver verification.json para evidencia y hashes.

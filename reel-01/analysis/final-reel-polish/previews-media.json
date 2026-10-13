@@ -1,0 +1,65 @@
+[
+  {
+    "file": "output/FITNODE_PULIDO_FINAL_COACH_PREVIEW.mp4",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "frames": 230,
+    "duration": 7.666667,
+    "audio": false,
+    "fullDecode": true,
+    "reviewSourceTimes": [
+      0.8,
+      1.6,
+      1.9,
+      2.2,
+      5.5,
+      5.67,
+      5.8,
+      6.1,
+      6.3,
+      6.5,
+      6.9,
+      7.2
+    ]
+  },
+  {
+    "file": "output/FITNODE_PULIDO_FINAL_CLIENT_PREVIEW.mp4",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "frames": 183,
+    "duration": 6.1,
+    "audio": false,
+    "fullDecode": true,
+    "reviewSourceTimes": [
+      8.3,
+      8.68,
+      9,
+      13.13,
+      13.23,
+      13.3,
+      13.350000000000001,
+      13.55,
+      14.05
+    ]
+  },
+  {
+    "file": "output/FITNODE_PULIDO_FINAL_CIERRE_PREVIEW.mp4",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "frames": 161,
+    "duration": 5.366667,
+    "audio": false,
+    "fullDecode": true,
+    "reviewSourceTimes": [
+      17.2,
+      17.95,
+      18.25,
+      18.95,
+      19.349999999999998,
+      21.45
+    ]
+  }
+]

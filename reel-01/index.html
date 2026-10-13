@@ -8,6 +8,8 @@
 <script src="assets/ui/floating/floating-cards.js"></script>
 <script src="assets/ui/phone-3d/phone-3d.js"></script>
 <link rel="stylesheet" href="assets/ui/phone-3d/phone-3d.css">
+<script src="assets/ui/mesocycle-selection/selection.js"></script>
+<link rel="stylesheet" href="assets/ui/mesocycle-selection/selection.css">
 <script src="assets/ui/floating/day-taps.js"></script>
 <link rel="stylesheet" href="assets/ui/floating/floating-cards.css">
 <link rel="stylesheet" href="assets/ui/notification/notification.css">
@@ -37,8 +39,17 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 .authentic-screen { display:block; width:240px; height:520px; object-fit:contain; }
 #coach-label { left:132px; top:492px; width:97px; height:25px; }
 #client-label { left:457px; top:497px; width:167px; height:25px; }
-#closing-title { left:95px; top:653px; width:533px; height:62px; }
-#closing-subtitle { left:212px; top:760px; width:297px; height:37px; color:#eeeeee; }
+/* Beta offer: centered inside generous Reels clearances, with native Inter proportions. */
+.beta-copy { position:absolute; left:108px; width:504px; text-align:center; opacity:0; }
+#beta-store-badges { position:absolute; left:108px; top:766px; width:504px; height:52px; display:flex; justify-content:center; align-items:center; gap:24px; opacity:0; pointer-events:none; }
+#beta-store-badges img { display:block; height:52px; width:auto; object-fit:contain; }
+#beta-invitation { top:535px; height:56px; font-size:40px; line-height:56px; font-weight:600; letter-spacing:-.7px; color:#f5f5f3; white-space:nowrap; }
+#beta-offer { left:68px; top:605px; width:584px; height:64px; font-size:46px; line-height:64px; font-weight:800; letter-spacing:-.7px; color:#11c9e6; white-space:nowrap; }
+#beta-upcoming { top:716px; height:34px; font-size:26px; line-height:34px; font-weight:500; color:#edeeed; }
+#beta-conditions { top:960px; height:62px; font-size:24px; line-height:31px; font-weight:400; color:#c8d6e2; }
+#beta-conditions span { display:block; }
+#client-finish-button-disabled { left:9px; top:466px; width:222px; height:36px; opacity:0; pointer-events:none; }
+.ui-field .ui-field-initial { opacity:0; }
 
 /* Independent raster components, inside the unchanged projective screen plane. */
 .focus-rig,.depth-rig,.float-rig { position:absolute; inset:0; width:720px; height:1280px; }
@@ -57,15 +68,15 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 </style>
 </head>
 <body>
-<div data-hf-id="hf-sshj" id="root" data-composition-id="main" data-start="0" data-duration="18.5" data-width="1080" data-height="1920">
+<div data-hf-id="hf-sshj" id="root" data-composition-id="main" data-start="0" data-duration="22" data-width="1080" data-height="1920">
 <div data-hf-id="hf-oz11" id="reference-space">
-<div data-hf-id="hf-fyh3" id="background" class="clip" data-start="0" data-duration="18.5" data-track-index="0" data-label="Fondo original reconstruido">
+<div data-hf-id="hf-fyh3" id="background" class="clip" data-start="0" data-duration="22" data-track-index="0" data-label="Fondo original reconstruido">
 <img data-hf-id="hf-oak4" class="full-frame" src="assets/background-clean.png" alt="Atmósfera azul de la referencia, sin textos ni teléfonos">
 </div>
 <div data-hf-id="hf-87yf" id="phone-shadow-track" class="clip" data-start="0" data-duration="17.5" data-track-index="1" data-label="Sombras originales">
 <img data-hf-id="hf-1bdb" class="full-frame" src="assets/phone-shadows.png" alt="">
 </div>
-<div data-hf-id="hf-15gb" id="official-logo" class="clip" data-start="0" data-duration="18.5" data-track-index="2" data-label="Logo oficial Fitnode">
+<div data-hf-id="hf-15gb" id="official-logo" class="clip" data-start="0" data-duration="22" data-track-index="2" data-label="Logo oficial Fitnode">
 <img data-hf-id="hf-fbjv" id="logo-art" src="assets/fitnode-official-transparent.png" alt="Fitnode">
 </div>
 <div data-hf-id="hf-5o7d" id="presentation-copy" class="clip" data-start="0" data-duration="17.5" data-track-index="3" data-label="Titular y subtítulo">
@@ -82,29 +93,34 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 <div data-hf-id="hf-8v5y" id="screen-coach" class="screen-plane">
 <img data-hf-id="hf-930e" class="authentic-screen" src="assets/ui/coach-update/screen-apertures-with-update-hole.png" alt="Captura original con apertura transparente para su card independiente">
 <img data-hf-id="hf-pi30" id="coach-update-button" class="screen-button" data-button="update" src="assets/ui/coach-update/update-enabled.png" alt="Actualizar">
-<img id="coach-update-button-disabled" class="screen-button" src="assets/ui/coach-update/update-disabled-reference.png" alt="Actualizar deshabilitado">
-<div id="coach-snackbar" class="fitnode-snackbar">
-  <div class="fitnode-snackbar__icon">
-    <svg viewBox="0 0 24 24" fill="none" stroke="#307eec" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="20 6 9 17 4 12"></polyline>
+<img data-hf-id="hf-pzug" id="coach-update-button-disabled" class="screen-button" src="assets/ui/coach-update/update-disabled-reference.png" alt="Actualizar deshabilitado">
+<div data-hf-id="hf-ywdz" id="coach-snackbar" class="fitnode-snackbar">
+  <div data-hf-id="hf-g5yi" class="fitnode-snackbar__icon">
+    <svg data-hf-id="hf-x1ec" viewBox="0 0 24 24" fill="none" stroke="#307eec" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline data-hf-id="hf-mlxs" points="20 6 9 17 4 12" />
     </svg>
   </div>
-  <span class="fitnode-snackbar__text">Rutina actualizada correctamente</span>
+  <span data-hf-id="hf-xhad" class="fitnode-snackbar__text">Rutina actualizada correctamente</span>
 </div>
 <div data-hf-id="hf-ycaq" id="mesocycle-card" class="ui-card" data-label="Card mesociclo · píxeles originales">
 <img data-hf-id="hf-ew3r" id="mesocycle-card-surface" class="ui-card-surface" src="assets/ui/mesocycle/card-closed.png" alt="Meso octubre · 4 sem">
+<img data-hf-id="hf-mhc6" class="mesocycle-initial-value" src="assets/ui/mesocycle-selection/card-independent.png" alt="Independiente, estado inicial auténtico">
 <div data-hf-id="hf-fivj" id="mesocycle-menu" class="ui-menu" data-label="Selector auténtico · abierto y pulsado">
-<img data-hf-id="hf-6yzy" id="mesocycle-menu-open" src="assets/ui/mesocycle/menu-open.png" alt="Selector abierto original: Independiente, Meso octubre, 4 semanas">
-<img data-hf-id="hf-0d88" id="mesocycle-menu-pressed" class="ui-state-pressed" src="assets/ui/mesocycle/menu-pressed.png" alt="Pulsación original sobre Meso octubre">
+<img data-hf-id="hf-4lo5" class="mesocycle-selection-base" src="assets/ui/mesocycle-selection/menu-base.png" alt="Selector original">
+<div data-hf-id="hf-tsa9" class="mesocycle-highlight"></div>
+<div data-hf-id="hf-m0qj" class="mesocycle-option-label mesocycle-option-independent" aria-label="Independiente"></div>
+<div data-hf-id="hf-32uf" class="mesocycle-option-label mesocycle-option-meso" aria-label="Meso octubre"></div>
+<img data-hf-id="hf-yxhq" src="assets/ui/mesocycle-selection/subtitle.png" alt="4 semanas">
+<img data-hf-id="hf-ozpo" class="mesocycle-selection-check" src="assets/ui/mesocycle-selection/check.png" alt="Selección">
 </div>
 </div>
-<div data-hf-id="hf-9iqp" id="days-card" class="ui-card ui-days" data-label="Días originales · selección L X V"><img data-hf-id="hf-sefz" class="ui-days-background" src="assets/ui/floating/day-taps/background.png" alt="Días de la semana"><img data-hf-id="hf-7tgx" class="ui-days-initial" src="assets/ui/floating/days-original.png" alt="Selección original antes de configurar los días">
+<div data-hf-id="hf-9iqp" id="days-card" class="ui-card ui-days" data-label="Días originales · selección L X V"><img data-hf-id="hf-sefz" class="ui-days-background" src="assets/ui/floating/day-taps/background.png" alt="Días de la semana">
 <div data-hf-id="hf-1ltg" class="ui-day" data-day="l" data-initial-selected="false" style="left:12.666666666666666px;top:22px"><img data-hf-id="hf-i5l7" class="ui-day-empty" src="assets/ui/floating/day-taps/l-empty.png" alt="L sin seleccionar"><img data-hf-id="hf-1nui" class="ui-day-selected" src="assets/ui/floating/day-taps/l-selected.png" alt="L seleccionado"></div>
-<div data-hf-id="hf-j0lr" class="ui-day" data-day="m" data-initial-selected="true" style="left:44px;top:22px"><img data-hf-id="hf-gesp" class="ui-day-empty" src="assets/ui/floating/day-taps/m-empty.png" alt="M sin seleccionar"><img data-hf-id="hf-sdp8" class="ui-day-selected" src="assets/ui/floating/day-taps/m-selected.png" alt="M seleccionado"></div>
+<div data-hf-id="hf-j0lr" class="ui-day" data-day="m" data-initial-selected="false" style="left:44px;top:22px"><img data-hf-id="hf-gesp" class="ui-day-empty" src="assets/ui/floating/day-taps/m-empty.png" alt="M sin seleccionar"><img data-hf-id="hf-sdp8" class="ui-day-selected" src="assets/ui/floating/day-taps/m-selected.png" alt="M seleccionado"></div>
 <div data-hf-id="hf-9hre" class="ui-day" data-day="x" data-initial-selected="false" style="left:75.5px;top:22px"><img data-hf-id="hf-0qzf" class="ui-day-empty" src="assets/ui/floating/day-taps/x-empty.png" alt="X sin seleccionar"><img data-hf-id="hf-z0iq" class="ui-day-selected" src="assets/ui/floating/day-taps/x-selected.png" alt="X seleccionado"></div>
-<div data-hf-id="hf-6o82" class="ui-day" data-day="j" data-initial-selected="true" style="left:107px;top:22px"><img data-hf-id="hf-a9hz" class="ui-day-empty" src="assets/ui/floating/day-taps/j-empty.png" alt="J sin seleccionar"><img data-hf-id="hf-1tg6" class="ui-day-selected" src="assets/ui/floating/day-taps/j-selected.png" alt="J seleccionado"></div>
+<div data-hf-id="hf-6o82" class="ui-day" data-day="j" data-initial-selected="false" style="left:107px;top:22px"><img data-hf-id="hf-a9hz" class="ui-day-empty" src="assets/ui/floating/day-taps/j-empty.png" alt="J sin seleccionar"><img data-hf-id="hf-1tg6" class="ui-day-selected" src="assets/ui/floating/day-taps/j-selected.png" alt="J seleccionado"></div>
 <div data-hf-id="hf-3xk4" class="ui-day" data-day="v" data-initial-selected="false" style="left:138.33333333333334px;top:22px"><img data-hf-id="hf-z3wv" class="ui-day-empty" src="assets/ui/floating/day-taps/v-empty.png" alt="V sin seleccionar"><img data-hf-id="hf-uj4m" class="ui-day-selected" src="assets/ui/floating/day-taps/v-selected.png" alt="V seleccionado"></div>
-<div data-hf-id="hf-o7mx" class="ui-day" data-day="s" data-initial-selected="true" style="left:169.83333333333334px;top:22px"><img data-hf-id="hf-82a1" class="ui-day-empty" src="assets/ui/floating/day-taps/s-empty.png" alt="S sin seleccionar"><img data-hf-id="hf-6bgk" class="ui-day-selected" src="assets/ui/floating/day-taps/s-selected.png" alt="S seleccionado"></div>
+<div data-hf-id="hf-o7mx" class="ui-day" data-day="s" data-initial-selected="false" style="left:169.83333333333334px;top:22px"><img data-hf-id="hf-82a1" class="ui-day-empty" src="assets/ui/floating/day-taps/s-empty.png" alt="S sin seleccionar"><img data-hf-id="hf-6bgk" class="ui-day-selected" src="assets/ui/floating/day-taps/s-selected.png" alt="S seleccionado"></div>
 <div data-hf-id="hf-zp2h" class="ui-day" data-day="d" data-initial-selected="false" style="left:201.16666666666666px;top:22px"><img data-hf-id="hf-cpd7" class="ui-day-empty" src="assets/ui/floating/day-taps/d-empty.png" alt="D sin seleccionar"></div></div>
 <div data-hf-id="hf-3bil" id="exercise-card" class="ui-card" data-label="Ejercicio original · parámetros"><img data-hf-id="hf-m0yt" class="ui-card-surface" src="assets/ui/floating/exercise-field-apertures.png" alt="Componente original del ejercicio"><div data-hf-id="hf-bwc1" id="field-series" class="ui-field" data-field="series" style="left:20px"><img data-hf-id="hf-35px" class="ui-field-empty" src="assets/ui/exercise-entry/field-series-empty.png" alt="Campo vacío series"><img data-hf-id="hf-fwzk" class="ui-field-value" src="assets/ui/exercise-entry/field-series-value.png" alt="Valor 4"><img data-hf-id="hf-qisw" class="ui-field-initial" src="assets/ui/floating/field-series-original.png" alt="Estado original anterior a configurar"></div>
 <div data-hf-id="hf-2kv1" id="field-reps" class="ui-field" data-field="reps" style="left:71.33333333333333px"><img data-hf-id="hf-1wuv" class="ui-field-empty" src="assets/ui/exercise-entry/field-reps-empty.png" alt="Campo vacío reps"><img data-hf-id="hf-6nha" class="ui-field-value" src="assets/ui/exercise-entry/field-reps-value.png" alt="Valor 12"><img data-hf-id="hf-v6e5" class="ui-field-initial" src="assets/ui/floating/field-reps-original.png" alt="Estado original anterior a configurar"></div>
@@ -121,15 +137,15 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 <div data-hf-id="hf-drf1" id="client-depth" class="depth-rig"><div data-hf-id="hf-vi4h" id="client-float" class="float-rig">
 <div data-hf-id="hf-6mze" id="phone-client-object" class="phone-object">
 <div data-hf-id="hf-fqdx" id="screen-client" class="screen-plane">
-<div id="fitnode-notification" class="fitnode-notification" role="img" aria-label="Fitnode: Tu coach actualizó tu rutina">
-<img class="fitnode-notification__icon" src="assets/ui/notification/fitnode-fn-light.png" alt="">
-<div class="fitnode-notification__content"><div class="fitnode-notification__heading"><span>Fitnode</span><span class="fitnode-notification__time">ahora</span></div><div class="fitnode-notification__message">Tu coach actualizó tu rutina</div></div>
+<div data-hf-id="hf-cmr3" id="fitnode-notification" class="fitnode-notification" role="img" aria-label="Fitnode: Tu coach actualizó tu rutina">
+<img data-hf-id="hf-tvtc" class="fitnode-notification__icon" src="assets/ui/notification/fitnode-fn-light.png" alt="">
+<div data-hf-id="hf-92dw" class="fitnode-notification__content"><div data-hf-id="hf-9865" class="fitnode-notification__heading"><span data-hf-id="hf-8z7g">Fitnode</span><span data-hf-id="hf-o126" class="fitnode-notification__time">ahora</span></div><div data-hf-id="hf-kaan" class="fitnode-notification__message">Tu coach actualizó tu rutina</div></div>
 </div>
-<img data-hf-id="hf-1ui3" class="authentic-screen" src="assets/ui/client-workout/screen-apertures.png" alt="Captura original Asesorado con aperturas localizadas">
+<img data-hf-id="hf-1ui3" class="authentic-screen" src="assets/ui/client-series-expanded/screen-apertures.png" alt="Captura original Asesorado con aperturas localizadas">
 <div data-hf-id="hf-a10s" id="client-series-card" class="ui-card" data-label="Registro auténtico de series y récord">
-<img data-hf-id="hf-7i5o" class="ui-card-surface" src="assets/ui/client-completion/series-card-three-apertures.png" alt="Series originales con tres filas independientes">
-<div class="client-set-row" data-set="1"><img class="client-set-pending" src="assets/ui/client-completion/set-1-pending.png" alt="Serie 1 pendiente"><img class="client-set-completed" src="assets/ui/client-completion/set-1-completed.png" alt="Serie 1 completada"></div>
-<div class="client-set-row" data-set="2"><img class="client-set-pending" src="assets/ui/client-completion/set-2-pending.png" alt="Serie 2 pendiente"><img class="client-set-completed" src="assets/ui/client-completion/set-2-completed.png" alt="Serie 2 completada"></div>
+<img data-hf-id="hf-7i5o" class="ui-card-surface" src="assets/ui/client-series-expanded/series-card-three-apertures.png" alt="Encabezado y series originales con tres filas independientes">
+<div data-hf-id="hf-x6xs" class="client-set-row" data-set="1"><img data-hf-id="hf-41nn" class="client-set-pending" src="assets/ui/client-completion/set-1-pending.png" alt="Serie 1 pendiente"><img data-hf-id="hf-bvg7" class="client-set-completed" src="assets/ui/client-completion/set-1-completed.png" alt="Serie 1 completada"></div>
+<div data-hf-id="hf-82ff" class="client-set-row" data-set="2"><img data-hf-id="hf-do35" class="client-set-pending" src="assets/ui/client-completion/set-2-pending.png" alt="Serie 2 pendiente"><img data-hf-id="hf-0hln" class="client-set-completed" src="assets/ui/client-completion/set-2-completed.png" alt="Serie 2 completada"></div>
 <div data-hf-id="hf-4hlm" class="client-record-row">
 <img data-hf-id="hf-sdo9" class="client-row-pending" src="assets/ui/client-workout/series-row-pending.png" alt="75 kg por 10 repeticiones, pendiente de completar">
 <div data-hf-id="hf-8zq6" class="client-row-completed">
@@ -142,17 +158,18 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 </div>
 </div>
 <img data-hf-id="hf-txaw" id="client-finish-button" class="screen-button" data-button="finish" src="assets/ui/client-workout/finish-button.png" alt="Terminar Rutina">
-<div id="client-workout-loading-overlay" class="workout-loading-overlay">
-  <div class="fitnode-spinner-container">
-    <svg viewBox="0 0 32 32" class="fitnode-spinner">
-      <circle cx="16" cy="16" r="12" fill="none" stroke="#307eec" stroke-width="3" stroke-linecap="round" stroke-dasharray="56" stroke-dashoffset="18"></circle>
+<img id="client-finish-button-disabled" class="screen-button" src="assets/ui/client-finish-disabled/finish-disabled.png" alt="Terminar Rutina, deshabilitado">
+<div data-hf-id="hf-iea8" id="client-workout-loading-overlay" class="workout-loading-overlay">
+  <div data-hf-id="hf-hu0v" class="fitnode-spinner-container">
+    <svg data-hf-id="hf-bb7t" viewBox="0 0 32 32" class="fitnode-spinner">
+      <circle data-hf-id="hf-76xb" cx="16" cy="16" r="12" fill="none" stroke="#307eec" stroke-width="3" stroke-linecap="round" stroke-dasharray="56" stroke-dashoffset="18" />
     </svg>
   </div>
 </div>
-<div id="client-completion" data-label="Finalizacion real del entrenamiento">
-<img class="client-completion-final" src="assets/ui/client-completion/workout-completed.png" alt="Rutina completada: Piernas Meso oct, captura original intacta">
-<div id="client-celebration" class="captured-sequence" aria-label="Serpentinas originales de Fitnode">
-<img class="captured-atlas" src="assets/ui/client-completion/serpentinas-00.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-01.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-02.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-03.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-04.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-05.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-06.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-07.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-08.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-09.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-10.png" alt="">
+<div data-hf-id="hf-05o4" id="client-completion" data-label="Finalizacion real del entrenamiento">
+<img data-hf-id="hf-plju" class="client-completion-final" src="assets/ui/client-completion/workout-completed.png" alt="Rutina completada: Piernas Meso oct, captura original intacta">
+<div data-hf-id="hf-twsu" id="client-celebration" class="captured-sequence" aria-label="Serpentinas originales de Fitnode">
+<img data-hf-id="hf-5xb7" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-00.png" alt=""><img data-hf-id="hf-6u36" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-01.png" alt=""><img data-hf-id="hf-0lb5" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-02.png" alt=""><img data-hf-id="hf-a1co" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-03.png" alt=""><img data-hf-id="hf-dgvb" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-04.png" alt=""><img data-hf-id="hf-4d5i" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-05.png" alt=""><img data-hf-id="hf-3qp1" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-06.png" alt=""><img data-hf-id="hf-rqxo" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-07.png" alt=""><img data-hf-id="hf-48rv" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-08.png" alt=""><img data-hf-id="hf-zye2" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-09.png" alt=""><img data-hf-id="hf-zklk" class="captured-atlas" src="assets/ui/client-completion/density-80/serpentinas-10.png" alt="">
 </div></div>
 </div>
 <img data-hf-id="hf-9ff1" class="phone-shell" src="assets/phone-client-reference.png" alt="Carcasa extraída de la referencia">
@@ -170,9 +187,15 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 <div data-hf-id="hf-dhco" id="client-ui-overlay" class="clip" data-start="0" data-duration="17.5" data-track-index="9" data-label="Series reales Asesorado · overlay frontal">
 <div data-hf-id="hf-67lv" id="client-ui-overlay-focus"><div data-hf-id="hf-kxko" id="client-ui-overlay-depth"><div data-hf-id="hf-ajjt" id="client-ui-overlay-float"><div data-hf-id="hf-lftr" id="client-ui-overlay-phone"><div data-hf-id="hf-fucd" id="client-ui-overlay-plane"></div></div></div></div></div>
 </div>
-<div data-hf-id="hf-p6yl" id="closing-copy" class="clip" data-start="16.5" data-duration="2.0" data-track-index="7" data-label="Textos de cierre">
-<svg data-hf-id="hf-1wh2" id="closing-title" class="text" data-weight="750" aria-label="Próximamente" preserveAspectRatio="none"><text data-hf-id="hf-gqur">Próximamente</text></svg>
-<svg data-hf-id="hf-9itt" id="closing-subtitle" class="text" data-weight="400" aria-label="En iOS y Android" preserveAspectRatio="none"><text data-hf-id="hf-42ic">En iOS y Android</text></svg>
+<div data-hf-id="hf-p6yl" id="closing-copy" class="clip" data-start="17.348333333346666" data-duration="4.651666666653334" data-track-index="7" data-label="Cierre beta · oferta de 3 meses">
+<div data-hf-id="hf-o9ow" id="beta-invitation" class="beta-copy">Regístrate en la beta</div>
+<div data-hf-id="hf-s93w" id="beta-offer" class="beta-copy">y obtén 3 meses gratis*</div>
+<div id="beta-upcoming" class="beta-copy">Próximamente en</div>
+<div data-hf-id="hf-4ozl" id="beta-store-badges" aria-label="App Store y Google Play">
+<img data-hf-id="hf-2bt0" src="assets/beta-closing/download-on-the-app-store-flat-badge-seeklogo.png" alt="Download on the App Store">
+<img data-hf-id="hf-rw5w" src="assets/beta-closing/get-it-on-google-play-badge-seeklogo.png" alt="Get it on Google Play">
+</div>
+<div data-hf-id="hf-zcd3" id="beta-conditions" class="beta-copy"><span data-hf-id="hf-a74b">*Aplica para planes Lite y Plus.</span><span data-hf-id="hf-xb3b"> No requiere registro de tarjeta.</span></div>
 </div>
 </div>
 </div>
@@ -180,7 +203,7 @@ html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
 // Approved layout preserved. Motion fitted to measured reference curves.
 const PROOF_POSES={presentation:{at:3,logo:{x:0,y:0,scale:1}},closing:{at:7,logo:{x:-4,y:255,scale:484/467}}};
 document.fonts.ready.then(async()=>{
-await Promise.all([400,500,700,750].map(weight=>document.fonts.load(weight+' 100px Inter')));
+await Promise.all([400,500,600,700,750,800].map(weight=>document.fonts.load(weight+' 100px Inter')));
 const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
 for(const svg of document.querySelectorAll('svg.text')){
 const text=svg.querySelector('text'),weight=svg.dataset.weight;
@@ -201,6 +224,11 @@ function measuredEase(path){
 const tl=gsap.timeline({paused:true});
 // Existing closing choreography, compressed only enough for the hold.
 const closingTime=t=>16.83+(t-10.4)*.40;
+// Closing starts only after every physical phone and label has finished fading.
+const phonesGoneAt=Math.max(...Object.values(measured).flatMap(c=>[c.phoneExit,c.labelExit].map(curve=>closingTime(curve.end+6.3166666667))));
+const closingAt=phonesGoneAt+.035;
+tl.set('.beta-copy',{y:14,opacity:0},0);
+tl.set('#beta-store-badges',{opacity:0},0);
 tl.set('#logo-art',{x:0,y:0,scale:1,transformOrigin:'0 0'},0);
 // One transform owner per rigid entrance; the orthogonal 3D model owns its yaw.
 // Replace the noisy tracked entrance and its velocity discontinuity with one curve.
@@ -237,8 +265,14 @@ tl.to('#hero-line-1,#hero-line-2,#hero-subtitle',{opacity:0,duration:.28*.60,eas
 const logoKnots=[[4.958333,0],[5,15],[5.125,61],[5.25,147],[5.375,207],[5.5,237],[5.625,250],[5.75,255]];
 // Smooth monotone interpolation through measured logo positions.
 function smoothSamples(knots){const d=knots.slice(1).map((k,i)=>(k[1]-knots[i][1])/(k[0]-knots[i][0]));const m=knots.map((k,i)=>i===0?0:i===knots.length-1?0:d[i-1]*d[i]<=0?0:2*d[i-1]*d[i]/(d[i-1]+d[i]));return p=>{const t=knots[0][0]+p*(knots.at(-1)[0]-knots[0][0]);let i=0;while(i<knots.length-2&&t>knots[i+1][0])i++;const h=knots[i+1][0]-knots[i][0],u=(t-knots[i][0])/h;return ((2*u**3-3*u*u+1)*knots[i][1]+(u**3-2*u*u+u)*h*m[i]+(-2*u**3+3*u*u)*knots[i+1][1]+(u**3-u*u)*h*m[i+1])/255;};}
-tl.to('#logo-art',{...PROOF_POSES.closing.logo,duration:(5.75-4.958333)*.60,ease:smoothSamples(logoKnots)},closingTime(11.275));
-tl.fromTo('#closing-title,#closing-subtitle',{y:155,opacity:0},{y:0,opacity:1,duration:.833333*.60,ease:'power3.out',immediateRender:false},closingTime(11.5666666667));
+tl.to('#logo-art',{...PROOF_POSES.closing.logo,duration:(5.75-4.958333)*.60,ease:smoothSamples(logoKnots)},closingAt);
+// Reveal whole lines after the unchanged logo arrival; no word-by-word animation.
+const betaInvitationAt=17.95,betaOfferAt=18.14,betaUpcomingAt=18.42,betaBadgesAt=18.60,betaConditionsAt=18.84;
+tl.to('#beta-store-badges',{opacity:1,duration:.40,ease:'sine.out'},betaBadgesAt);
+tl.to('#beta-invitation',{y:0,opacity:1,duration:.45,ease:'power3.out'},betaInvitationAt);
+tl.to('#beta-offer',{y:0,opacity:1,duration:.45,ease:'power3.out'},betaOfferAt);
+tl.to('#beta-upcoming',{y:0,opacity:1,duration:.38,ease:'power3.out'},betaUpcomingAt);
+tl.to('#beta-conditions',{y:0,opacity:1,duration:.35,ease:'power2.out'},betaConditionsAt);
 
 // Focus has its own parent transform: approved entrance keeps its sole transform owner.
 // Independent depth and ambient rigs: no tween competes with the rigid entrance.
@@ -251,7 +285,7 @@ for(const role of ['coach','client']){
  const prefix=role==='coach'?'ui-overlay':'client-ui-overlay';
  phoneYaw[role]=FitnodePhone3D({phone:document.querySelector('#phone-'+role+'-object'),overlayPhone:document.querySelector('#'+prefix+'-phone'),plane:document.querySelector('#'+prefix+'-plane'),role});
 }
-tl.to(phoneYaw.coach.pose,{angle:-9,duration:.60,ease:'power2.inOut'},1.6);
+tl.to(phoneYaw.coach.pose,{angle:-13,duration:.60,ease:'power2.inOut'},1.6);
 // Pure time functions: finite, sinusoidal and identical under forward/reverse seeks.
 for(const [role,amplitude,period,phase] of [['coach',2.4,4.2,0],['client',2.6,4.0,1.35]]){
   tl.fromTo('#'+role+'-float,#'+role+'-label-float',{y:-amplitude,force3D:false},{y:amplitude,duration:18.5,ease:p=>.5+.5*Math.sin(2*Math.PI*p*18.5/period+phase)},0);
@@ -260,15 +294,21 @@ tl.to('#client-focus,#client-label-focus',{x:50,y:30,scale:.95,duration:.50,ease
 tl.fromTo('#client-depth,#client-label-depth',{z:0,transformPerspective:1800,force3D:false},{z:-140,duration:.50,ease:'power2.inOut'},1.6);
 // Reusable, unclipped foreground cards. Original phone animation is untouched.
 const cards=FitnodeFloatingCards({timeline:tl,plane:document.querySelector('#ui-overlay-plane'),focus:document.querySelector('#coach-focus'),depth:document.querySelector('#coach-depth'),float:document.querySelector('#coach-float'),phone:document.querySelector('#phone-coach-object'),overlayFocus:document.querySelector('#ui-overlay-focus'),overlayDepth:document.querySelector('#ui-overlay-depth'),overlayFloat:document.querySelector('#ui-overlay-float'),overlayPhone:document.querySelector('#ui-overlay-phone')});
-const mesocycle=cards.add({id:'mesocycle-card',box:{left:0,top:334/6,width:240,height:210/6},start:2.4,end:3.55,scale:1.4,y:-10});
+// Add exactly 200 ms to the previous confirmed state; opening and tap stay fixed.
+const mesocycleSelectedAt=3.08,mesocycleOriginalCloseAt=3.17;
+const mesocyclePause=(mesocycleOriginalCloseAt-mesocycleSelectedAt)*1.40+.20;
+const mesocycleCloseAt=mesocycleSelectedAt+mesocyclePause;
+const mesocycleShift=mesocycleCloseAt-mesocycleOriginalCloseAt;
+const mesocycle=cards.add({id:'mesocycle-card',box:{left:0,top:334/6,width:240,height:210/6},start:2.4,end:3.55+mesocycleShift,scale:1.4,y:-10});
+for(const root of [mesocycle.dock,mesocycle.floating])root.querySelector('.ui-menu').classList.add('mesocycle-selector');
+FitnodeMesocycleSelection({timeline:tl,card:mesocycle});
 tl.fromTo('#floating-mesocycle-menu',{opacity:0,y:-2},{opacity:1,y:0,duration:.14,ease:'power2.out',immediateRender:false},2.66);
-tl.to('#floating-mesocycle-menu-pressed',{opacity:1,duration:.08,ease:'none'},3.0);
-tl.to('#floating-mesocycle-menu',{opacity:0,y:-1,duration:.12,ease:'sine.inOut'},3.17);
+tl.to('#floating-mesocycle-menu',{opacity:0,y:-1,duration:.12,ease:'sine.inOut'},mesocycleCloseAt);
 const days=cards.add({id:'days-card',box:{left:0,top:930/6,width:240,height:340/6},start:3.6,end:5.2,scale:1.4,y:-8,travel:.26});
 // Fixed background; original circle pixels alone receive the tap animation.
 FitnodeDayTaps({timeline:tl,card:days});
 const exercise=cards.add({id:'exercise-card',box:{left:0,top:1640/6,width:240,height:925/6},start:5.2,end:7.6,scale:1.15,y:-32,travel:.28});
-// Empty field pixels are fixed; only the isolated authentic number layers fade in.
+// Empty input surfaces are fixed; authentic glyph layers appear as discrete keystrokes.
 cards.inputSequence(exercise,[['series',5.62],['reps',5.98],['rir',6.34],['rest',6.70]]);
 // A button stays on the projective screen and compresses as a single rigid object.
 function buttonTap(selector,at){
@@ -276,7 +316,7 @@ function buttonTap(selector,at){
  tl.to(selector,{scale:.985,y:.35,duration:.075,ease:'power2.inOut'},at);
  tl.to(selector,{scale:1,y:0,duration:.18,ease:'power2.out'},at+.075);
 }
-buttonTap('#coach-update-button',7.80);
+buttonTap('#coach-update-button,#coach-update-button-disabled',7.80);
 tl.set('#coach-update-button-disabled',{opacity:0,scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
 tl.set('#coach-update-button',{opacity:0},7.92);
 tl.set('#coach-update-button-disabled',{opacity:1},7.92);
@@ -292,16 +332,21 @@ tl.to(phoneYaw.coach.pose,{angle:0,duration:.65,ease:'power2.inOut'},handoffAt);
 tl.to('#client-focus,#client-label-focus',{x:-95,y:-12,scale:1.20,duration:.65,ease:'power2.inOut'},handoffAt);
 tl.to('#client-label-depth',{z:140,rotation:0,rotationY:4,duration:.65,ease:'power2.inOut'},handoffAt);
 tl.to('#client-depth',{z:140,rotation:0,rotationY:0,duration:.65,ease:'power2.inOut'},handoffAt);
-tl.to(phoneYaw.client.pose,{angle:9,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to(phoneYaw.client.pose,{angle:13,duration:.65,ease:'power2.inOut'},handoffAt);
 tl.set('#phone-client',{zIndex:6},handoffAt+.26);
-// Client notification appears at T+1.40s (9.20s), after Client settles in foreground at 9.00s.
+// Invert the unchanged prominence ease: notification starts at 33% spatial progress.
+function timeAtEasedProgress(ease,progress){let lo=0,hi=1;for(let i=0;i<40;i++){const mid=(lo+hi)/2;if(ease(mid)<progress)lo=mid;else hi=mid;}return (lo+hi)/2;}
+const notificationProgress=.33;
+const notificationAt=handoffAt+.65*timeAtEasedProgress(gsap.parseEase('power2.inOut'),notificationProgress);
 const routineNotification=document.querySelector('#fitnode-notification');
 tl.set(routineNotification,{opacity:0,y:-80,force3D:false},0);
-tl.to(routineNotification,{opacity:1,y:0,duration:.30,ease:'power2.out'},9.20);
+tl.to(routineNotification,{opacity:1,y:0,duration:.30,ease:'power2.out'},notificationAt);
 tl.to(routineNotification,{opacity:0,y:-80,duration:.28,ease:'power2.in'},10.25);
 // The identical floating-card engine now also follows the right phone's four rigs.
 const clientCards=FitnodeFloatingCards({timeline:tl,plane:document.querySelector('#client-ui-overlay-plane'),focus:document.querySelector('#client-focus'),depth:document.querySelector('#client-depth'),float:document.querySelector('#client-float'),phone:document.querySelector('#phone-client-object'),overlayFocus:document.querySelector('#client-ui-overlay-focus'),overlayDepth:document.querySelector('#client-ui-overlay-depth'),overlayFloat:document.querySelector('#client-ui-overlay-float'),overlayPhone:document.querySelector('#client-ui-overlay-phone')});
-const clientSeries=clientCards.add({id:'client-series-card',box:{left:0,top:250,width:240,height:140},start:10.55,end:13.15,scale:1.35,x:-6,y:-20,travel:.30});
+const clientSeries=clientCards.add({id:'client-series-card',box:{left:0,top:115,width:240,height:275},start:10.55,end:13.15,scale:1.35,x:-6,y:-20,travel:.30});
+// Preserve the original rows' world-space pivot while extending the native card upwards.
+clientSeries.floating.style.transformOrigin='120px 205px';
 for(const root of [clientSeries.dock,clientSeries.floating]){
  for(const [set,at] of [[1,10.85],[2,11.22]]){
   const setRow=root.querySelector('[data-set="'+set+'"]'),checked=setRow.querySelector('.client-set-completed');
@@ -325,7 +370,10 @@ for(const root of [clientSeries.dock,clientSeries.floating]){
    tl.to(feature,{scale:1,y:0,duration:.25,ease:'sine.inOut'},at+.32);
  }
 }
-buttonTap('#client-finish-button',13.17);
+buttonTap('#client-finish-button,#client-finish-button-disabled',13.17);
+tl.set('#client-finish-button-disabled',{opacity:0},0);
+tl.set('#client-finish-button',{opacity:0},13.29);
+tl.set('#client-finish-button-disabled',{opacity:1},13.29);
 // Tap feedback: 0.15s duration (13.17s to 13.32s).
 // At 13.32s: grey overlay and centered spinner appear (duration 0.65s).
 tl.set('#client-workout-loading-overlay',{opacity:0,force3D:false},0);
@@ -341,9 +389,12 @@ tl.to('#client-completion',{opacity:1,duration:.20,ease:'sine.inOut'},13.97);
 // Celebration triggers as soon as the completed screen settles (14.20s).
 tl.set('#client-celebration',{opacity:0},0);
 tl.set('#client-celebration',{opacity:1},14.20);
-tl.to('#client-celebration',{opacity:0,duration:.06,ease:'none'},15.53);
+const celebrationStart=14.20,celebrationSpeed=.80;
+const celebrationEnd=celebrationStart+(15.53-celebrationStart)/celebrationSpeed;
+// Fade only the last moving tail; never freeze the final sprite then cut it away.
+tl.to('#client-celebration',{opacity:0,duration:.18,ease:'sine.inOut'},celebrationEnd-.18);
 window.__fitnodeCapturedSequences={
- celebration:FitnodeCapturedSequence({timeline:tl,element:document.querySelector('#client-celebration'),start:14.20,end:15.53,frames:205})
+ celebration:FitnodeCapturedSequence({timeline:tl,element:document.querySelector('#client-celebration'),start:celebrationStart,end:celebrationEnd,frames:205})
 };
 // Hold prominence of client phone with completed screen clearly visible until 16.28s (0.75s hold), then return.
 tl.to('#client-focus,#client-label-focus',{x:0,y:0,scale:1,duration:.55,ease:'power2.inOut'},16.28);
@@ -353,6 +404,8 @@ tl.set('#phone-client',{zIndex:4},16.60);
 const syncCards=tl.eventCallback('onUpdate');
 tl.eventCallback('onUpdate',function(){phoneYaw.coach.sync();phoneYaw.client.sync();if(syncCards)syncCards.call(this);for(const sequence of Object.values(window.__fitnodeCapturedSequences))sequence.sync();});
 window.__fitnodePhoneYaw=phoneYaw;
+window.__fitnodeBetaClosing={platforms:'original-store-badges',badgesAt:betaBadgesAt,invitationAt:betaInvitationAt,offerAt:betaOfferAt,upcomingAt:betaUpcomingAt,conditionsAt:betaConditionsAt,settledAt:betaConditionsAt+.35,end:22,staticHold:22-(betaConditionsAt+.35)};
+window.__fitnodePolishTiming={mesocycle:{selectedAt:mesocycleSelectedAt,originalCloseAt:mesocycleOriginalCloseAt,closeAt:mesocycleCloseAt,pause:mesocyclePause,end:mesocycle.end},notification:{at:notificationAt,progress:notificationProgress,handoffAt,duration:.65},closing:{phonesGoneAt,at:closingAt,titleAt:closingAt+.10,subtitleAt:closingAt+.20},celebration:{start:celebrationStart,end:celebrationEnd,speed:celebrationSpeed}};
 window.__timelines['main']=tl;
 });
 </script>

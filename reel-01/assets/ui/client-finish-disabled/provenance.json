@@ -1,0 +1,69 @@
+{
+  "sourceHashes": {
+    "assets/ui/client-workout/finish-button.png": "6b92b467825a033fbd206d2ae9021550593795645262f2f43b21733ee8aba878",
+    "assets/ui/coach-update/update-disabled-reference.png": "a05db1e0c67eb098287d7f4184883c0e8b16a7d05f9823bacb2fbfb0388ae7e5",
+    "../source/screenshots/SCREEN_04_PR_REAL.png": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa"
+  },
+  "sourceButton": "assets/ui/client-workout/finish-button.png",
+  "nativeSourceScreenshot": "source/screenshots/SCREEN_04_PR_REAL.png",
+  "greyPaperSource": {
+    "file": "assets/ui/coach-update/update-disabled-reference.png",
+    "sample": {
+      "left": 100,
+      "top": 90
+    },
+    "rgb": [
+      224,
+      224,
+      224
+    ],
+    "hex": "#e0e0e0"
+  },
+  "sourceBlue": [
+    47,
+    128,
+    236
+  ],
+  "sourceBox": {
+    "left": 54,
+    "top": 2796,
+    "width": 1332,
+    "height": 216
+  },
+  "logicalBox": {
+    "left": 9,
+    "top": 466,
+    "width": 222,
+    "height": 36
+  },
+  "file": "assets/ui/client-finish-disabled/finish-disabled.png",
+  "sourceDimensions": {
+    "width": 1332,
+    "height": 216
+  },
+  "foregroundArea": {
+    "left": 340,
+    "top": 35,
+    "width": 670,
+    "height": 145
+  },
+  "operation": "Only native blue button paper is changed to grey sampled from the original Coach disabled button. Original Terminar Rutina wording/check/positions/proportions and corner coverage are retained. White glyph cores remain original pixels; antialiased edges are recomposited onto grey, preventing blue fringes. No font or control is redrawn.",
+  "stateAvailability": "No exact grey Terminar Rutina screenshot found in SCREEN_03/SCREEN_04 or inspected original completion frames. This specific grey+white state is a user-authorized localized variant, not a claim of a captured Flutter state.",
+  "verification": {
+    "originalHashesUnchanged": true,
+    "alphaUnchanged": true,
+    "blueResiduePixels": 0,
+    "preservedOriginalWhiteGlyphPixels": 1787,
+    "outputSha256": "bcd64b72b5b2a1346b620ff92973169c1fe6ee26409274a4b14cfdf9e596b7e3"
+  },
+  "integration": {
+    "id": "client-finish-button-disabled",
+    "class": "screen-button",
+    "geometry": "Same box as client-finish-button; initial opacity0.",
+    "tapSelectors": "#client-finish-button,#client-finish-button-disabled",
+    "tapAt": 13.17,
+    "swapAt": 13.29,
+    "loaderAtUnchanged": 13.32,
+    "swap": "Hard state handoff (enabled opacity0; disabled opacity1) on the same GSAP timeline. Keep disabled visible until the screen fades; do not tween back to enabled."
+  }
+}

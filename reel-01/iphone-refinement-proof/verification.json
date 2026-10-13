@@ -1,0 +1,188 @@
+{
+  "runtimeErrors": [],
+  "preservationErrors": [],
+  "reverseErrors": [],
+  "originalHashesVerified": 129,
+  "duration": 18.5,
+  "selection": {
+    "results": {
+      "2.8": {
+        "open": 1,
+        "highlightY": 0,
+        "checks": 1,
+        "checkY": -33.5556,
+        "checkOpacity": 1,
+        "independentColor": "rgb(49, 128, 237)",
+        "mesoColor": "rgb(49, 49, 49)",
+        "fieldOpacity": 1,
+        "dockFieldOpacity": 1
+      },
+      "3.025": {
+        "open": 1,
+        "highlightY": 2.0729,
+        "checks": 1,
+        "checkY": -33.5556,
+        "checkOpacity": 0.75,
+        "independentColor": "rgb(49, 123, 226)",
+        "mesoColor": "rgb(49, 54, 60)",
+        "fieldOpacity": 1,
+        "dockFieldOpacity": 1
+      },
+      "3.06": {
+        "open": 1,
+        "highlightY": 10.8373,
+        "checks": 1,
+        "checkY": 0,
+        "checkOpacity": 0,
+        "independentColor": "rgb(49, 104, 179)",
+        "mesoColor": "rgb(49, 73, 107)",
+        "fieldOpacity": 1,
+        "dockFieldOpacity": 1
+      },
+      "3.12": {
+        "open": 1,
+        "highlightY": 29.9692,
+        "checks": 1,
+        "checkY": 0,
+        "checkOpacity": 0.8163,
+        "independentColor": "rgb(49, 61, 77)",
+        "mesoColor": "rgb(49, 116, 209)",
+        "fieldOpacity": 0,
+        "dockFieldOpacity": 0
+      },
+      "3.16": {
+        "open": 1,
+        "highlightY": 35.1111,
+        "checks": 1,
+        "checkY": 0,
+        "checkOpacity": 1,
+        "independentColor": "rgb(49, 49, 49)",
+        "mesoColor": "rgb(49, 128, 237)",
+        "fieldOpacity": 0,
+        "dockFieldOpacity": 0
+      },
+      "3.55": {
+        "open": 0,
+        "highlightY": 35.1111,
+        "checks": 1,
+        "checkY": 0,
+        "checkOpacity": 1,
+        "independentColor": "rgb(49, 49, 49)",
+        "mesoColor": "rgb(49, 128, 237)",
+        "fieldOpacity": 0,
+        "dockFieldOpacity": 0
+      },
+      "3.6": {
+        "open": 0,
+        "highlightY": 35.1111,
+        "checks": 1,
+        "checkY": 0,
+        "checkOpacity": 1,
+        "independentColor": "rgb(49, 49, 49)",
+        "mesoColor": "rgb(49, 128, 237)",
+        "fieldOpacity": 0,
+        "dockFieldOpacity": 0
+      }
+    },
+    "models": {
+      "coach": {
+        "calibration": {
+          "left": 38,
+          "top": 32,
+          "principal": [
+            158,
+            292
+          ],
+          "pitch": 4.812269432,
+          "yaw": 25.094292415,
+          "roll": -3.549403471,
+          "translation": [
+            -1.882021092,
+            -6.006762364,
+            69.421017795
+          ],
+          "focal": 1800,
+          "thickness": 22,
+          "screen": [
+            240,
+            520
+          ],
+          "body": [
+            250,
+            530
+          ],
+          "bezel": 5,
+          "island": {
+            "left": 95,
+            "top": 4,
+            "width": 50,
+            "height": 18
+          },
+          "projection": "orthogonal-css-3d"
+        },
+        "islands": 1,
+        "faces": 132,
+        "screen": [
+          240,
+          520
+        ],
+        "island": [
+          95,
+          4,
+          50,
+          18
+        ],
+        "preserve": "preserve-3d"
+      },
+      "client": {
+        "calibration": {
+          "left": 39,
+          "top": 35,
+          "principal": [
+            159,
+            295
+          ],
+          "pitch": 4.293821268,
+          "yaw": -19.872656569,
+          "roll": 4.148459616,
+          "translation": [
+            -0.66874392,
+            -5.431881122,
+            50.746810608
+          ],
+          "focal": 1800,
+          "thickness": 22,
+          "screen": [
+            240,
+            520
+          ],
+          "body": [
+            250,
+            530
+          ],
+          "bezel": 5,
+          "island": {
+            "left": 95,
+            "top": 4,
+            "width": 50,
+            "height": 18
+          },
+          "projection": "orthogonal-css-3d"
+        },
+        "islands": 1,
+        "faces": 132,
+        "screen": [
+          240,
+          520
+        ],
+        "island": [
+          95,
+          4,
+          50,
+          18
+        ],
+        "preserve": "preserve-3d"
+      }
+    }
+  }
+}

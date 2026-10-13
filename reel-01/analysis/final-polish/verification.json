@@ -1,0 +1,357 @@
+{
+  "runtimeErrors": [],
+  "preservationErrors": [],
+  "reverseErrors": [],
+  "originalHashesVerified": 129,
+  "duration": 18.5,
+  "validation": {
+    "meta": {
+      "mesocycle": {
+        "selectedAt": 3.08,
+        "originalCloseAt": 3.17,
+        "closeAt": 3.206,
+        "pause": 0.1259999999999998,
+        "end": 3.586
+      },
+      "notification": {
+        "at": 8.632964099962942,
+        "progress": 0.33,
+        "handoffAt": 8.35,
+        "duration": 0.65
+      },
+      "closing": {
+        "phonesGoneAt": 17.313333333346666,
+        "at": 17.348333333346666,
+        "titleAt": 17.448333333346667,
+        "subtitleAt": 17.548333333346665
+      },
+      "celebration": {
+        "start": 14.2,
+        "end": 15.862499999999999,
+        "speed": 0.8
+      }
+    },
+    "failures": [],
+    "meso": [
+      {
+        "t": 3.08,
+        "opacity": 1,
+        "field": 0,
+        "check": 0
+      },
+      {
+        "t": 3.17,
+        "opacity": 1,
+        "field": 0,
+        "check": 1
+      },
+      {
+        "t": 3.2,
+        "opacity": 1,
+        "field": 0,
+        "check": 1
+      },
+      {
+        "t": 3.206,
+        "opacity": 1,
+        "field": 0,
+        "check": 1
+      },
+      {
+        "t": 3.326,
+        "opacity": 0,
+        "field": 0,
+        "check": 1
+      },
+      {
+        "t": 3.586,
+        "opacity": 0,
+        "field": 0,
+        "check": 1
+      }
+    ],
+    "progress": 0.33,
+    "closing": [
+      {
+        "t": 17.166666666666668,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0.2628,
+          0.2628,
+          0.6914,
+          0.6914
+        ]
+      },
+      {
+        "t": 17.2,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0.0792,
+          0.0792,
+          0.5689,
+          0.5689
+        ]
+      },
+      {
+        "t": 17.233333333333334,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0.4261,
+          0.4261
+        ]
+      },
+      {
+        "t": 17.266666666666666,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0.2628,
+          0.2628
+        ]
+      },
+      {
+        "t": 17.3,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0.0792,
+          0.0792
+        ]
+      },
+      {
+        "t": 17.333333333333332,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.366666666666667,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.4,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.433333333333334,
+        "title": 0,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.466666666666665,
+        "title": 0.1388,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.5,
+        "title": 0.3536,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.533333333333335,
+        "title": 0.5254,
+        "subtitle": 0,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.566666666666666,
+        "title": 0.6605,
+        "subtitle": 0.1388,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.6,
+        "title": 0.7644,
+        "subtitle": 0.3536,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 17.633333333333333,
+        "title": 0.8425,
+        "subtitle": 0.5254,
+        "phones": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "update": [
+      {
+        "t": 7.8,
+        "poses": [
+          {
+            "scale": 1,
+            "y": 0,
+            "opacity": 1
+          },
+          {
+            "scale": 1,
+            "y": 0,
+            "opacity": 0
+          }
+        ],
+        "snackbar": 0
+      },
+      {
+        "t": 7.875,
+        "poses": [
+          {
+            "scale": 0.985,
+            "y": 0.35,
+            "opacity": 1
+          },
+          {
+            "scale": 0.985,
+            "y": 0.35,
+            "opacity": 0
+          }
+        ],
+        "snackbar": 0
+      },
+      {
+        "t": 7.919,
+        "poses": [
+          {
+            "scale": 0.9935,
+            "y": 0.151,
+            "opacity": 1
+          },
+          {
+            "scale": 0.9935,
+            "y": 0.151,
+            "opacity": 0
+          }
+        ],
+        "snackbar": 0
+      },
+      {
+        "t": 7.92,
+        "poses": [
+          {
+            "scale": 0.9937,
+            "y": 0.1477,
+            "opacity": 0
+          },
+          {
+            "scale": 0.9937,
+            "y": 0.1477,
+            "opacity": 1
+          }
+        ],
+        "snackbar": 0
+      },
+      {
+        "t": 7.95,
+        "poses": [
+          {
+            "scale": 0.997,
+            "y": 0.0695,
+            "opacity": 0
+          },
+          {
+            "scale": 0.997,
+            "y": 0.0695,
+            "opacity": 1
+          }
+        ],
+        "snackbar": 0.5376
+      },
+      {
+        "t": 8.055,
+        "poses": [
+          {
+            "scale": 1,
+            "y": 0,
+            "opacity": 0
+          },
+          {
+            "scale": 1,
+            "y": 0,
+            "opacity": 1
+          }
+        ],
+        "snackbar": 1.0655
+      }
+    ],
+    "series": {
+      "box": [
+        0,
+        115,
+        240,
+        275
+      ],
+      "surface": "assets/ui/client-series-expanded/series-card-three-apertures.png",
+      "origin": "120px 205px"
+    }
+  },
+  "density": {
+    "before": 2739,
+    "after": 2191,
+    "reduction": 0.20007301935012778,
+    "observationsReduction": 0.2000029762347654,
+    "physicalIdsAvailable": false
+  }
+}

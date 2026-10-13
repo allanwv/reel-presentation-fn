@@ -1,0 +1,23 @@
+{
+  "field": {
+    "source": "source/videos/VIDEO_01_COACH_ROUTINE_ASSIGN.mp4",
+    "at": 35,
+    "crop": {
+      "left": 86,
+      "top": 404,
+      "width": 269,
+      "height": 38
+    },
+    "target": {
+      "left": 113,
+      "top": 81,
+      "width": 317,
+      "height": 39
+    },
+    "operation": "Native Independiente glyph pixels uniformly scaled into the original card value area; localized white patch only."
+  },
+  "dropdown": {
+    "source": "reel-01/assets/ui/mesocycle/menu-open.png",
+    "operation": "Original rounded alpha/divider and original label/check masks. Selected row color sampled RGB 228,228,228; original selected/unselected label colors."
+  }
+}

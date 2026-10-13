@@ -23,7 +23,7 @@ window.FitnodePhone3D=function({phone,overlayPhone,plane,role}){
   for(let z=-21.75;z<0;z+=.5)element('real-phone-core',rig).style.transform='translateZ('+z+'px)';
   // Clockwise rounded rectangle: each edge is a genuine vertical plane, with
   // outward normals. Subdivided corners close the complete 22px extrusion.
-  const points=[],r=38,x=-13,y=-18,w=266,h=556;
+  const points=[],r=33,x=-5,y=-5,w=250,h=530;
   for(const [cx,cy,start] of [[x+w-r,y+r,-90],[x+w-r,y+h-r,0],[x+r,y+h-r,90],[x+r,y+r,180]]){
     for(let i=0;i<=32;i++){const a=(start+i*90/32)*Math.PI/180;points.push([cx+r*Math.cos(a),cy+r*Math.sin(a)]);}
   }
@@ -33,9 +33,9 @@ window.FitnodePhone3D=function({phone,overlayPhone,plane,role}){
     Object.assign(edge.style,{left:((ax+bx)/2-(len+.25)/2)+'px',top:((ay+by)/2-thickness/2)+'px',width:(len+.25)+'px',transform:'translateZ(-11px) rotateZ('+theta+'deg) rotateX(90deg)'});
   });
   element('real-phone-front',rig);
-  element('real-phone-speaker',rig);
   const screen=phone.querySelector('#screen-'+role);
   rig.appendChild(screen);overlay.appendChild(plane);
+  element('real-phone-island',screen);
   let last;
   function sync(){
     // Explicitly replace the former baked homography, including initialization
@@ -57,5 +57,5 @@ window.FitnodePhone3D=function({phone,overlayPhone,plane,role}){
     });
   }
   sync();
-  return{pose,sync,rig,overlay,camera:cam,overlayCamera:overlayCamera.cam,projectedQuad,calibration:{...model,focal,thickness,screen:[240,520],body:[266,556],projection:'orthogonal-css-3d'}};
+  return{pose,sync,rig,overlay,camera:cam,overlayCamera:overlayCamera.cam,projectedQuad,calibration:{...model,focal,thickness,screen:[240,520],body:[250,530],bezel:5,island:{left:95,top:4,width:50,height:18},projection:'orthogonal-css-3d'}};
 };

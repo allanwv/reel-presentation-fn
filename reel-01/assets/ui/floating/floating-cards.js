@@ -65,14 +65,49 @@ window.FitnodeFloatingCards=function({timeline,plane,focus,depth,float,phone,ove
   };
   const inputSequence=(card,entries)=>{
     for(const root of [card.dock,card.floating]){
-      timeline.set(root.querySelectorAll('.ui-field-initial'),{opacity:1},0);
-      timeline.set(root.querySelectorAll('.ui-field-initial'),{opacity:0},card.start);
+      // The masked authentic input surfaces are empty from the first phone frame.
+      timeline.set(root.querySelectorAll('.ui-field-initial'),{opacity:0},0);
       timeline.set(root.querySelectorAll('.ui-field-value'),{opacity:0},0);
-      for(const [name,at] of entries){
+      for(const [index,[name,at]] of entries.entries()){
         const field=root.querySelector('[data-field="'+name+'"]'),value=field.querySelector('.ui-field-value');
+        // A raster prefix keeps Flutter's original glyphs and input surface.
+        // It is created once while building the root timeline, never while seeking.
+        let prefix=null;
+        if(name==='reps'){
+          prefix=value.cloneNode(false);
+          prefix.removeAttribute('id');prefix.removeAttribute('data-hf-id');
+          prefix.className='ui-field-typed-prefix';
+          prefix.src='assets/ui/exercise-typing/field-reps-one-value.png';prefix.alt='Valor 1 durante el tipeo';
+          prefix.style.opacity='0';field.insertBefore(prefix,value);
+          timeline.set(prefix,{opacity:0},0);
+        }
+        // A narrow TextField caret, sized against the authentic 44 px raster
+        // glyph height (the screen is authored at one sixth of source pixels).
+        const caret=document.createElement('span');caret.className='ui-field-caret';caret.setAttribute('aria-hidden','true');
+        Object.assign(caret.style,{position:'absolute',left:'0px',top:(56/6)+'px',width:'1px',height:(56/6)+'px',backgroundColor:'#2F80ED',opacity:'0',pointerEvents:'none',zIndex:'2'});
+        field.appendChild(caret);
+        const emptyX={series:134/6,reps:132/6,rir:132/6,rest:102/6}[name];
+        const fullX={series:157/6,reps:166/6,rir:152/6,rest:122/6}[name];
+        const blurAt=entries[index+1]?.[1]??Math.min(at+.36,card.end);
+        timeline.set(caret,{opacity:0,x:emptyX,force3D:false},0);
+        timeline.set(caret,{opacity:1},at);
         timeline.set(field,{y:0,scale:1,force3D:false},0);
         timeline.to(field,{y:-.4,scale:1.045,duration:.10,ease:'power2.out'},at);
-        timeline.to(value,{opacity:1,duration:.12,ease:'power1.out'},at+.035);
+        // Brief existing focus motion, then discrete keystrokes. Numbers never fade.
+        if(prefix){
+          timeline.set(prefix,{opacity:1},at+.11);
+          timeline.set(caret,{x:148/6},at+.11);
+          timeline.set(prefix,{opacity:0},at+.24);
+          timeline.set(value,{opacity:1},at+.24);
+          timeline.set(caret,{x:fullX},at+.24);
+        }else{
+          timeline.set(value,{opacity:1},at+.11);
+          timeline.set(caret,{x:fullX},at+.11);
+        }
+        // One brief blink on the same GSAP clock, then clean focus hand-off.
+        timeline.set(caret,{opacity:0},at+.16);
+        timeline.set(caret,{opacity:1},at+.24);
+        timeline.set(caret,{opacity:0},blurAt);
         timeline.to(field,{y:0,scale:1,duration:.18,ease:'power2.out'},at+.10);
       }
     }

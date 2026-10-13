@@ -1,0 +1,162 @@
+const tl=gsap.timeline({paused:true});
+// Existing closing choreography, compressed only enough for the hold.
+const closingTime=t=>16.83+(t-10.4)*.40;
+tl.set('#logo-art',{x:0,y:0,scale:1,transformOrigin:'0 0'},0);
+// One transform owner per rigid entrance; the orthogonal 3D model owns its yaw.
+// Replace the noisy tracked entrance and its velocity discontinuity with one curve.
+function floatEase(startTime,endTime,midTime,from,to){
+ const mid=(midTime-startTime)/(endTime-startTime),v=from/(from-to);
+ // Monotone Hermite arc: zero endpoint velocity, continuous velocity through t=3.
+ const slope=Math.min(v/mid,(1-v)/(1-mid));
+ return p=>{const first=p<=mid,u=first?p/mid:(p-mid)/(1-mid),a=first?0:v,b=first?v:1,span=first?mid:1-mid,ma=first?0:slope,mb=first?slope:0;return (2*u*u*u-3*u*u+1)*a+(u*u*u-2*u*u+u)*span*ma+(-2*u*u*u+3*u*u)*b+(u*u*u-u*u)*span*mb;};
+}
+for(const role of ['coach','client']){
+ const c=measured[role],right=role==='client',phone='#phone-'+role+'-object',label=right?'#client-label':'#coach-label';
+ const start=right?0.32:0.17,end=right?1.87:1.72;
+ const base=c.phoneFloat.find(s=>s.t===3).value,labelBase=c.labelFloat.find(s=>s.t===3).value;
+ const floatFrom=right?5:6;
+ tl.set(phone,{y:805,x:right?18:-18,rotationX:9,rotationY:right?-13:15,rotation:right?3:-3,transformPerspective:1800,force3D:false,opacity:1},0);
+ tl.to(phone,{y:floatFrom,x:0,rotationX:0,rotationY:0,rotation:0,duration:end-start,ease:'power3.out'},start);
+ tl.set(label,{y:805,opacity:0},0);
+ tl.to(label,{y:floatFrom,opacity:1,duration:end-start,ease:'power3.out'},start);
+ for(const [selector,sourceCurve,b] of [[phone,c.phoneExit,base],[label,c.labelExit,labelBase]]){
+   const oldStart=sourceCurve.start+6.3166666667;
+   const curve={...sourceCurve,start:closingTime(oldStart),end:closingTime(sourceCurve.end+6.3166666667)};
+   tl.to(selector,{y:curve.from-b,duration:oldStart-end,ease:floatEase(end,oldStart,3,floatFrom,curve.from-b)},end);
+   tl.to(selector,{y:curve.to-b,duration:curve.end-curve.start,ease:measuredEase(curve.gsapCustomEasePath)},curve.start);
+   tl.to(selector,{opacity:0,duration:.55*.60,ease:'power1.in'},curve.end-.55*.60);
+ }
+}
+tl.fromTo('#phone-shadow-track img',{opacity:0},{opacity:1,duration:0.8,ease:'sine.out'},0.7);
+tl.to('#phone-shadow-track img',{opacity:0,duration:.8*.60,ease:'sine.inOut'},closingTime(10.4666666667));
+tl.fromTo('#logo-art',{opacity:0,y:12},{opacity:1,y:0,duration:0.42,ease:'power2.out'},0);
+tl.fromTo('#hero-line-1,#hero-line-2',{opacity:0,y:16},{opacity:1,y:0,duration:0.6,ease:'power2.out'},0.24);
+tl.fromTo('#hero-subtitle',{opacity:0,y:12},{opacity:1,y:0,duration:0.55,ease:'power2.out'},0.42);
+tl.set('#coming-soon',{opacity:0},0);
+tl.to('#hero-line-1,#hero-line-2,#hero-subtitle',{opacity:0,duration:.28*.60,ease:'sine.inOut'},closingTime(11.1166666667));
+const logoKnots=[[4.958333,0],[5,15],[5.125,61],[5.25,147],[5.375,207],[5.5,237],[5.625,250],[5.75,255]];
+// Smooth monotone interpolation through measured logo positions.
+function smoothSamples(knots){const d=knots.slice(1).map((k,i)=>(k[1]-knots[i][1])/(k[0]-knots[i][0]));const m=knots.map((k,i)=>i===0?0:i===knots.length-1?0:d[i-1]*d[i]<=0?0:2*d[i-1]*d[i]/(d[i-1]+d[i]));return p=>{const t=knots[0][0]+p*(knots.at(-1)[0]-knots[0][0]);let i=0;while(i<knots.length-2&&t>knots[i+1][0])i++;const h=knots[i+1][0]-knots[i][0],u=(t-knots[i][0])/h;return ((2*u**3-3*u*u+1)*knots[i][1]+(u**3-2*u*u+u)*h*m[i]+(-2*u**3+3*u*u)*knots[i+1][1]+(u**3-u*u)*h*m[i+1])/255;};}
+tl.to('#logo-art',{...PROOF_POSES.closing.logo,duration:(5.75-4.958333)*.60,ease:smoothSamples(logoKnots)},closingTime(11.275));
+tl.fromTo('#closing-title,#closing-subtitle',{y:155,opacity:0},{y:0,opacity:1,duration:.833333*.60,ease:'power3.out',immediateRender:false},closingTime(11.5666666667));
+
+// Focus has its own parent transform: approved entrance keeps its sole transform owner.
+// Independent depth and ambient rigs: no tween competes with the rigid entrance.
+tl.to('#coach-focus,#coach-label-focus',{x:100,y:-12,scale:1.20,duration:.50,ease:'power2.inOut'},1.6);
+tl.fromTo('#coach-label-depth',{z:0,rotation:0,rotationY:0,transformPerspective:1800,force3D:false},{z:140,rotation:0,rotationY:-4,duration:.50,ease:'power2.inOut'},1.6);
+tl.fromTo('#coach-depth',{z:0,rotation:0,rotationY:0,transformPerspective:1800,force3D:false},{z:140,duration:.50,ease:'power2.inOut'},1.6);
+// One physical yaw for the chassis, authentic screen and independent card overlay.
+const phoneYaw={};
+for(const role of ['coach','client']){
+ const prefix=role==='coach'?'ui-overlay':'client-ui-overlay';
+ phoneYaw[role]=FitnodePhone3D({phone:document.querySelector('#phone-'+role+'-object'),overlayPhone:document.querySelector('#'+prefix+'-phone'),plane:document.querySelector('#'+prefix+'-plane'),role});
+}
+tl.to(phoneYaw.coach.pose,{angle:-9,duration:.60,ease:'power2.inOut'},1.6);
+// Pure time functions: finite, sinusoidal and identical under forward/reverse seeks.
+for(const [role,amplitude,period,phase] of [['coach',2.4,4.2,0],['client',2.6,4.0,1.35]]){
+  tl.fromTo('#'+role+'-float,#'+role+'-label-float',{y:-amplitude,force3D:false},{y:amplitude,duration:18.5,ease:p=>.5+.5*Math.sin(2*Math.PI*p*18.5/period+phase)},0);
+}
+tl.to('#client-focus,#client-label-focus',{x:50,y:30,scale:.95,duration:.50,ease:'power2.inOut'},1.6);
+tl.fromTo('#client-depth,#client-label-depth',{z:0,transformPerspective:1800,force3D:false},{z:-140,duration:.50,ease:'power2.inOut'},1.6);
+// Reusable, unclipped foreground cards. Original phone animation is untouched.
+const cards=FitnodeFloatingCards({timeline:tl,plane:document.querySelector('#ui-overlay-plane'),focus:document.querySelector('#coach-focus'),depth:document.querySelector('#coach-depth'),float:document.querySelector('#coach-float'),phone:document.querySelector('#phone-coach-object'),overlayFocus:document.querySelector('#ui-overlay-focus'),overlayDepth:document.querySelector('#ui-overlay-depth'),overlayFloat:document.querySelector('#ui-overlay-float'),overlayPhone:document.querySelector('#ui-overlay-phone')});
+const mesocycle=cards.add({id:'mesocycle-card',box:{left:0,top:334/6,width:240,height:210/6},start:2.4,end:3.55,scale:1.4,y:-10});
+for(const root of [mesocycle.dock,mesocycle.floating])root.querySelector('.ui-menu').classList.add('mesocycle-selector');
+FitnodeMesocycleSelection({timeline:tl,card:mesocycle});
+tl.fromTo('#floating-mesocycle-menu',{opacity:0,y:-2},{opacity:1,y:0,duration:.14,ease:'power2.out',immediateRender:false},2.66);
+tl.to('#floating-mesocycle-menu',{opacity:0,y:-1,duration:.12,ease:'sine.inOut'},3.17);
+const days=cards.add({id:'days-card',box:{left:0,top:930/6,width:240,height:340/6},start:3.6,end:5.2,scale:1.4,y:-8,travel:.26});
+// Fixed background; original circle pixels alone receive the tap animation.
+FitnodeDayTaps({timeline:tl,card:days});
+const exercise=cards.add({id:'exercise-card',box:{left:0,top:1640/6,width:240,height:925/6},start:5.2,end:7.6,scale:1.15,y:-32,travel:.28});
+// Empty field pixels are fixed; only the isolated authentic number layers fade in.
+cards.inputSequence(exercise,[['series',5.62],['reps',5.98],['rir',6.34],['rest',6.70]]);
+// A button stays on the projective screen and compresses as a single rigid object.
+function buttonTap(selector,at){
+ tl.set(selector,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+ tl.to(selector,{scale:.985,y:.35,duration:.075,ease:'power2.inOut'},at);
+ tl.to(selector,{scale:1,y:0,duration:.18,ease:'power2.out'},at+.075);
+}
+buttonTap('#coach-update-button',7.80);
+tl.set('#coach-update-button-disabled',{opacity:0,scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+tl.set('#coach-update-button',{opacity:0},7.92);
+tl.set('#coach-update-button-disabled',{opacity:1},7.92);
+const coachSnackbar=document.querySelector('#coach-snackbar');
+tl.set(coachSnackbar,{opacity:0,scale:.92,y:6,force3D:false},0);
+tl.to(coachSnackbar,{opacity:1,scale:1,y:0,duration:.20,ease:'back.out(1.4)'},7.92);
+tl.to(coachSnackbar,{opacity:0,scale:.95,y:-4,duration:.22,ease:'power2.in'},8.52);
+// Simultaneous hand-off at T+0.55s (8.35s): Coach retreats while Client advances.
+const handoffAt=8.35;
+tl.to('#coach-focus,#coach-label-focus',{x:0,y:0,scale:1,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#coach-depth,#coach-label-depth',{z:0,rotation:0,rotationY:0,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to(phoneYaw.coach.pose,{angle:0,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#client-focus,#client-label-focus',{x:-95,y:-12,scale:1.20,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#client-label-depth',{z:140,rotation:0,rotationY:4,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#client-depth',{z:140,rotation:0,rotationY:0,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to(phoneYaw.client.pose,{angle:9,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.set('#phone-client',{zIndex:6},handoffAt+.26);
+// Client notification appears at T+1.40s (9.20s), after Client settles in foreground at 9.00s.
+const routineNotification=document.querySelector('#fitnode-notification');
+tl.set(routineNotification,{opacity:0,y:-80,force3D:false},0);
+tl.to(routineNotification,{opacity:1,y:0,duration:.30,ease:'power2.out'},9.20);
+tl.to(routineNotification,{opacity:0,y:-80,duration:.28,ease:'power2.in'},10.25);
+// The identical floating-card engine now also follows the right phone's four rigs.
+const clientCards=FitnodeFloatingCards({timeline:tl,plane:document.querySelector('#client-ui-overlay-plane'),focus:document.querySelector('#client-focus'),depth:document.querySelector('#client-depth'),float:document.querySelector('#client-float'),phone:document.querySelector('#phone-client-object'),overlayFocus:document.querySelector('#client-ui-overlay-focus'),overlayDepth:document.querySelector('#client-ui-overlay-depth'),overlayFloat:document.querySelector('#client-ui-overlay-float'),overlayPhone:document.querySelector('#client-ui-overlay-phone')});
+const clientSeries=clientCards.add({id:'client-series-card',box:{left:0,top:250,width:240,height:140},start:10.55,end:13.15,scale:1.35,x:-6,y:-20,travel:.30});
+for(const root of [clientSeries.dock,clientSeries.floating]){
+ for(const [set,at] of [[1,10.85],[2,11.22]]){
+  const setRow=root.querySelector('[data-set="'+set+'"]'),checked=setRow.querySelector('.client-set-completed');
+  tl.set(checked,{opacity:0},0);
+  tl.set(setRow,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+  tl.to(setRow,{scale:.985,y:.3,duration:.075,ease:'power2.inOut'},at);
+  tl.to(checked,{opacity:1,duration:.18,ease:'power1.out'},at+.06);
+  tl.to(setRow,{scale:1,y:0,duration:.18,ease:'power2.out'},at+.075);
+ }
+ const row=root.querySelector('.client-record-row'),complete=root.querySelector('.client-row-completed');
+ tl.set(complete,{opacity:0},0);
+ tl.set(row,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+ tl.to(row,{scale:.985,y:.3,duration:.075,ease:'power2.inOut'},11.59);
+ tl.to(complete,{opacity:1,duration:.18,ease:'power1.out'},11.65);
+ tl.to(row,{scale:1,y:0,duration:.18,ease:'power2.out'},11.665);
+ // Foreground crops have no copy underneath: values and native medal remain sharp.
+ for(const [selector,at,scale] of [['.client-record-weight',11.92,1.07],['.client-record-reps',12.02,1.07],['.client-record-medal',12.27,1.10]]){
+   const feature=root.querySelector(selector);
+   tl.set(feature,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+   tl.to(feature,{scale,y:-.25,duration:.16,ease:'power2.out'},at);
+   tl.to(feature,{scale:1,y:0,duration:.25,ease:'sine.inOut'},at+.32);
+ }
+}
+buttonTap('#client-finish-button',13.17);
+// Tap feedback: 0.15s duration (13.17s to 13.32s).
+// At 13.32s: grey overlay and centered spinner appear (duration 0.65s).
+tl.set('#client-workout-loading-overlay',{opacity:0,force3D:false},0);
+tl.to('#client-workout-loading-overlay',{opacity:1,duration:.06,ease:'power1.out'},13.32);
+const spinner=document.querySelector('.fitnode-spinner');
+tl.set(spinner,{rotation:0,transformOrigin:'50% 50%',force3D:false},0);
+tl.to(spinner,{rotation:540,duration:.65,ease:'none'},13.32);
+// At 13.97s: loader exits (0.20s) and completed screen appears (0.20s).
+tl.to('#client-workout-loading-overlay',{opacity:0,duration:.20,ease:'sine.inOut'},13.97);
+tl.set('#client-completion',{opacity:0},0);
+tl.set('.client-completion-final',{opacity:1},0);
+tl.to('#client-completion',{opacity:1,duration:.20,ease:'sine.inOut'},13.97);
+// Celebration triggers as soon as the completed screen settles (14.20s).
+tl.set('#client-celebration',{opacity:0},0);
+tl.set('#client-celebration',{opacity:1},14.20);
+tl.to('#client-celebration',{opacity:0,duration:.06,ease:'none'},15.53);
+window.__fitnodeCapturedSequences={
+ celebration:FitnodeCapturedSequence({timeline:tl,element:document.querySelector('#client-celebration'),start:14.20,end:15.53,frames:205})
+};
+// Hold prominence of client phone with completed screen clearly visible until 16.28s (0.75s hold), then return.
+tl.to('#client-focus,#client-label-focus',{x:0,y:0,scale:1,duration:.55,ease:'power2.inOut'},16.28);
+tl.to('#client-depth,#client-label-depth',{z:0,rotation:0,rotationY:0,duration:.55,ease:'power2.inOut'},16.28);
+tl.to(phoneYaw.client.pose,{angle:0,duration:.55,ease:'power2.inOut'},16.28);
+tl.set('#phone-client',{zIndex:4},16.60);
+const syncCards=tl.eventCallback('onUpdate');
+tl.eventCallback('onUpdate',function(){phoneYaw.coach.sync();phoneYaw.client.sync();if(syncCards)syncCards.call(this);for(const sequence of Object.values(window.__fitnodeCapturedSequences))sequence.sync();});
+window.__fitnodePhoneYaw=phoneYaw;
+window.__timelines['main']=tl;
+});
+</script>
+</body>
+</html>
+

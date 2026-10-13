@@ -1,0 +1,6 @@
+.mesocycle-initial-value { position:absolute; inset:0; width:240px; height:35px; }
+.ui-menu.mesocycle-selector { overflow:hidden; border-radius:11.1111111111px; }
+.mesocycle-highlight { position:absolute; left:0; top:5.3333333333px; width:100%; height:30.2222222222px; background:rgb(228,228,228); }
+.mesocycle-option-label { position:absolute; inset:0; mask-size:100% 100%; mask-repeat:no-repeat; }
+.mesocycle-option-independent { mask-image:url('independent-mask.png'); background:#3180ed; }
+.mesocycle-option-meso { mask-image:url('meso-mask.png'); background:#313131; }

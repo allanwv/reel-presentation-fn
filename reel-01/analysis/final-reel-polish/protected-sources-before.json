@@ -1,0 +1,27 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8B1D8840AFD591A35AED5CFD41AA831429C07DDBA6CEEA1F56CD95E1DA555C86",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\phone-3d\\phone-3d.js"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4A689838AA264B40D3EFF639EE37F655670D3136804CBC34552CB56C7504E0C2",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\phone-3d\\phone-3d.css"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "D1596B891C014DE9184E45DF23DCD955AE623F996A329596DA28D7604C1EC585",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\floating\\day-taps.js"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1E127989F9E6FF8663FE7FBAF6466C8454D6BBD68E031C6A824AE5CA35F11C1B",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\floating\\floating-cards.css"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "579DE2D1D7B4E30B0C5A2B164AA33608583E998433A337BDB0FDFFA048317F89",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\client-completion\\captured-sequence.js"
+    }
+]

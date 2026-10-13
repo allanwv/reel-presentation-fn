@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mesociclo",
+    "start": 2.35,
+    "end": 3.65
+  },
+  {
+    "id": "asesorado",
+    "start": 7.7,
+    "end": 16.3
+  },
+  {
+    "id": "cierre",
+    "start": 16.65,
+    "end": 18.5
+  }
+]

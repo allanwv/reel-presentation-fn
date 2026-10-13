@@ -1,0 +1,27 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4E06B3BCC0792135AA38053EAEB20ED768B68F927CDB144E0CD46FBDACE904B1",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\index.html"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F36564698F6FBBFF0FAC9C630A327D1AF95ACD58D50F7C698097B74CA914DFC9",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\package.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "D1596B891C014DE9184E45DF23DCD955AE623F996A329596DA28D7604C1EC585",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\floating\\day-taps.js"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FE892D003E16EFB2B472D7006BBC6228C0C032DB2C30C9467572D4A870A04237",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\assets\\ui\\floating\\floating-cards.js"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4E523358A0A7247988A01E8A386AEF8E8C8909050F30515D39D8AFAAA381B6F7",
+        "Path":  "C:\\Users\\aweis\\.gemini\\antigravity\\scratch\\design-marketing-astra\\reel-01\\output\\FITNODE_REEL_BETA_CORREGIDO.mp4"
+    }
+]

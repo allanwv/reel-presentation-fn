@@ -1,0 +1,25 @@
+[
+  {
+    "file": "output/FITNODE_REEL_PULIDO_FINAL.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": "555",
+    "duration": "18.500000",
+    "audio": false,
+    "fullDecode": true,
+    "sourceTimes": [
+      0.7,
+      3.2,
+      7.95,
+      8.7,
+      10.9,
+      12.4,
+      14.5,
+      15.75,
+      17.2,
+      17.5,
+      18.3
+    ]
+  }
+]

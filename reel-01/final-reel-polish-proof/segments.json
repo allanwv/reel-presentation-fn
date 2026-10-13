@@ -1,0 +1,17 @@
+[
+  {
+    "id": "coach",
+    "start": 0,
+    "end": 7.65
+  },
+  {
+    "id": "client",
+    "start": 8.15,
+    "end": 14.25
+  },
+  {
+    "id": "closing",
+    "start": 16.65,
+    "end": 22
+  }
+]

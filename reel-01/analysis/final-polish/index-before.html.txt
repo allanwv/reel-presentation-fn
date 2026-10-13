@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es" data-resolution="portrait">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>Fitnode — Reel final</title>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/ui/floating/floating-cards.js"></script>
+<script src="assets/ui/phone-3d/phone-3d.js"></script>
+<link rel="stylesheet" href="assets/ui/phone-3d/phone-3d.css">
+<script src="assets/ui/mesocycle-selection/selection.js"></script>
+<link rel="stylesheet" href="assets/ui/mesocycle-selection/selection.css">
+<script src="assets/ui/floating/day-taps.js"></script>
+<link rel="stylesheet" href="assets/ui/floating/floating-cards.css">
+<link rel="stylesheet" href="assets/ui/notification/notification.css">
+<link rel="stylesheet" href="assets/ui/client-completion/completion.css">
+<script src="assets/ui/client-completion/captured-sequence.js"></script>
+<style>
+@font-face { font-family:'Inter'; src:url('assets/fonts/Inter-latin.woff2') format('woff2'); font-style:normal; font-weight:100 900; font-display:block; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { width:100%; height:100%; overflow:hidden; background:#061a2c; }
+#root { position:relative; width:100%; height:100%; overflow:hidden; font-family:'Inter',sans-serif; }
+#reference-space { position:absolute; width:720px; height:1280px; transform:scale(1.5); transform-origin:0 0; }
+.clip { position:absolute; inset:0; width:720px; height:1280px; }
+.full-frame { position:absolute; inset:0; width:720px; height:1280px; }
+.text { position:absolute; overflow:visible; color:#f5f5f3; }
+.text text { font-family:'Inter',sans-serif; fill:currentColor; }
+#logo-art { position:absolute; left:126px; top:125px; width:467px; height:auto; }
+#hero-line-1 { left:161px; top:267px; width:392px; height:48px; }
+#hero-line-2 { left:182px; top:330px; width:373px; height:36px; }
+#hero-subtitle { left:111px; top:401px; width:499px; height:29px; color:#edeeed; }
+#coming-soon { left:220px; top:480px; width:280px; height:29px; color:#11c9e6; opacity:0; }
+.phone-object { position:absolute; transform-origin:50% 50%; }
+#phone-coach-object { left:42px; top:520px; width:316px; height:584px; }
+#phone-coach-object .coach-screen-backing { position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; }
+#phone-client-object { left:366px; top:520px; width:318px; height:590px; }
+.phone-shell { position:absolute; inset:0; width:100%; height:100%; z-index:2; pointer-events:none; }
+.screen-plane { position:absolute; left:0; top:0; width:240px; height:520px; border-radius:28px; overflow:hidden; transform-origin:0 0; background:white; z-index:1; }
+.authentic-screen { display:block; width:240px; height:520px; object-fit:contain; }
+#coach-label { left:132px; top:492px; width:97px; height:25px; }
+#client-label { left:457px; top:497px; width:167px; height:25px; }
+#closing-title { left:95px; top:653px; width:533px; height:62px; }
+#closing-subtitle { left:212px; top:760px; width:297px; height:37px; color:#eeeeee; }
+
+/* Independent raster components, inside the unchanged projective screen plane. */
+.focus-rig,.depth-rig,.float-rig { position:absolute; inset:0; width:720px; height:1280px; }
+#coach-depth,#coach-label-depth { transform-origin:200px 812px; }
+#client-depth,#client-label-depth { transform-origin:525px 815px; }
+#coach-focus,#coach-label-focus { transform-origin:200px 520px; }
+#client-focus,#client-label-focus { transform-origin:525px 520px; }
+#phone-coach { z-index:5; }
+#phone-client { z-index:4; }
+#phone-labels { z-index:6; }
+#mesocycle-card { position:absolute; left:0; top:55.6666666667px; width:240px; height:35px; transform-origin:50% 50%; }
+#mesocycle-card-surface { display:block; width:240px; height:35px; }
+#mesocycle-menu { position:absolute; left:79.1111111111px; top:11.1111111111px; width:105.7777777778px; height:75.5555555556px; opacity:0; transform-origin:50% 0; }
+#mesocycle-menu img { position:absolute; inset:0; width:100%; height:100%; }
+#mesocycle-menu-pressed { opacity:0; }
+</style>
+</head>
+<body>
+<div data-hf-id="hf-sshj" id="root" data-composition-id="main" data-start="0" data-duration="18.5" data-width="1080" data-height="1920">
+<div data-hf-id="hf-oz11" id="reference-space">
+<div data-hf-id="hf-fyh3" id="background" class="clip" data-start="0" data-duration="18.5" data-track-index="0" data-label="Fondo original reconstruido">
+<img data-hf-id="hf-oak4" class="full-frame" src="assets/background-clean.png" alt="Atmósfera azul de la referencia, sin textos ni teléfonos">
+</div>
+<div data-hf-id="hf-87yf" id="phone-shadow-track" class="clip" data-start="0" data-duration="17.5" data-track-index="1" data-label="Sombras originales">
+<img data-hf-id="hf-1bdb" class="full-frame" src="assets/phone-shadows.png" alt="">
+</div>
+<div data-hf-id="hf-15gb" id="official-logo" class="clip" data-start="0" data-duration="18.5" data-track-index="2" data-label="Logo oficial Fitnode">
+<img data-hf-id="hf-fbjv" id="logo-art" src="assets/fitnode-official-transparent.png" alt="Fitnode">
+</div>
+<div data-hf-id="hf-5o7d" id="presentation-copy" class="clip" data-start="0" data-duration="17.5" data-track-index="3" data-label="Titular y subtítulo">
+<svg data-hf-id="hf-57aa" id="hero-line-1" class="text" data-weight="700" aria-label="Una app para ti y" preserveAspectRatio="none"><text data-hf-id="hf-lpgl">Una app para ti y</text></svg>
+<svg data-hf-id="hf-hsoc" id="hero-line-2" class="text" data-weight="700" aria-label="tus asesorados." preserveAspectRatio="none"><text data-hf-id="hf-msbu">tus asesorados.</text></svg>
+<svg data-hf-id="hf-qy8w" id="hero-subtitle" class="text" data-weight="400" aria-label="Rutinas, alimentación y seguimiento." preserveAspectRatio="none"><text data-hf-id="hf-tum6">Rutinas, alimentación y seguimiento.</text></svg>
+<svg data-hf-id="hf-307o" id="coming-soon" class="text" data-weight="700" aria-label="PRÓXIMAMENTE" preserveAspectRatio="none"><text data-hf-id="hf-vv4j">PRÓXIMAMENTE</text></svg>
+</div>
+<div data-hf-id="hf-33oe" id="phone-coach" class="clip" data-start="0" data-duration="17.5" data-track-index="4" data-label="Teléfono Coach · screenshot original">
+<div data-hf-id="hf-8p2k" id="coach-focus" class="focus-rig">
+<div data-hf-id="hf-p6tq" id="coach-depth" class="depth-rig"><div data-hf-id="hf-nots" id="coach-float" class="float-rig">
+<div data-hf-id="hf-deax" id="phone-coach-object" class="phone-object">
+<img data-hf-id="hf-fh6h" class="coach-screen-backing" src="assets/ui/floating/coach-screen-backing.svg" alt="">
+<div data-hf-id="hf-8v5y" id="screen-coach" class="screen-plane">
+<img data-hf-id="hf-930e" class="authentic-screen" src="assets/ui/coach-update/screen-apertures-with-update-hole.png" alt="Captura original con apertura transparente para su card independiente">
+<img data-hf-id="hf-pi30" id="coach-update-button" class="screen-button" data-button="update" src="assets/ui/coach-update/update-enabled.png" alt="Actualizar">
+<img id="coach-update-button-disabled" class="screen-button" src="assets/ui/coach-update/update-disabled-reference.png" alt="Actualizar deshabilitado">
+<div id="coach-snackbar" class="fitnode-snackbar">
+  <div class="fitnode-snackbar__icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#307eec" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+  </div>
+  <span class="fitnode-snackbar__text">Rutina actualizada correctamente</span>
+</div>
+<div data-hf-id="hf-ycaq" id="mesocycle-card" class="ui-card" data-label="Card mesociclo · píxeles originales">
+<img data-hf-id="hf-ew3r" id="mesocycle-card-surface" class="ui-card-surface" src="assets/ui/mesocycle/card-closed.png" alt="Meso octubre · 4 sem">
+<img class="mesocycle-initial-value" src="assets/ui/mesocycle-selection/card-independent.png" alt="Independiente, estado inicial auténtico">
+<div data-hf-id="hf-fivj" id="mesocycle-menu" class="ui-menu" data-label="Selector auténtico · abierto y pulsado">
+<img class="mesocycle-selection-base" src="assets/ui/mesocycle-selection/menu-base.png" alt="Selector original">
+<div class="mesocycle-highlight"></div>
+<div class="mesocycle-option-label mesocycle-option-independent" aria-label="Independiente"></div>
+<div class="mesocycle-option-label mesocycle-option-meso" aria-label="Meso octubre"></div>
+<img src="assets/ui/mesocycle-selection/subtitle.png" alt="4 semanas">
+<img class="mesocycle-selection-check" src="assets/ui/mesocycle-selection/check.png" alt="Selección">
+</div>
+</div>
+<div data-hf-id="hf-9iqp" id="days-card" class="ui-card ui-days" data-label="Días originales · selección L X V"><img data-hf-id="hf-sefz" class="ui-days-background" src="assets/ui/floating/day-taps/background.png" alt="Días de la semana"><img data-hf-id="hf-7tgx" class="ui-days-initial" src="assets/ui/floating/days-original.png" alt="Selección original antes de configurar los días">
+<div data-hf-id="hf-1ltg" class="ui-day" data-day="l" data-initial-selected="false" style="left:12.666666666666666px;top:22px"><img data-hf-id="hf-i5l7" class="ui-day-empty" src="assets/ui/floating/day-taps/l-empty.png" alt="L sin seleccionar"><img data-hf-id="hf-1nui" class="ui-day-selected" src="assets/ui/floating/day-taps/l-selected.png" alt="L seleccionado"></div>
+<div data-hf-id="hf-j0lr" class="ui-day" data-day="m" data-initial-selected="true" style="left:44px;top:22px"><img data-hf-id="hf-gesp" class="ui-day-empty" src="assets/ui/floating/day-taps/m-empty.png" alt="M sin seleccionar"><img data-hf-id="hf-sdp8" class="ui-day-selected" src="assets/ui/floating/day-taps/m-selected.png" alt="M seleccionado"></div>
+<div data-hf-id="hf-9hre" class="ui-day" data-day="x" data-initial-selected="false" style="left:75.5px;top:22px"><img data-hf-id="hf-0qzf" class="ui-day-empty" src="assets/ui/floating/day-taps/x-empty.png" alt="X sin seleccionar"><img data-hf-id="hf-z0iq" class="ui-day-selected" src="assets/ui/floating/day-taps/x-selected.png" alt="X seleccionado"></div>
+<div data-hf-id="hf-6o82" class="ui-day" data-day="j" data-initial-selected="true" style="left:107px;top:22px"><img data-hf-id="hf-a9hz" class="ui-day-empty" src="assets/ui/floating/day-taps/j-empty.png" alt="J sin seleccionar"><img data-hf-id="hf-1tg6" class="ui-day-selected" src="assets/ui/floating/day-taps/j-selected.png" alt="J seleccionado"></div>
+<div data-hf-id="hf-3xk4" class="ui-day" data-day="v" data-initial-selected="false" style="left:138.33333333333334px;top:22px"><img data-hf-id="hf-z3wv" class="ui-day-empty" src="assets/ui/floating/day-taps/v-empty.png" alt="V sin seleccionar"><img data-hf-id="hf-uj4m" class="ui-day-selected" src="assets/ui/floating/day-taps/v-selected.png" alt="V seleccionado"></div>
+<div data-hf-id="hf-o7mx" class="ui-day" data-day="s" data-initial-selected="true" style="left:169.83333333333334px;top:22px"><img data-hf-id="hf-82a1" class="ui-day-empty" src="assets/ui/floating/day-taps/s-empty.png" alt="S sin seleccionar"><img data-hf-id="hf-6bgk" class="ui-day-selected" src="assets/ui/floating/day-taps/s-selected.png" alt="S seleccionado"></div>
+<div data-hf-id="hf-zp2h" class="ui-day" data-day="d" data-initial-selected="false" style="left:201.16666666666666px;top:22px"><img data-hf-id="hf-cpd7" class="ui-day-empty" src="assets/ui/floating/day-taps/d-empty.png" alt="D sin seleccionar"></div></div>
+<div data-hf-id="hf-3bil" id="exercise-card" class="ui-card" data-label="Ejercicio original · parámetros"><img data-hf-id="hf-m0yt" class="ui-card-surface" src="assets/ui/floating/exercise-field-apertures.png" alt="Componente original del ejercicio"><div data-hf-id="hf-bwc1" id="field-series" class="ui-field" data-field="series" style="left:20px"><img data-hf-id="hf-35px" class="ui-field-empty" src="assets/ui/exercise-entry/field-series-empty.png" alt="Campo vacío series"><img data-hf-id="hf-fwzk" class="ui-field-value" src="assets/ui/exercise-entry/field-series-value.png" alt="Valor 4"><img data-hf-id="hf-qisw" class="ui-field-initial" src="assets/ui/floating/field-series-original.png" alt="Estado original anterior a configurar"></div>
+<div data-hf-id="hf-2kv1" id="field-reps" class="ui-field" data-field="reps" style="left:71.33333333333333px"><img data-hf-id="hf-1wuv" class="ui-field-empty" src="assets/ui/exercise-entry/field-reps-empty.png" alt="Campo vacío reps"><img data-hf-id="hf-6nha" class="ui-field-value" src="assets/ui/exercise-entry/field-reps-value.png" alt="Valor 12"><img data-hf-id="hf-v6e5" class="ui-field-initial" src="assets/ui/floating/field-reps-original.png" alt="Estado original anterior a configurar"></div>
+<div data-hf-id="hf-y117" id="field-rir" class="ui-field" data-field="rir" style="left:122.66666666666667px"><img data-hf-id="hf-dpsd" class="ui-field-empty" src="assets/ui/exercise-entry/field-rir-empty.png" alt="Campo vacío rir"><img data-hf-id="hf-r25e" class="ui-field-value" src="assets/ui/exercise-entry/field-rir-value.png" alt="Valor 2"><img data-hf-id="hf-ft7k" class="ui-field-initial" src="assets/ui/floating/field-rir-original.png" alt="Estado original anterior a configurar"></div>
+<div data-hf-id="hf-7fld" id="field-rest" class="ui-field" data-field="rest" style="left:174px"><img data-hf-id="hf-o8ub" class="ui-field-empty" src="assets/ui/exercise-entry/field-rest-empty.png" alt="Campo vacío rest"><img data-hf-id="hf-35db" class="ui-field-value" src="assets/ui/exercise-entry/field-rest-value.png" alt="Valor 2"><img data-hf-id="hf-le73" class="ui-field-initial" src="assets/ui/floating/field-rest-original.png" alt="Estado original anterior a configurar"></div></div>
+</div>
+<img data-hf-id="hf-aujv" class="phone-shell" src="assets/ui/floating/phone-coach-clean.png" alt="Marco físico original con franja interior integrada en blanco">
+</div>
+</div>
+</div>
+</div></div>
+<div data-hf-id="hf-2fst" id="phone-client" class="clip" data-start="0" data-duration="17.5" data-track-index="5" data-label="Teléfono Asesorado · screenshot original">
+<div data-hf-id="hf-4ax9" id="client-focus" class="focus-rig">
+<div data-hf-id="hf-drf1" id="client-depth" class="depth-rig"><div data-hf-id="hf-vi4h" id="client-float" class="float-rig">
+<div data-hf-id="hf-6mze" id="phone-client-object" class="phone-object">
+<div data-hf-id="hf-fqdx" id="screen-client" class="screen-plane">
+<div id="fitnode-notification" class="fitnode-notification" role="img" aria-label="Fitnode: Tu coach actualizó tu rutina">
+<img class="fitnode-notification__icon" src="assets/ui/notification/fitnode-fn-light.png" alt="">
+<div class="fitnode-notification__content"><div class="fitnode-notification__heading"><span>Fitnode</span><span class="fitnode-notification__time">ahora</span></div><div class="fitnode-notification__message">Tu coach actualizó tu rutina</div></div>
+</div>
+<img data-hf-id="hf-1ui3" class="authentic-screen" src="assets/ui/client-workout/screen-apertures.png" alt="Captura original Asesorado con aperturas localizadas">
+<div data-hf-id="hf-a10s" id="client-series-card" class="ui-card" data-label="Registro auténtico de series y récord">
+<img data-hf-id="hf-7i5o" class="ui-card-surface" src="assets/ui/client-completion/series-card-three-apertures.png" alt="Series originales con tres filas independientes">
+<div class="client-set-row" data-set="1"><img class="client-set-pending" src="assets/ui/client-completion/set-1-pending.png" alt="Serie 1 pendiente"><img class="client-set-completed" src="assets/ui/client-completion/set-1-completed.png" alt="Serie 1 completada"></div>
+<div class="client-set-row" data-set="2"><img class="client-set-pending" src="assets/ui/client-completion/set-2-pending.png" alt="Serie 2 pendiente"><img class="client-set-completed" src="assets/ui/client-completion/set-2-completed.png" alt="Serie 2 completada"></div>
+<div data-hf-id="hf-4hlm" class="client-record-row">
+<img data-hf-id="hf-sdo9" class="client-row-pending" src="assets/ui/client-workout/series-row-pending.png" alt="75 kg por 10 repeticiones, pendiente de completar">
+<div data-hf-id="hf-8zq6" class="client-row-completed">
+<img data-hf-id="hf-zimh" class="client-completed-backing" src="assets/ui/client-workout/series-row-completed-clean.png" alt="Estado original completado">
+<img data-hf-id="hf-l8rj" class="client-record-feature client-record-weight" src="assets/ui/client-workout/weight-original.png" alt="75 kg">
+<img data-hf-id="hf-7xcw" class="client-record-feature client-record-reps" src="assets/ui/client-workout/reps-original.png" alt="10 repeticiones">
+<img data-hf-id="hf-dh78" class="client-record-feature client-record-medal" src="assets/ui/client-workout/medal-original.png" alt="Medalla original de récord personal">
+<img data-hf-id="hf-liib" class="client-record-feature client-record-check" src="assets/ui/client-workout/check-original.png" alt="Serie completada">
+</div>
+</div>
+</div>
+<img data-hf-id="hf-txaw" id="client-finish-button" class="screen-button" data-button="finish" src="assets/ui/client-workout/finish-button.png" alt="Terminar Rutina">
+<div id="client-workout-loading-overlay" class="workout-loading-overlay">
+  <div class="fitnode-spinner-container">
+    <svg viewBox="0 0 32 32" class="fitnode-spinner">
+      <circle cx="16" cy="16" r="12" fill="none" stroke="#307eec" stroke-width="3" stroke-linecap="round" stroke-dasharray="56" stroke-dashoffset="18"></circle>
+    </svg>
+  </div>
+</div>
+<div id="client-completion" data-label="Finalizacion real del entrenamiento">
+<img class="client-completion-final" src="assets/ui/client-completion/workout-completed.png" alt="Rutina completada: Piernas Meso oct, captura original intacta">
+<div id="client-celebration" class="captured-sequence" aria-label="Serpentinas originales de Fitnode">
+<img class="captured-atlas" src="assets/ui/client-completion/serpentinas-00.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-01.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-02.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-03.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-04.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-05.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-06.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-07.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-08.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-09.png" alt=""><img class="captured-atlas" src="assets/ui/client-completion/serpentinas-10.png" alt="">
+</div></div>
+</div>
+<img data-hf-id="hf-9ff1" class="phone-shell" src="assets/phone-client-reference.png" alt="Carcasa extraída de la referencia">
+</div>
+</div>
+</div>
+</div></div>
+<div data-hf-id="hf-du2y" id="phone-labels" class="clip" data-start="0" data-duration="17.5" data-track-index="6" data-label="Labels de los teléfonos">
+<div data-hf-id="hf-jb5t" id="coach-label-focus" class="focus-rig"><div data-hf-id="hf-t7ev" id="coach-label-depth" class="depth-rig"><div data-hf-id="hf-07n5" id="coach-label-float" class="float-rig"><svg data-hf-id="hf-amvb" id="coach-label" class="text" data-weight="500" aria-label="Coach" preserveAspectRatio="none"><text data-hf-id="hf-6p5c">Coach</text></svg></div></div></div>
+<div data-hf-id="hf-zi24" id="client-label-focus" class="focus-rig"><div data-hf-id="hf-9650" id="client-label-depth" class="depth-rig"><div data-hf-id="hf-8b7o" id="client-label-float" class="float-rig"><svg data-hf-id="hf-00tr" id="client-label" class="text" data-weight="500" aria-label="Asesorado" preserveAspectRatio="none"><text data-hf-id="hf-gyzr">Asesorado</text></svg></div></div></div>
+</div>
+<div data-hf-id="hf-dz8n" id="ui-overlay" class="clip" data-start="0" data-duration="17.5" data-track-index="8" data-label="Cards originales · overlay frontal">
+<div data-hf-id="hf-mrcr" id="ui-overlay-focus"><div data-hf-id="hf-m4ds" id="ui-overlay-depth"><div data-hf-id="hf-821t" id="ui-overlay-float"><div data-hf-id="hf-thp3" id="ui-overlay-phone"><div data-hf-id="hf-3bnp" id="ui-overlay-plane"></div></div></div></div></div>
+</div>
+<div data-hf-id="hf-dhco" id="client-ui-overlay" class="clip" data-start="0" data-duration="17.5" data-track-index="9" data-label="Series reales Asesorado · overlay frontal">
+<div data-hf-id="hf-67lv" id="client-ui-overlay-focus"><div data-hf-id="hf-kxko" id="client-ui-overlay-depth"><div data-hf-id="hf-ajjt" id="client-ui-overlay-float"><div data-hf-id="hf-lftr" id="client-ui-overlay-phone"><div data-hf-id="hf-fucd" id="client-ui-overlay-plane"></div></div></div></div></div>
+</div>
+<div data-hf-id="hf-p6yl" id="closing-copy" class="clip" data-start="16.5" data-duration="2.0" data-track-index="7" data-label="Textos de cierre">
+<svg data-hf-id="hf-1wh2" id="closing-title" class="text" data-weight="750" aria-label="Próximamente" preserveAspectRatio="none"><text data-hf-id="hf-gqur">Próximamente</text></svg>
+<svg data-hf-id="hf-9itt" id="closing-subtitle" class="text" data-weight="400" aria-label="En iOS y Android" preserveAspectRatio="none"><text data-hf-id="hf-42ic">En iOS y Android</text></svg>
+</div>
+</div>
+</div>
+<script>
+// Approved layout preserved. Motion fitted to measured reference curves.
+const PROOF_POSES={presentation:{at:3,logo:{x:0,y:0,scale:1}},closing:{at:7,logo:{x:-4,y:255,scale:484/467}}};
+document.fonts.ready.then(async()=>{
+await Promise.all([400,500,700,750].map(weight=>document.fonts.load(weight+' 100px Inter')));
+const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
+for(const svg of document.querySelectorAll('svg.text')){
+const text=svg.querySelector('text'),weight=svg.dataset.weight;
+ctx.font=weight+' 100px Inter';
+const m=ctx.measureText(text.textContent),left=m.actualBoundingBoxLeft,right=m.actualBoundingBoxRight;
+svg.setAttribute('viewBox',[-left,-m.actualBoundingBoxAscent,left+right,m.actualBoundingBoxAscent+m.actualBoundingBoxDescent].join(' '));
+text.setAttribute('font-size','100');text.setAttribute('font-weight',weight);
+}
+
+const measured={"coach":{"labelEntrance":{"start":0.125,"end":1.5,"from":1244,"to":501,"gsapCustomEasePath":"M0,0 C0.01010,0.01077,0.02020,0.02110,0.03030,0.03230 C0.04040,0.04350,0.05051,0.05499,0.06061,0.06729 C0.07071,0.07960,0.08081,0.09268,0.09091,0.10633 C0.10101,0.11998,0.11111,0.13440,0.12121,0.14939 C0.13131,0.16439,0.14141,0.18015,0.15152,0.19650 C0.16162,0.21285,0.17172,0.22995,0.18182,0.24764 C0.19192,0.26534,0.20202,0.28378,0.21212,0.30283 C0.22222,0.32187,0.23232,0.34145,0.24242,0.36205 C0.25253,0.38264,0.26263,0.40534,0.27273,0.42665 C0.28283,0.44796,0.29293,0.46928,0.30303,0.48991 C0.31313,0.51053,0.32323,0.53098,0.33333,0.55047 C0.34343,0.56996,0.35354,0.58885,0.36364,0.60700 C0.37374,0.62514,0.38384,0.64319,0.39394,0.65949 C0.40404,0.67579,0.41414,0.69095,0.42424,0.70525 C0.43434,0.71955,0.44444,0.73313,0.45455,0.74563 C0.46465,0.75812,0.47475,0.76967,0.48485,0.78062 C0.49495,0.79157,0.50505,0.80198,0.51515,0.81157 C0.52525,0.82117,0.53535,0.82999,0.54545,0.83849 C0.55556,0.84699,0.56566,0.85512,0.57576,0.86272 C0.58586,0.87032,0.59596,0.87755,0.60606,0.88425 C0.61616,0.89095,0.62626,0.89705,0.63636,0.90310 C0.64646,0.90914,0.65657,0.91525,0.66667,0.92059 C0.67677,0.92594,0.68687,0.93096,0.69697,0.93540 C0.70707,0.93984,0.71717,0.94347,0.72727,0.94751 C0.73737,0.95155,0.74747,0.95609,0.75758,0.95962 C0.76768,0.96316,0.77778,0.96615,0.78788,0.96904 C0.79798,0.97194,0.80808,0.97467,0.81818,0.97712 C0.82828,0.97957,0.83838,0.98186,0.84848,0.98385 C0.85859,0.98584,0.86869,0.98769,0.87879,0.98923 C0.88889,0.99077,0.89899,0.99219,0.90909,0.99327 C0.91919,0.99435,0.92929,0.99507,0.93939,0.99596 C0.94949,0.99686,0.95960,0.99806,0.96970,0.99865 C0.97980,0.99925,0.98990,0.99955,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."},"phoneEntranceVisible":{"start":0.75,"end":1.5,"from":739,"to":539,"gsapCustomEasePath":"M0,0 C0.01852,0.04500,0.03704,0.09085,0.05556,0.13500 C0.07407,0.17915,0.09259,0.22732,0.11111,0.26500 C0.12963,0.30268,0.14815,0.33252,0.16667,0.36500 C0.18519,0.39748,0.20370,0.43206,0.22222,0.46000 C0.24074,0.48794,0.25926,0.50919,0.27778,0.53500 C0.29630,0.56081,0.31481,0.59109,0.33333,0.61500 C0.35185,0.63891,0.37037,0.65920,0.38889,0.68000 C0.40741,0.70080,0.42593,0.72182,0.44444,0.74000 C0.46296,0.75818,0.48148,0.77421,0.50000,0.79000 C0.51852,0.80579,0.53704,0.82187,0.55556,0.83500 C0.57407,0.84812,0.59259,0.85833,0.61111,0.87000 C0.62963,0.88167,0.64815,0.89528,0.66667,0.90500 C0.68519,0.91472,0.70370,0.92167,0.72222,0.93000 C0.74074,0.93833,0.75926,0.94875,0.77778,0.95500 C0.79630,0.96125,0.81481,0.96500,0.83333,0.97000 C0.85185,0.97500,0.87037,0.98100,0.88889,0.98500 C0.90741,0.98900,0.92593,0.99278,0.94444,0.99500 C0.96296,0.99722,0.98148,0.99833,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."},"phoneFloat":[{"t":1.5,"value":539},{"t":1.5416666666666667,"value":539},{"t":1.5833333333333333,"value":539},{"t":1.625,"value":539},{"t":1.6666666666666667,"value":539},{"t":1.7083333333333333,"value":539},{"t":1.75,"value":539},{"t":1.7916666666666667,"value":539},{"t":1.8333333333333333,"value":539},{"t":1.875,"value":539},{"t":1.9166666666666667,"value":539},{"t":1.9583333333333333,"value":539},{"t":2,"value":539},{"t":2.0416666666666665,"value":539},{"t":2.0833333333333335,"value":539},{"t":2.125,"value":539},{"t":2.1666666666666665,"value":538},{"t":2.2083333333333335,"value":538},{"t":2.25,"value":538},{"t":2.2916666666666665,"value":538},{"t":2.3333333333333335,"value":538},{"t":2.375,"value":538},{"t":2.4166666666666665,"value":537},{"t":2.4583333333333335,"value":537},{"t":2.5,"value":536},{"t":2.5416666666666665,"value":536},{"t":2.5833333333333335,"value":536},{"t":2.625,"value":535},{"t":2.6666666666666665,"value":535},{"t":2.7083333333333335,"value":534},{"t":2.75,"value":534},{"t":2.7916666666666665,"value":533},{"t":2.8333333333333335,"value":533},{"t":2.875,"value":532},{"t":2.9166666666666665,"value":532},{"t":2.9583333333333335,"value":531},{"t":3,"value":531},{"t":3.0416666666666665,"value":530},{"t":3.0833333333333335,"value":530},{"t":3.125,"value":529},{"t":3.1666666666666665,"value":528},{"t":3.2083333333333335,"value":528},{"t":3.25,"value":527},{"t":3.2916666666666665,"value":527},{"t":3.3333333333333335,"value":526},{"t":3.375,"value":526},{"t":3.4166666666666665,"value":525},{"t":3.4583333333333335,"value":525},{"t":3.5,"value":524},{"t":3.5416666666666665,"value":524},{"t":3.5833333333333335,"value":524},{"t":3.625,"value":523},{"t":3.6666666666666665,"value":523},{"t":3.7083333333333335,"value":523},{"t":3.75,"value":522},{"t":3.7916666666666665,"value":522},{"t":3.8333333333333335,"value":522},{"t":3.875,"value":522},{"t":3.9166666666666665,"value":522},{"t":3.9583333333333335,"value":522},{"t":4,"value":522},{"t":4.041666666666667,"value":522}],"labelFloat":[{"t":1.5,"value":501},{"t":1.5416666666666667,"value":500},{"t":1.5833333333333333,"value":500},{"t":1.625,"value":500},{"t":1.6666666666666667,"value":500},{"t":1.7083333333333333,"value":500},{"t":1.75,"value":500},{"t":1.7916666666666667,"value":500},{"t":1.8333333333333333,"value":500},{"t":1.875,"value":500},{"t":1.9166666666666667,"value":500},{"t":1.9583333333333333,"value":500},{"t":2,"value":500},{"t":2.0416666666666665,"value":500},{"t":2.0833333333333335,"value":500},{"t":2.125,"value":500},{"t":2.1666666666666665,"value":499},{"t":2.2083333333333335,"value":499},{"t":2.25,"value":499},{"t":2.2916666666666665,"value":499},{"t":2.3333333333333335,"value":498},{"t":2.375,"value":498},{"t":2.4166666666666665,"value":498},{"t":2.4583333333333335,"value":498},{"t":2.5,"value":497},{"t":2.5416666666666665,"value":497},{"t":2.5833333333333335,"value":496},{"t":2.625,"value":496},{"t":2.6666666666666665,"value":496},{"t":2.7083333333333335,"value":495},{"t":2.75,"value":495},{"t":2.7916666666666665,"value":494},{"t":2.8333333333333335,"value":494},{"t":2.875,"value":493},{"t":2.9166666666666665,"value":493},{"t":2.9583333333333335,"value":493},{"t":3,"value":492},{"t":3.0416666666666665,"value":492},{"t":3.0833333333333335,"value":491},{"t":3.125,"value":491},{"t":3.1666666666666665,"value":490},{"t":3.2083333333333335,"value":490},{"t":3.25,"value":489},{"t":3.2916666666666665,"value":489},{"t":3.3333333333333335,"value":488},{"t":3.375,"value":488},{"t":3.4166666666666665,"value":487},{"t":3.4583333333333335,"value":487},{"t":3.5,"value":487},{"t":3.5416666666666665,"value":486},{"t":3.5833333333333335,"value":486},{"t":3.625,"value":486},{"t":3.6666666666666665,"value":485},{"t":3.7083333333333335,"value":485},{"t":3.75,"value":485},{"t":3.7916666666666665,"value":485},{"t":3.8333333333333335,"value":484},{"t":3.875,"value":484},{"t":3.9166666666666665,"value":484},{"t":3.9583333333333335,"value":484},{"t":4,"value":484},{"t":4.041666666666667,"value":484}],"phoneExit":{"start":4.083333333333333,"end":5.041666666666667,"from":522,"to":1238,"gsapCustomEasePath":"M0,0 C0.01449,0.00047,0.02899,0.00078,0.04348,0.00140 C0.05797,0.00202,0.07246,0.00307,0.08696,0.00419 C0.10145,0.00531,0.11594,0.00663,0.13043,0.00838 C0.14493,0.01013,0.15942,0.01265,0.17391,0.01536 C0.18841,0.01808,0.20290,0.02166,0.21739,0.02514 C0.23188,0.02862,0.24638,0.03184,0.26087,0.03631 C0.27536,0.04078,0.28986,0.04706,0.30435,0.05307 C0.31884,0.05909,0.33333,0.06548,0.34783,0.07263 C0.36232,0.07977,0.37681,0.08744,0.39130,0.09637 C0.40580,0.10530,0.42029,0.11581,0.43478,0.12709 C0.44928,0.13838,0.46377,0.15117,0.47826,0.16480 C0.49275,0.17844,0.50725,0.19352,0.52174,0.20950 C0.53623,0.22547,0.55072,0.24227,0.56522,0.26117 C0.57971,0.28008,0.59420,0.30156,0.60870,0.32402 C0.62319,0.34648,0.63768,0.37071,0.65217,0.39665 C0.66667,0.42259,0.68116,0.45140,0.69565,0.48045 C0.71014,0.50950,0.72464,0.54051,0.73913,0.57123 C0.75362,0.60195,0.76812,0.63457,0.78261,0.66480 C0.79710,0.69504,0.81159,0.72519,0.82609,0.75279 C0.84058,0.78040,0.85507,0.80667,0.86957,0.83101 C0.88406,0.85534,0.89855,0.87951,0.91304,0.89944 C0.92754,0.91937,0.94203,0.93581,0.95652,0.95251 C0.97101,0.96922,0.98551,0.98417,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."},"labelExit":{"start":4.083333333333333,"end":5.291666666666667,"from":485,"to":1205,"gsapCustomEasePath":"M0,0 C0.01149,0.00046,0.02299,0.00077,0.03448,0.00139 C0.04598,0.00201,0.05747,0.00324,0.06897,0.00417 C0.08046,0.00509,0.09195,0.00571,0.10345,0.00694 C0.11494,0.00818,0.12644,0.01044,0.13793,0.01250 C0.14943,0.01456,0.16092,0.01674,0.17241,0.01944 C0.18391,0.02215,0.19540,0.02571,0.20690,0.02917 C0.21839,0.03262,0.22989,0.03616,0.24138,0.04028 C0.25287,0.04439,0.26437,0.04912,0.27586,0.05417 C0.28736,0.05922,0.29885,0.06466,0.31034,0.07083 C0.32184,0.07701,0.33333,0.08409,0.34483,0.09167 C0.35632,0.09924,0.36782,0.10769,0.37931,0.11667 C0.39080,0.12564,0.40230,0.13527,0.41379,0.14583 C0.42529,0.15640,0.43678,0.16774,0.44828,0.18056 C0.45977,0.19337,0.47126,0.20839,0.48276,0.22361 C0.49425,0.23883,0.50575,0.25455,0.51724,0.27222 C0.52874,0.28990,0.54023,0.30904,0.55172,0.33056 C0.56322,0.35207,0.57471,0.37739,0.58621,0.40278 C0.59770,0.42816,0.60920,0.45559,0.62069,0.48333 C0.63218,0.51108,0.64368,0.54195,0.65517,0.56944 C0.66667,0.59694,0.67816,0.62294,0.68966,0.64861 C0.70115,0.67429,0.71264,0.70088,0.72414,0.72361 C0.73563,0.74634,0.74713,0.76703,0.75862,0.78611 C0.77011,0.80519,0.78161,0.82308,0.79310,0.83889 C0.80460,0.85470,0.81609,0.86942,0.82759,0.88194 C0.83908,0.89447,0.85057,0.90491,0.86207,0.91528 C0.87356,0.92565,0.88506,0.93604,0.89655,0.94444 C0.90805,0.95285,0.91954,0.96003,0.93103,0.96667 C0.94253,0.97331,0.95402,0.97921,0.96552,0.98472 C0.97701,0.99024,0.98851,0.99491,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."}},"client":{"labelEntrance":{"start":0.20833333333333334,"end":1.5,"from":1238,"to":504,"gsapCustomEasePath":"M0,0 C0.01075,0.01181,0.02151,0.02339,0.03226,0.03542 C0.04301,0.04745,0.05376,0.05910,0.06452,0.07221 C0.07527,0.08531,0.08602,0.09971,0.09677,0.11444 C0.10753,0.12917,0.11828,0.14467,0.12903,0.16076 C0.13978,0.17686,0.15054,0.19351,0.16129,0.21117 C0.17204,0.22884,0.18280,0.24734,0.19355,0.26703 C0.21505,0.30641,0.23656,0.34970,0.25806,0.39237 C0.26882,0.41371,0.27957,0.43643,0.29032,0.45777 C0.30108,0.47910,0.31183,0.49989,0.32258,0.52044 C0.34409,0.56152,0.36559,0.60499,0.38710,0.64169 C0.39785,0.66004,0.40860,0.67651,0.41935,0.69210 C0.43011,0.70768,0.44086,0.72163,0.45161,0.73569 C0.46237,0.74976,0.47312,0.76418,0.48387,0.77657 C0.49462,0.78895,0.50538,0.80026,0.51613,0.81063 C0.52688,0.82099,0.53763,0.83018,0.54839,0.83924 C0.55914,0.84830,0.56989,0.85697,0.58065,0.86512 C0.59140,0.87327,0.60215,0.88105,0.61290,0.88828 C0.62366,0.89552,0.63441,0.90266,0.64516,0.90872 C0.65591,0.91477,0.66667,0.91986,0.67742,0.92507 C0.68817,0.93028,0.69892,0.93530,0.70968,0.94005 C0.72043,0.94481,0.73118,0.94964,0.74194,0.95368 C0.75269,0.95772,0.76344,0.96119,0.77419,0.96458 C0.78495,0.96797,0.79570,0.97147,0.80645,0.97411 C0.81720,0.97676,0.82796,0.97866,0.83871,0.98093 C0.84946,0.98320,0.86022,0.98604,0.87097,0.98774 C0.88172,0.98944,0.89247,0.99046,0.90323,0.99183 C0.91398,0.99319,0.92473,0.99482,0.93548,0.99591 C0.94624,0.99700,0.95699,0.99803,0.96774,0.99864 C0.97849,0.99924,0.98925,0.99955,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."},"phoneEntranceVisible":{"start":0.75,"end":1.5,"from":774,"to":543,"gsapCustomEasePath":"M0,0 C0.01852,0.04762,0.03704,0.09751,0.05556,0.14286 C0.07407,0.18821,0.09259,0.22222,0.11111,0.27273 C0.12963,0.32323,0.14815,0.41288,0.16667,0.45455 C0.18519,0.49621,0.20370,0.54216,0.22222,0.54978 C0.24074,0.55740,0.25926,0.55515,0.27778,0.56277 C0.29630,0.57039,0.31481,0.63332,0.33333,0.65801 C0.35185,0.68270,0.37037,0.69841,0.38889,0.71861 C0.40741,0.73882,0.42593,0.76859,0.44444,0.77922 C0.46296,0.78985,0.48148,0.79004,0.50000,0.80087 C0.51852,0.81169,0.53704,0.85074,0.55556,0.86580 C0.57407,0.88086,0.59259,0.89582,0.61111,0.90043 C0.62963,0.90505,0.64815,0.90476,0.66667,0.90909 C0.68519,0.91342,0.70370,0.92719,0.72222,0.93506 C0.74074,0.94294,0.75926,0.95030,0.77778,0.95671 C0.79630,0.96312,0.81481,0.96908,0.83333,0.97403 C0.85185,0.97897,0.87037,0.98355,0.88889,0.98701 C0.90741,0.99048,0.92593,0.99375,0.94444,0.99567 C0.96296,0.99759,0.98148,0.99856,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."},"phoneFloat":[{"t":1.5,"value":543},{"t":1.5416666666666667,"value":542},{"t":1.5833333333333333,"value":542},{"t":1.625,"value":542},{"t":1.6666666666666667,"value":542},{"t":1.7083333333333333,"value":542},{"t":1.75,"value":542},{"t":1.7916666666666667,"value":542},{"t":1.8333333333333333,"value":542},{"t":1.875,"value":542},{"t":1.9166666666666667,"value":542},{"t":1.9583333333333333,"value":542},{"t":2,"value":542},{"t":2.0416666666666665,"value":542},{"t":2.0833333333333335,"value":542},{"t":2.125,"value":542},{"t":2.1666666666666665,"value":542},{"t":2.2083333333333335,"value":542},{"t":2.25,"value":542},{"t":2.2916666666666665,"value":542},{"t":2.3333333333333335,"value":541},{"t":2.375,"value":541},{"t":2.4166666666666665,"value":541},{"t":2.4583333333333335,"value":540},{"t":2.5,"value":540},{"t":2.5416666666666665,"value":540},{"t":2.5833333333333335,"value":540},{"t":2.625,"value":539},{"t":2.6666666666666665,"value":539},{"t":2.7083333333333335,"value":538},{"t":2.75,"value":538},{"t":2.7916666666666665,"value":538},{"t":2.8333333333333335,"value":537},{"t":2.875,"value":536},{"t":2.9166666666666665,"value":536},{"t":2.9583333333333335,"value":536},{"t":3,"value":534},{"t":3.0416666666666665,"value":534},{"t":3.0833333333333335,"value":534},{"t":3.125,"value":534},{"t":3.1666666666666665,"value":533},{"t":3.2083333333333335,"value":532},{"t":3.25,"value":532},{"t":3.2916666666666665,"value":531},{"t":3.3333333333333335,"value":531},{"t":3.375,"value":530},{"t":3.4166666666666665,"value":530},{"t":3.4583333333333335,"value":530},{"t":3.5,"value":529},{"t":3.5416666666666665,"value":529},{"t":3.5833333333333335,"value":528},{"t":3.625,"value":528},{"t":3.6666666666666665,"value":528},{"t":3.7083333333333335,"value":528},{"t":3.75,"value":528},{"t":3.7916666666666665,"value":528},{"t":3.8333333333333335,"value":527},{"t":3.875,"value":527},{"t":3.9166666666666665,"value":527},{"t":3.9583333333333335,"value":527},{"t":4,"value":527},{"t":4.041666666666667,"value":527}],"labelFloat":[{"t":1.5,"value":504},{"t":1.5416666666666667,"value":503},{"t":1.5833333333333333,"value":503},{"t":1.625,"value":503},{"t":1.6666666666666667,"value":503},{"t":1.7083333333333333,"value":503},{"t":1.75,"value":503},{"t":1.7916666666666667,"value":503},{"t":1.8333333333333333,"value":503},{"t":1.875,"value":503},{"t":1.9166666666666667,"value":503},{"t":1.9583333333333333,"value":503},{"t":2,"value":503},{"t":2.0416666666666665,"value":503},{"t":2.0833333333333335,"value":503},{"t":2.125,"value":503},{"t":2.1666666666666665,"value":503},{"t":2.2083333333333335,"value":502},{"t":2.25,"value":502},{"t":2.2916666666666665,"value":502},{"t":2.3333333333333335,"value":502},{"t":2.375,"value":502},{"t":2.4166666666666665,"value":502},{"t":2.4583333333333335,"value":501},{"t":2.5,"value":501},{"t":2.5416666666666665,"value":501},{"t":2.5833333333333335,"value":501},{"t":2.625,"value":500},{"t":2.6666666666666665,"value":500},{"t":2.7083333333333335,"value":500},{"t":2.75,"value":499},{"t":2.7916666666666665,"value":499},{"t":2.8333333333333335,"value":498},{"t":2.875,"value":498},{"t":2.9166666666666665,"value":498},{"t":2.9583333333333335,"value":497},{"t":3,"value":497},{"t":3.0416666666666665,"value":497},{"t":3.0833333333333335,"value":496},{"t":3.125,"value":496},{"t":3.1666666666666665,"value":495},{"t":3.2083333333333335,"value":495},{"t":3.25,"value":495},{"t":3.2916666666666665,"value":494},{"t":3.3333333333333335,"value":494},{"t":3.375,"value":494},{"t":3.4166666666666665,"value":493},{"t":3.4583333333333335,"value":493},{"t":3.5,"value":493},{"t":3.5416666666666665,"value":492},{"t":3.5833333333333335,"value":492},{"t":3.625,"value":492},{"t":3.6666666666666665,"value":492},{"t":3.7083333333333335,"value":492},{"t":3.75,"value":491},{"t":3.7916666666666665,"value":491},{"t":3.8333333333333335,"value":491},{"t":3.875,"value":491},{"t":3.9166666666666665,"value":491},{"t":3.9583333333333335,"value":491},{"t":4,"value":491},{"t":4.041666666666667,"value":491}],"phoneExit":{"start":4.083333333333333,"end":5.041666666666667,"from":528,"to":1243,"gsapCustomEasePath":"M0,0 C0.01449,0.00047,0.02899,0.00078,0.04348,0.00140 C0.05797,0.00202,0.07246,0.00308,0.08696,0.00420 C0.10145,0.00531,0.11594,0.00664,0.13043,0.00839 C0.14493,0.01014,0.15942,0.01284,0.17391,0.01538 C0.18841,0.01793,0.20290,0.02042,0.21739,0.02378 C0.23188,0.02713,0.24638,0.03175,0.26087,0.03636 C0.27536,0.04098,0.28986,0.04583,0.30435,0.05175 C0.31884,0.05767,0.33333,0.06530,0.34783,0.07273 C0.36232,0.08016,0.37681,0.08756,0.39130,0.09650 C0.40580,0.10544,0.42029,0.11636,0.43478,0.12727 C0.44928,0.13818,0.46377,0.14898,0.47826,0.16224 C0.49275,0.17550,0.50725,0.19192,0.52174,0.20839 C0.53623,0.22486,0.55072,0.24233,0.56522,0.26154 C0.57971,0.28075,0.59420,0.30198,0.60870,0.32448 C0.62319,0.34697,0.63768,0.37143,0.65217,0.39720 C0.66667,0.42297,0.68116,0.45221,0.69565,0.47972 C0.71014,0.50723,0.72464,0.53163,0.73913,0.56224 C0.75362,0.59285,0.76812,0.63428,0.78261,0.66573 C0.79710,0.69719,0.81159,0.72527,0.82609,0.75245 C0.84058,0.77962,0.85507,0.80495,0.86957,0.82937 C0.88406,0.85379,0.89855,0.87887,0.91304,0.89930 C0.92754,0.91973,0.94203,0.93718,0.95652,0.95385 C0.97101,0.97051,0.98551,0.98462,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."},"labelExit":{"start":4.083333333333333,"end":5.291666666666667,"from":491,"to":1204,"gsapCustomEasePath":"M0,0 C0.01149,0.00094,0.02299,0.00218,0.03448,0.00281 C0.04598,0.00343,0.05747,0.00351,0.06897,0.00421 C0.08046,0.00491,0.09195,0.00681,0.10345,0.00842 C0.11494,0.01002,0.12644,0.01195,0.13793,0.01403 C0.14943,0.01610,0.16092,0.01831,0.17241,0.02104 C0.18391,0.02376,0.19540,0.02736,0.20690,0.03086 C0.21839,0.03435,0.22989,0.03792,0.24138,0.04208 C0.25287,0.04623,0.26437,0.05082,0.27586,0.05610 C0.28736,0.06139,0.29885,0.06782,0.31034,0.07433 C0.32184,0.08085,0.33333,0.08792,0.34483,0.09537 C0.35632,0.10282,0.36782,0.11043,0.37931,0.11921 C0.39080,0.12800,0.40230,0.13800,0.41379,0.14867 C0.42529,0.15934,0.43678,0.17118,0.44828,0.18373 C0.45977,0.19628,0.47126,0.20977,0.48276,0.22440 C0.49425,0.23904,0.50575,0.25452,0.51724,0.27209 C0.52874,0.28966,0.54023,0.30965,0.55172,0.33100 C0.56322,0.35234,0.57471,0.37602,0.58621,0.40112 C0.59770,0.42623,0.60920,0.45445,0.62069,0.48247 C0.63218,0.51049,0.64368,0.54166,0.65517,0.56942 C0.66667,0.59719,0.67816,0.62369,0.68966,0.64937 C0.70115,0.67505,0.71264,0.70095,0.72414,0.72370 C0.73563,0.74646,0.74713,0.76783,0.75862,0.78682 C0.77011,0.80580,0.78161,0.82294,0.79310,0.83871 C0.80460,0.85448,0.81609,0.86954,0.82759,0.88219 C0.83908,0.89484,0.85057,0.90565,0.86207,0.91585 C0.87356,0.92605,0.88506,0.93559,0.89655,0.94390 C0.90805,0.95221,0.91954,0.95936,0.93103,0.96634 C0.94253,0.97332,0.95402,0.98052,0.96552,0.98597 C0.97701,0.99143,0.98851,0.99532,1.00000,1.00000","method":"Monotone cubic interpolation of measured samples; inferred curve, not original source keyframes."}}};
+// Evaluate the measured cubic Bezier paths directly as seek-safe GSAP eases.
+function measuredEase(path){
+ const n=path.match(/-?\d*\.?\d+/g).map(Number), segments=[];let x=0,y=0;
+ for(let i=2;i<n.length;i+=6){segments.push([x,y,...n.slice(i,i+6)]);x=n[i+4];y=n[i+5];}
+ const cubic=(a,b,c,d,t)=>{const u=1-t;return u*u*u*a+3*u*u*t*b+3*u*t*t*c+t*t*t*d;};
+ return p=>{if(p<=0)return 0;if(p>=1)return 1;const s=segments.find(s=>p<=s[6])||segments.at(-1);let lo=0,hi=1;for(let i=0;i<24;i++){let t=(lo+hi)/2;if(cubic(s[0],s[2],s[4],s[6],t)<p)lo=t;else hi=t;}return cubic(s[1],s[3],s[5],s[7],(lo+hi)/2);};
+}
+const tl=gsap.timeline({paused:true});
+// Existing closing choreography, compressed only enough for the hold.
+const closingTime=t=>16.83+(t-10.4)*.40;
+tl.set('#logo-art',{x:0,y:0,scale:1,transformOrigin:'0 0'},0);
+// One transform owner per rigid entrance; the orthogonal 3D model owns its yaw.
+// Replace the noisy tracked entrance and its velocity discontinuity with one curve.
+function floatEase(startTime,endTime,midTime,from,to){
+ const mid=(midTime-startTime)/(endTime-startTime),v=from/(from-to);
+ // Monotone Hermite arc: zero endpoint velocity, continuous velocity through t=3.
+ const slope=Math.min(v/mid,(1-v)/(1-mid));
+ return p=>{const first=p<=mid,u=first?p/mid:(p-mid)/(1-mid),a=first?0:v,b=first?v:1,span=first?mid:1-mid,ma=first?0:slope,mb=first?slope:0;return (2*u*u*u-3*u*u+1)*a+(u*u*u-2*u*u+u)*span*ma+(-2*u*u*u+3*u*u)*b+(u*u*u-u*u)*span*mb;};
+}
+for(const role of ['coach','client']){
+ const c=measured[role],right=role==='client',phone='#phone-'+role+'-object',label=right?'#client-label':'#coach-label';
+ const start=right?0.32:0.17,end=right?1.87:1.72;
+ const base=c.phoneFloat.find(s=>s.t===3).value,labelBase=c.labelFloat.find(s=>s.t===3).value;
+ const floatFrom=right?5:6;
+ tl.set(phone,{y:805,x:right?18:-18,rotationX:9,rotationY:right?-13:15,rotation:right?3:-3,transformPerspective:1800,force3D:false,opacity:1},0);
+ tl.to(phone,{y:floatFrom,x:0,rotationX:0,rotationY:0,rotation:0,duration:end-start,ease:'power3.out'},start);
+ tl.set(label,{y:805,opacity:0},0);
+ tl.to(label,{y:floatFrom,opacity:1,duration:end-start,ease:'power3.out'},start);
+ for(const [selector,sourceCurve,b] of [[phone,c.phoneExit,base],[label,c.labelExit,labelBase]]){
+   const oldStart=sourceCurve.start+6.3166666667;
+   const curve={...sourceCurve,start:closingTime(oldStart),end:closingTime(sourceCurve.end+6.3166666667)};
+   tl.to(selector,{y:curve.from-b,duration:oldStart-end,ease:floatEase(end,oldStart,3,floatFrom,curve.from-b)},end);
+   tl.to(selector,{y:curve.to-b,duration:curve.end-curve.start,ease:measuredEase(curve.gsapCustomEasePath)},curve.start);
+   tl.to(selector,{opacity:0,duration:.55*.60,ease:'power1.in'},curve.end-.55*.60);
+ }
+}
+tl.fromTo('#phone-shadow-track img',{opacity:0},{opacity:1,duration:0.8,ease:'sine.out'},0.7);
+tl.to('#phone-shadow-track img',{opacity:0,duration:.8*.60,ease:'sine.inOut'},closingTime(10.4666666667));
+tl.fromTo('#logo-art',{opacity:0,y:12},{opacity:1,y:0,duration:0.42,ease:'power2.out'},0);
+tl.fromTo('#hero-line-1,#hero-line-2',{opacity:0,y:16},{opacity:1,y:0,duration:0.6,ease:'power2.out'},0.24);
+tl.fromTo('#hero-subtitle',{opacity:0,y:12},{opacity:1,y:0,duration:0.55,ease:'power2.out'},0.42);
+tl.set('#coming-soon',{opacity:0},0);
+tl.to('#hero-line-1,#hero-line-2,#hero-subtitle',{opacity:0,duration:.28*.60,ease:'sine.inOut'},closingTime(11.1166666667));
+const logoKnots=[[4.958333,0],[5,15],[5.125,61],[5.25,147],[5.375,207],[5.5,237],[5.625,250],[5.75,255]];
+// Smooth monotone interpolation through measured logo positions.
+function smoothSamples(knots){const d=knots.slice(1).map((k,i)=>(k[1]-knots[i][1])/(k[0]-knots[i][0]));const m=knots.map((k,i)=>i===0?0:i===knots.length-1?0:d[i-1]*d[i]<=0?0:2*d[i-1]*d[i]/(d[i-1]+d[i]));return p=>{const t=knots[0][0]+p*(knots.at(-1)[0]-knots[0][0]);let i=0;while(i<knots.length-2&&t>knots[i+1][0])i++;const h=knots[i+1][0]-knots[i][0],u=(t-knots[i][0])/h;return ((2*u**3-3*u*u+1)*knots[i][1]+(u**3-2*u*u+u)*h*m[i]+(-2*u**3+3*u*u)*knots[i+1][1]+(u**3-u*u)*h*m[i+1])/255;};}
+tl.to('#logo-art',{...PROOF_POSES.closing.logo,duration:(5.75-4.958333)*.60,ease:smoothSamples(logoKnots)},closingTime(11.275));
+tl.fromTo('#closing-title,#closing-subtitle',{y:155,opacity:0},{y:0,opacity:1,duration:.833333*.60,ease:'power3.out',immediateRender:false},closingTime(11.5666666667));
+
+// Focus has its own parent transform: approved entrance keeps its sole transform owner.
+// Independent depth and ambient rigs: no tween competes with the rigid entrance.
+tl.to('#coach-focus,#coach-label-focus',{x:100,y:-12,scale:1.20,duration:.50,ease:'power2.inOut'},1.6);
+tl.fromTo('#coach-label-depth',{z:0,rotation:0,rotationY:0,transformPerspective:1800,force3D:false},{z:140,rotation:0,rotationY:-4,duration:.50,ease:'power2.inOut'},1.6);
+tl.fromTo('#coach-depth',{z:0,rotation:0,rotationY:0,transformPerspective:1800,force3D:false},{z:140,duration:.50,ease:'power2.inOut'},1.6);
+// One physical yaw for the chassis, authentic screen and independent card overlay.
+const phoneYaw={};
+for(const role of ['coach','client']){
+ const prefix=role==='coach'?'ui-overlay':'client-ui-overlay';
+ phoneYaw[role]=FitnodePhone3D({phone:document.querySelector('#phone-'+role+'-object'),overlayPhone:document.querySelector('#'+prefix+'-phone'),plane:document.querySelector('#'+prefix+'-plane'),role});
+}
+tl.to(phoneYaw.coach.pose,{angle:-9,duration:.60,ease:'power2.inOut'},1.6);
+// Pure time functions: finite, sinusoidal and identical under forward/reverse seeks.
+for(const [role,amplitude,period,phase] of [['coach',2.4,4.2,0],['client',2.6,4.0,1.35]]){
+  tl.fromTo('#'+role+'-float,#'+role+'-label-float',{y:-amplitude,force3D:false},{y:amplitude,duration:18.5,ease:p=>.5+.5*Math.sin(2*Math.PI*p*18.5/period+phase)},0);
+}
+tl.to('#client-focus,#client-label-focus',{x:50,y:30,scale:.95,duration:.50,ease:'power2.inOut'},1.6);
+tl.fromTo('#client-depth,#client-label-depth',{z:0,transformPerspective:1800,force3D:false},{z:-140,duration:.50,ease:'power2.inOut'},1.6);
+// Reusable, unclipped foreground cards. Original phone animation is untouched.
+const cards=FitnodeFloatingCards({timeline:tl,plane:document.querySelector('#ui-overlay-plane'),focus:document.querySelector('#coach-focus'),depth:document.querySelector('#coach-depth'),float:document.querySelector('#coach-float'),phone:document.querySelector('#phone-coach-object'),overlayFocus:document.querySelector('#ui-overlay-focus'),overlayDepth:document.querySelector('#ui-overlay-depth'),overlayFloat:document.querySelector('#ui-overlay-float'),overlayPhone:document.querySelector('#ui-overlay-phone')});
+const mesocycle=cards.add({id:'mesocycle-card',box:{left:0,top:334/6,width:240,height:210/6},start:2.4,end:3.55,scale:1.4,y:-10});
+for(const root of [mesocycle.dock,mesocycle.floating])root.querySelector('.ui-menu').classList.add('mesocycle-selector');
+FitnodeMesocycleSelection({timeline:tl,card:mesocycle});
+tl.fromTo('#floating-mesocycle-menu',{opacity:0,y:-2},{opacity:1,y:0,duration:.14,ease:'power2.out',immediateRender:false},2.66);
+tl.to('#floating-mesocycle-menu',{opacity:0,y:-1,duration:.12,ease:'sine.inOut'},3.17);
+const days=cards.add({id:'days-card',box:{left:0,top:930/6,width:240,height:340/6},start:3.6,end:5.2,scale:1.4,y:-8,travel:.26});
+// Fixed background; original circle pixels alone receive the tap animation.
+FitnodeDayTaps({timeline:tl,card:days});
+const exercise=cards.add({id:'exercise-card',box:{left:0,top:1640/6,width:240,height:925/6},start:5.2,end:7.6,scale:1.15,y:-32,travel:.28});
+// Empty field pixels are fixed; only the isolated authentic number layers fade in.
+cards.inputSequence(exercise,[['series',5.62],['reps',5.98],['rir',6.34],['rest',6.70]]);
+// A button stays on the projective screen and compresses as a single rigid object.
+function buttonTap(selector,at){
+ tl.set(selector,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+ tl.to(selector,{scale:.985,y:.35,duration:.075,ease:'power2.inOut'},at);
+ tl.to(selector,{scale:1,y:0,duration:.18,ease:'power2.out'},at+.075);
+}
+buttonTap('#coach-update-button',7.80);
+tl.set('#coach-update-button-disabled',{opacity:0,scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+tl.set('#coach-update-button',{opacity:0},7.92);
+tl.set('#coach-update-button-disabled',{opacity:1},7.92);
+const coachSnackbar=document.querySelector('#coach-snackbar');
+tl.set(coachSnackbar,{opacity:0,scale:.92,y:6,force3D:false},0);
+tl.to(coachSnackbar,{opacity:1,scale:1,y:0,duration:.20,ease:'back.out(1.4)'},7.92);
+tl.to(coachSnackbar,{opacity:0,scale:.95,y:-4,duration:.22,ease:'power2.in'},8.52);
+// Simultaneous hand-off at T+0.55s (8.35s): Coach retreats while Client advances.
+const handoffAt=8.35;
+tl.to('#coach-focus,#coach-label-focus',{x:0,y:0,scale:1,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#coach-depth,#coach-label-depth',{z:0,rotation:0,rotationY:0,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to(phoneYaw.coach.pose,{angle:0,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#client-focus,#client-label-focus',{x:-95,y:-12,scale:1.20,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#client-label-depth',{z:140,rotation:0,rotationY:4,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to('#client-depth',{z:140,rotation:0,rotationY:0,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.to(phoneYaw.client.pose,{angle:9,duration:.65,ease:'power2.inOut'},handoffAt);
+tl.set('#phone-client',{zIndex:6},handoffAt+.26);
+// Client notification appears at T+1.40s (9.20s), after Client settles in foreground at 9.00s.
+const routineNotification=document.querySelector('#fitnode-notification');
+tl.set(routineNotification,{opacity:0,y:-80,force3D:false},0);
+tl.to(routineNotification,{opacity:1,y:0,duration:.30,ease:'power2.out'},9.20);
+tl.to(routineNotification,{opacity:0,y:-80,duration:.28,ease:'power2.in'},10.25);
+// The identical floating-card engine now also follows the right phone's four rigs.
+const clientCards=FitnodeFloatingCards({timeline:tl,plane:document.querySelector('#client-ui-overlay-plane'),focus:document.querySelector('#client-focus'),depth:document.querySelector('#client-depth'),float:document.querySelector('#client-float'),phone:document.querySelector('#phone-client-object'),overlayFocus:document.querySelector('#client-ui-overlay-focus'),overlayDepth:document.querySelector('#client-ui-overlay-depth'),overlayFloat:document.querySelector('#client-ui-overlay-float'),overlayPhone:document.querySelector('#client-ui-overlay-phone')});
+const clientSeries=clientCards.add({id:'client-series-card',box:{left:0,top:250,width:240,height:140},start:10.55,end:13.15,scale:1.35,x:-6,y:-20,travel:.30});
+for(const root of [clientSeries.dock,clientSeries.floating]){
+ for(const [set,at] of [[1,10.85],[2,11.22]]){
+  const setRow=root.querySelector('[data-set="'+set+'"]'),checked=setRow.querySelector('.client-set-completed');
+  tl.set(checked,{opacity:0},0);
+  tl.set(setRow,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+  tl.to(setRow,{scale:.985,y:.3,duration:.075,ease:'power2.inOut'},at);
+  tl.to(checked,{opacity:1,duration:.18,ease:'power1.out'},at+.06);
+  tl.to(setRow,{scale:1,y:0,duration:.18,ease:'power2.out'},at+.075);
+ }
+ const row=root.querySelector('.client-record-row'),complete=root.querySelector('.client-row-completed');
+ tl.set(complete,{opacity:0},0);
+ tl.set(row,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+ tl.to(row,{scale:.985,y:.3,duration:.075,ease:'power2.inOut'},11.59);
+ tl.to(complete,{opacity:1,duration:.18,ease:'power1.out'},11.65);
+ tl.to(row,{scale:1,y:0,duration:.18,ease:'power2.out'},11.665);
+ // Foreground crops have no copy underneath: values and native medal remain sharp.
+ for(const [selector,at,scale] of [['.client-record-weight',11.92,1.07],['.client-record-reps',12.02,1.07],['.client-record-medal',12.27,1.10]]){
+   const feature=root.querySelector(selector);
+   tl.set(feature,{scale:1,y:0,transformOrigin:'50% 50%',force3D:false},0);
+   tl.to(feature,{scale,y:-.25,duration:.16,ease:'power2.out'},at);
+   tl.to(feature,{scale:1,y:0,duration:.25,ease:'sine.inOut'},at+.32);
+ }
+}
+buttonTap('#client-finish-button',13.17);
+// Tap feedback: 0.15s duration (13.17s to 13.32s).
+// At 13.32s: grey overlay and centered spinner appear (duration 0.65s).
+tl.set('#client-workout-loading-overlay',{opacity:0,force3D:false},0);
+tl.to('#client-workout-loading-overlay',{opacity:1,duration:.06,ease:'power1.out'},13.32);
+const spinner=document.querySelector('.fitnode-spinner');
+tl.set(spinner,{rotation:0,transformOrigin:'50% 50%',force3D:false},0);
+tl.to(spinner,{rotation:540,duration:.65,ease:'none'},13.32);
+// At 13.97s: loader exits (0.20s) and completed screen appears (0.20s).
+tl.to('#client-workout-loading-overlay',{opacity:0,duration:.20,ease:'sine.inOut'},13.97);
+tl.set('#client-completion',{opacity:0},0);
+tl.set('.client-completion-final',{opacity:1},0);
+tl.to('#client-completion',{opacity:1,duration:.20,ease:'sine.inOut'},13.97);
+// Celebration triggers as soon as the completed screen settles (14.20s).
+tl.set('#client-celebration',{opacity:0},0);
+tl.set('#client-celebration',{opacity:1},14.20);
+tl.to('#client-celebration',{opacity:0,duration:.06,ease:'none'},15.53);
+window.__fitnodeCapturedSequences={
+ celebration:FitnodeCapturedSequence({timeline:tl,element:document.querySelector('#client-celebration'),start:14.20,end:15.53,frames:205})
+};
+// Hold prominence of client phone with completed screen clearly visible until 16.28s (0.75s hold), then return.
+tl.to('#client-focus,#client-label-focus',{x:0,y:0,scale:1,duration:.55,ease:'power2.inOut'},16.28);
+tl.to('#client-depth,#client-label-depth',{z:0,rotation:0,rotationY:0,duration:.55,ease:'power2.inOut'},16.28);
+tl.to(phoneYaw.client.pose,{angle:0,duration:.55,ease:'power2.inOut'},16.28);
+tl.set('#phone-client',{zIndex:4},16.60);
+const syncCards=tl.eventCallback('onUpdate');
+tl.eventCallback('onUpdate',function(){phoneYaw.coach.sync();phoneYaw.client.sync();if(syncCards)syncCards.call(this);for(const sequence of Object.values(window.__fitnodeCapturedSequences))sequence.sync();});
+window.__fitnodePhoneYaw=phoneYaw;
+window.__timelines['main']=tl;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "file": "output/FITNODE_CIERRE_BETA_PREVIEW.mp4",
+  "width": 540,
+  "height": 960,
+  "fps": "30/1",
+  "frames": 131,
+  "duration": 4.366667,
+  "audio": false,
+  "fullDecode": true,
+  "preservation": null,
+  "reviewSourceTimes": [
+    17.2,
+    17.9,
+    18.15,
+    18.549999999999997,
+    20.849999999999998
+  ]
+}

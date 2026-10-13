@@ -1,0 +1,58 @@
+[
+  {
+    "file": "output/FITNODE_PULIDO_MESOCICLO.mp4",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "frames": "39",
+    "duration": "1.300000",
+    "audio": false,
+    "fullDecode": true,
+    "sourceTimes": [
+      2.7,
+      3,
+      3.2,
+      3.35,
+      3.55
+    ]
+  },
+  {
+    "file": "output/FITNODE_PULIDO_ASESORADO.mp4",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "frames": "258",
+    "duration": "8.600000",
+    "audio": false,
+    "fullDecode": true,
+    "sourceTimes": [
+      7.95,
+      8.68,
+      8.85,
+      10.9,
+      11.3,
+      12.4,
+      13.2,
+      14.5,
+      15.5,
+      15.850000000000001
+    ]
+  },
+  {
+    "file": "output/FITNODE_PULIDO_CIERRE.mp4",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "frames": "56",
+    "duration": "1.866667",
+    "audio": false,
+    "fullDecode": true,
+    "sourceTimes": [
+      17.049999999999997,
+      17.299999999999997,
+      17.5,
+      17.75,
+      18.25
+    ]
+  }
+]

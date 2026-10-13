@@ -1,0 +1,30 @@
+[
+  {
+    "file": "output/FITNODE_REEL_FINAL_22S.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 660,
+    "duration": 22,
+    "audio": false,
+    "fullDecode": true,
+    "reviewSourceTimes": [
+      0.8,
+      1.9,
+      2.2,
+      5.5,
+      5.67,
+      5.8,
+      6.1,
+      6.3,
+      6.9,
+      8.68,
+      9,
+      13.23,
+      13.3,
+      13.5,
+      15.6,
+      21.5
+    ]
+  }
+]

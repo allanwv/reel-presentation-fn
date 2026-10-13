@@ -1,0 +1,89 @@
+{
+  "sourceHashes": {
+    "../source/screenshots/SCREEN_04_PR_REAL.png": "84dc528a1ee64ff52c18c0f9a7494dae726b2a52c0a3543849562f46cf773daa",
+    "assets/ui/client-workout/screen-apertures.png": "05f39ec350bd4747c844d5657cf57a731181df5fc0362cdc70720685378c0638",
+    "assets/ui/client-completion/series-card-three-apertures.png": "8a7de865a654a7f4a2b23485ee824339c70507f7cad82a0bcfbdea35395c6ea9",
+    "assets/ui/client-completion/set-1-completed.png": "6b9a2cd2b0797e32777a6b7cf14e9b0079cdf19c8477bb307a4edd0b3d0c3879",
+    "assets/ui/client-completion/set-2-completed.png": "60a6fd86df2933607ff55d6d12e6542940bfd23a3c142246c6578fc982882a85",
+    "assets/ui/client-workout/series-row-completed.png": "bf29cb2763f825bd79fe9d7d9ba141078f2b1ee7c0248931f2a7dcd99c2c092b",
+    "assets/ui/client-workout/finish-button.png": "6b92b467825a033fbd206d2ae9021550593795645262f2f43b21733ee8aba878"
+  },
+  "sourceSize": {
+    "width": 1440,
+    "height": 3120
+  },
+  "oldBox": {
+    "left": 0,
+    "top": 1500,
+    "width": 1440,
+    "height": 840
+  },
+  "box": {
+    "left": 0,
+    "top": 690,
+    "width": 1440,
+    "height": 1650
+  },
+  "logicalBox": {
+    "left": 0,
+    "top": 115,
+    "width": 240,
+    "height": 275
+  },
+  "header": {
+    "sourceBox": {
+      "left": 0,
+      "top": 690,
+      "width": 1440,
+      "height": 810
+    },
+    "content": "Authentic exercise thumbnail, name, Piernas chip, timer/menu controls, instructions icon, Reps/RIR/Descanso labels and values; no title or control reconstructed."
+  },
+  "offsets": {
+    "addedPixels": 810,
+    "addedLogicalPixels": 135,
+    "oldContentTop": 135,
+    "oldPivotLogical": {
+      "x": 120,
+      "y": 70
+    },
+    "newPivotToPreserveRowMotion": {
+      "x": 120,
+      "y": 205
+    }
+  },
+  "rows": [
+    {
+      "id": "set-1",
+      "screenTop": 1696,
+      "oldLogicalTop": 32.666666666666664,
+      "newLogicalTop": 167.66666666666666,
+      "height": 35.666666666666664,
+      "existingAsset": "assets/ui/client-completion/set-1-completed.png"
+    },
+    {
+      "id": "set-2",
+      "screenTop": 1910,
+      "oldLogicalTop": 68.33333333333333,
+      "newLogicalTop": 203.33333333333334,
+      "height": 35.666666666666664,
+      "existingAsset": "assets/ui/client-completion/set-2-completed.png"
+    },
+    {
+      "id": "pr",
+      "screenTop": 2124,
+      "oldLogicalTop": 104,
+      "newLogicalTop": 239,
+      "height": 35.333333333333336,
+      "existingAsset": "assets/ui/client-workout/series-row-completed.png"
+    }
+  ],
+  "integration": "Replace only screen and card surface sources with this directory. Change outer card CSS and cards.add box to logicalBox. Add 135 logical px to .client-set-row and .client-record-row top values. Preserve feature positions inside each row. Override the floating card transform-origin to 120px 205px to preserve the old card motion pivot (and thus all existing row trajectories), or intentionally use the new center if choreography is being adjusted. Existing row state/tap animations require no changes.",
+  "verification": {
+    "originalInputsUnchanged": true,
+    "previousCardAreaByteIdentical": true,
+    "screenPixelsChangedOutsideExpandedBox": 0,
+    "exactCompletedCardReconstruction": true,
+    "exactFullScreenReconstruction": true
+  }
+}

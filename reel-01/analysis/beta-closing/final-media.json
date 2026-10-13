@@ -1,0 +1,25 @@
+{
+  "file": "output/FITNODE_REEL_BETA_FINAL.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 630,
+  "duration": 21,
+  "audio": false,
+  "fullDecode": true,
+  "preservation": {
+    "through": 17.3,
+    "ssim": 0.998976
+  },
+  "reviewSourceTimes": [
+    3.2,
+    8.7,
+    12.4,
+    15.6,
+    17.2,
+    17.9,
+    18.15,
+    18.55,
+    20.85
+  ]
+}
